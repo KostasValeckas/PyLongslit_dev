@@ -116,7 +116,7 @@
         "ITERS_APSKY": 5,
         "ORDER_APSKY": 2,
         "SNR": 5,
-        "OBJ_FIT_DEG": 3
+        "OBJ_FIT_DEG": 2
     },
     
     "obj_trace_clone" : {

@@ -1,0 +1,12 @@
+2025-02-23 19:42:05 - PyLongslit - INFO - logger.py:69 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out/GQ1218+0832.log.
+2025-02-23 19:42:05 - PyLongslit - INFO - combine.py:126 - Running combination rutine...
+2025-02-23 19:42:05 - PyLongslit - ERROR - parser.py:12 - Config file not found.
+2025-02-23 19:42:05 - PyLongslit - ERROR - parser.py:13 - Make sure a config file exists. 
+See the docs at:
+https://kostasvaleckas.github.io/PyLongslit/
+2025-02-23 19:43:08 - PyLongslit - INFO - logger.py:69 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out/GQ1218+0832.log.
+2025-02-23 19:43:08 - PyLongslit - INFO - flux_calibrate.py:113 - Running flux calibration...
+2025-02-23 19:43:08 - PyLongslit - ERROR - parser.py:12 - Config file not found.
+2025-02-23 19:43:08 - PyLongslit - ERROR - parser.py:13 - Make sure a config file exists. 
+See the docs at:
+https://kostasvaleckas.github.io/PyLongslit/
