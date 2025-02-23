@@ -1,0 +1,140 @@
+{
+    "instrument": {
+        "name": "ALFOSC",
+        "disperser": "Grating #4"
+    },
+
+    "detector": {
+        "xsize": 500,
+        "ysize": 2102,
+        "dispersion": { 
+            "spectral_dir": "y",
+            "wavelength_grows_with_pixel": false
+        },
+        "gain": 0.16,
+        "read_out_noise": 4.3,
+        "dark_current": 0.0,
+        "overscan" : {
+            "use_overscan": false,
+            "overscan_x_start": 0,
+            "overscan_x_end": 499,
+            "overscan_y_start": 2065,
+            "overscan_y_end": 2102
+        }
+    },
+    
+    "data": {
+        "raw_data_hdu_index": 1
+    },
+
+
+    "bias": {
+        "bias_dir": "/home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/bias",
+        "bootstrap_errors": false
+    },
+
+    "flat": {
+        "flat_dir": "/home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/flats",
+        "bootstrap_errors": false,
+        "skip_spacial": false
+    },
+
+    "output": {
+        "out_dir": "/home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/output"
+
+    },
+
+    "crr_removal" : {
+        "frac": 0.3,
+        "objlim": 6,
+        "sigclip": 10.0,
+        "niter": 1
+    },
+
+    "background_sub" : {
+        "subtract_background": true,
+        "pairs": {
+            "1": {
+                "A": "ALHh080251.fits",
+                "B": "ALHh080252.fits"
+            },
+            "2": {
+                "A": "ALHh080252.fits",
+                "B": "ALHh080251.fits"
+            }
+        }
+    },
+
+    "science" : {
+        "skip_science": false,
+        "science_dir": "/home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/science",
+        "exptime": 400,
+        "airmass": 1.20
+    },
+
+    "standard" : {
+        "skip_standard": false,
+        "standard_dir": "/home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/standard",
+        "exptime": 30,
+        "airmass": 1.0421315680187,
+        "starname": "BD332642",
+        "flux_file_path": "/home/kostas/Documents/PyLongslit/database/bd33a.oke"
+
+    },
+
+    "arc" : {
+        "arc_dir": "/home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/arcs"
+    },
+
+    "combine_arcs" : {
+        "skip_bias": false
+    },
+
+    "wavecalib" : {
+        "offset_middle_cut": 0,
+        "pixel_cut_extension": 2,
+        "arcline_start": 0,
+        "arcline_end": 500,
+        "jump_tolerance": 0.05,
+        "pixtable": "/home/kostas/Documents/PyLongslit_dev/output/idarc.dat",
+        "FWHM": 6,
+        "TOL_MEAN": 2,
+        "TOL_FWHM": 1,
+        "ORDER_WAVELEN": 5,
+        "ORDER_SPECTRAL_TILT": 1,  
+        "ORDER_SPATIAL_TILT": 3,
+        "REIDENTIFY_R2_TOL": 0.90,
+        "SPACIAL_R2_TOL": 0.97,
+        "TILT_REJECT_LINE_FRACTION": 0.1,
+        "TILT_TRACE_R2_TOL": 0.99   
+    },
+
+    "extract" : {
+        "NSUM_AP": 10,
+        "FWHM_AP": 5,
+        "SIGMA_APSKY": 3.0,
+        "ITERS_APSKY": 5,
+        "ORDER_APSKY": 2,
+        "SNR": 5,
+        "OBJ_FIT_DEG": 3
+    },
+    
+    "obj_trace_clone" : {
+        "archived_spec_root": "/home/kostasvaleckas/Documents/DAWN/PyLongslit/output_alt/obj_science_ALHh050197.dat",
+        "frame_root": "/home/kostasvaleckas/Documents/DAWN/PyLongslit/output_alt/manual_obj_find/reduced_science_ALHh050196.fits",
+        "FWHM": 4
+    },
+
+    "sensfunc": {
+        "fit_order": 9
+    },
+
+    "flux_calib": {
+        "path_extinction_curve": "/home/kostas/Documents/PyLongslit/database/lapalma.dat"
+    },
+
+    "combine": {
+        "SDSS_J213510+2728": ["ALHh080251.fits", "ALHh080252.fits"]
+    }
+
+}
