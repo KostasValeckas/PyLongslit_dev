@@ -7,6 +7,7 @@
 * Check all docstrings
 
 NICE-TO-HAVE for the future:
+* dark frame support
 * sky estimation for now assumes no tilt - combine somehow with the fitted 2D tilt solution
 * Interpolation function used now is being depricated - look into swapping it out.
 * Animated plots in the fitting processes

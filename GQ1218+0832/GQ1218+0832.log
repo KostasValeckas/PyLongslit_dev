@@ -1447,3 +1447,1714 @@
 2025-02-23 19:51:41 - PyLongslit - INFO - combine.py:40 - All files found for GQ1218+0832.
 2025-02-23 19:51:41 - PyLongslit - INFO - combine.py:54 - Combining 2 spectra for GQ1218+0832...
 2025-02-23 19:51:52 - PyLongslit - INFO - combine.py:111 - Saving combined spectrum for GQ1218+0832...
+2025-02-24 10:06:51 - PyLongslit - INFO - logger.py:69 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-24 10:06:51 - PyLongslit - INFO - parser.py:21 - Config file found. Loading user parameters...
+2025-02-24 10:06:51 - PyLongslit - INFO - parser.py:37 - User parameters loaded successfully.
+2025-02-24 10:06:51 - PyLongslit - INFO - check_config.py:290 - Checking directories...
+2025-02-24 10:06:51 - PyLongslit - INFO - check_config.py:47 - Raw bias directory: /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/bias was found.
+2025-02-24 10:06:51 - PyLongslit - INFO - check_config.py:49 - Bias directory is not empty.
+2025-02-24 10:06:51 - PyLongslit - INFO - check_config.py:47 - Raw flat directory: /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/flat was found.
+2025-02-24 10:06:51 - PyLongslit - INFO - check_config.py:49 - Flat directory is not empty.
+2025-02-24 10:06:51 - PyLongslit - INFO - check_config.py:47 - Raw science directory: /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/object was found.
+2025-02-24 10:06:51 - PyLongslit - INFO - check_config.py:49 - Science directory is not empty.
+2025-02-24 10:06:51 - PyLongslit - INFO - check_config.py:47 - Raw standard star directory: /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/stds was found.
+2025-02-24 10:06:51 - PyLongslit - INFO - check_config.py:49 - Standard star directory is not empty.
+2025-02-24 10:06:51 - PyLongslit - INFO - check_config.py:47 - Raw arc directory: /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/arc was found.
+2025-02-24 10:06:51 - PyLongslit - INFO - check_config.py:49 - Arc directory is not empty.
+2025-02-24 10:06:51 - PyLongslit - INFO - check_config.py:129 - All input directories are found and not empty.
+2025-02-24 10:06:51 - PyLongslit - INFO - check_config.py:296 - Checking user-defined overscan region...
+2025-02-24 10:06:51 - PyLongslit - INFO - check_config.py:177 - Overscan is set to be skipped in configuration file.
+2025-02-24 10:06:51 - PyLongslit - INFO - check_config.py:301 - Showing user-defined overscan region...
+2025-02-24 10:06:51 - PyLongslit - INFO - check_config.py:211 - Overscan is set to be skipped in configuration file.
+2025-02-24 10:06:51 - PyLongslit - INFO - check_config.py:308 - Checking reduction parameters...
+2025-02-24 10:06:51 - PyLongslit - INFO - check_config.py:317 - Check complete.
+2025-02-24 10:06:51 - PyLongslit - INFO - check_config.py:321 - Checking for negative physical parameters...
+2025-02-24 10:06:51 - PyLongslit - INFO - check_config.py:329 - All physical parameters are positive.
+2025-02-24 10:06:51 - PyLongslit - INFO - check_config.py:338 - NO ERRORS FOUND.
+2025-02-24 10:06:51 - PyLongslit - INFO - check_config.py:339 - CONFIGURATION FILE IS READY FOR PIPELINE EXECUTION.
+2025-02-24 10:16:50 - PyLongslit - INFO - logger.py:69 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-24 10:16:50 - PyLongslit - INFO - check_config.py:350 - Checking directories...
+2025-02-24 10:16:50 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-24 10:16:50 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-24 10:16:50 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-24 10:16:50 - PyLongslit - INFO - check_config.py:47 - Raw bias directory: /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/bias was found.
+2025-02-24 10:16:50 - PyLongslit - INFO - check_config.py:49 - Bias directory is not empty.
+2025-02-24 10:16:50 - PyLongslit - INFO - check_config.py:47 - Raw flat directory: /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/flat was found.
+2025-02-24 10:16:50 - PyLongslit - INFO - check_config.py:49 - Flat directory is not empty.
+2025-02-24 10:16:50 - PyLongslit - INFO - check_config.py:47 - Raw science directory: /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/object was found.
+2025-02-24 10:16:50 - PyLongslit - INFO - check_config.py:49 - Science directory is not empty.
+2025-02-24 10:16:50 - PyLongslit - INFO - check_config.py:47 - Raw standard star directory: /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/stds was found.
+2025-02-24 10:16:50 - PyLongslit - INFO - check_config.py:49 - Standard star directory is not empty.
+2025-02-24 10:16:50 - PyLongslit - INFO - check_config.py:47 - Raw arc directory: /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/arc was found.
+2025-02-24 10:16:50 - PyLongslit - INFO - check_config.py:49 - Arc directory is not empty.
+2025-02-24 10:16:50 - PyLongslit - INFO - check_config.py:131 - All input directories are found and not empty.
+2025-02-24 10:16:50 - PyLongslit - INFO - check_config.py:356 - Checking user-defined overscan region...
+2025-02-24 10:16:50 - PyLongslit - INFO - check_config.py:179 - Overscan is set to be skipped in configuration file.
+2025-02-24 10:16:50 - PyLongslit - INFO - check_config.py:361 - Showing user-defined overscan region...
+2025-02-24 10:16:51 - PyLongslit - INFO - check_config.py:213 - Overscan is set to be skipped in configuration file.
+2025-02-24 10:16:51 - PyLongslit - INFO - check_config.py:368 - Checking reduction parameters...
+2025-02-24 10:16:51 - PyLongslit - INFO - check_config.py:377 - Check complete.
+2025-02-24 10:16:51 - PyLongslit - INFO - check_config.py:381 - Checking for negative physical parameters...
+2025-02-24 10:16:51 - PyLongslit - INFO - check_config.py:389 - All physical parameters are positive.
+2025-02-24 10:16:51 - PyLongslit - INFO - check_config.py:398 - NO ERRORS FOUND.
+2025-02-24 10:16:51 - PyLongslit - INFO - check_config.py:399 - CONFIGURATION FILE IS READY FOR PIPELINE EXECUTION.
+2025-02-24 10:19:25 - PyLongslit - INFO - logger.py:69 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-24 10:19:25 - PyLongslit - INFO - check_config.py:346 - Doing a test read of the configuration file...
+2025-02-24 10:19:25 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-24 10:19:25 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-24 10:19:25 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-24 10:19:25 - PyLongslit - INFO - check_config.py:354 - Checking directories...
+2025-02-24 10:19:25 - PyLongslit - INFO - check_config.py:47 - Raw bias directory: /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/bias was found.
+2025-02-24 10:19:25 - PyLongslit - INFO - check_config.py:49 - Bias directory is not empty.
+2025-02-24 10:19:25 - PyLongslit - INFO - check_config.py:47 - Raw flat directory: /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/flat was found.
+2025-02-24 10:19:25 - PyLongslit - INFO - check_config.py:49 - Flat directory is not empty.
+2025-02-24 10:19:25 - PyLongslit - INFO - check_config.py:47 - Raw science directory: /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/object was found.
+2025-02-24 10:19:25 - PyLongslit - INFO - check_config.py:49 - Science directory is not empty.
+2025-02-24 10:19:25 - PyLongslit - INFO - check_config.py:47 - Raw standard star directory: /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/stds was found.
+2025-02-24 10:19:25 - PyLongslit - INFO - check_config.py:49 - Standard star directory is not empty.
+2025-02-24 10:19:25 - PyLongslit - INFO - check_config.py:47 - Raw arc directory: /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/arc was found.
+2025-02-24 10:19:25 - PyLongslit - INFO - check_config.py:49 - Arc directory is not empty.
+2025-02-24 10:19:25 - PyLongslit - INFO - check_config.py:131 - All input directories are found and not empty.
+2025-02-24 10:19:25 - PyLongslit - INFO - check_config.py:360 - Checking user-defined overscan region...
+2025-02-24 10:19:25 - PyLongslit - INFO - check_config.py:179 - Overscan is set to be skipped in configuration file.
+2025-02-24 10:19:25 - PyLongslit - INFO - check_config.py:365 - Showing user-defined overscan region...
+2025-02-24 10:19:26 - PyLongslit - INFO - check_config.py:213 - Overscan is set to be skipped in configuration file.
+2025-02-24 10:19:26 - PyLongslit - INFO - check_config.py:372 - Checking reduction parameters...
+2025-02-24 10:19:26 - PyLongslit - INFO - check_config.py:381 - Check complete.
+2025-02-24 10:19:26 - PyLongslit - INFO - check_config.py:385 - Checking for negative physical parameters...
+2025-02-24 10:19:26 - PyLongslit - INFO - check_config.py:393 - All physical parameters are positive.
+2025-02-24 10:19:26 - PyLongslit - INFO - check_config.py:402 - NO ERRORS FOUND.
+2025-02-24 10:19:26 - PyLongslit - INFO - check_config.py:403 - CONFIGURATION FILE IS READY FOR PIPELINE EXECUTION.
+2025-02-24 10:20:50 - PyLongslit - INFO - logger.py:69 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-24 10:20:50 - PyLongslit - INFO - check_config.py:346 - Doing a test read of the configuration file...
+2025-02-24 10:20:50 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-24 10:20:50 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-24 10:20:50 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-24 10:20:50 - PyLongslit - INFO - check_config.py:354 - Checking directories...
+2025-02-24 10:20:50 - PyLongslit - INFO - check_config.py:47 - Raw bias directory: /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/bias was found.
+2025-02-24 10:20:50 - PyLongslit - INFO - check_config.py:49 - Bias directory is not empty.
+2025-02-24 10:20:50 - PyLongslit - INFO - check_config.py:47 - Raw flat directory: /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/flat was found.
+2025-02-24 10:20:50 - PyLongslit - INFO - check_config.py:49 - Flat directory is not empty.
+2025-02-24 10:20:50 - PyLongslit - INFO - check_config.py:47 - Raw science directory: /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/object was found.
+2025-02-24 10:20:50 - PyLongslit - INFO - check_config.py:49 - Science directory is not empty.
+2025-02-24 10:20:50 - PyLongslit - INFO - check_config.py:47 - Raw standard star directory: /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/stds was found.
+2025-02-24 10:20:50 - PyLongslit - INFO - check_config.py:49 - Standard star directory is not empty.
+2025-02-24 10:20:50 - PyLongslit - INFO - check_config.py:47 - Raw arc directory: /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/arc was found.
+2025-02-24 10:20:50 - PyLongslit - INFO - check_config.py:49 - Arc directory is not empty.
+2025-02-24 10:20:50 - PyLongslit - INFO - check_config.py:131 - All input directories are found and not empty.
+2025-02-24 10:20:50 - PyLongslit - INFO - check_config.py:360 - Checking user-defined overscan region...
+2025-02-24 10:20:50 - PyLongslit - INFO - check_config.py:179 - Overscan is set to be skipped in configuration file.
+2025-02-24 10:20:50 - PyLongslit - INFO - check_config.py:365 - Showing user-defined overscan region...
+2025-02-24 10:20:50 - PyLongslit - INFO - check_config.py:213 - Overscan is set to be skipped in configuration file.
+2025-02-24 10:20:50 - PyLongslit - INFO - check_config.py:372 - Checking reduction parameters...
+2025-02-24 10:20:50 - PyLongslit - INFO - check_config.py:381 - Check complete.
+2025-02-24 10:20:50 - PyLongslit - INFO - check_config.py:385 - Checking for negative physical parameters...
+2025-02-24 10:20:50 - PyLongslit - INFO - check_config.py:393 - All physical parameters are positive.
+2025-02-24 10:20:50 - PyLongslit - INFO - check_config.py:402 - NO ERRORS FOUND.
+2025-02-24 10:20:50 - PyLongslit - INFO - check_config.py:403 - CONFIGURATION FILE IS READY FOR PIPELINE EXECUTION.
+2025-02-24 10:20:55 - PyLongslit - INFO - logger.py:69 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-24 10:20:55 - PyLongslit - INFO - check_config.py:346 - Doing a test read of the configuration file...
+2025-02-24 10:20:55 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-24 10:20:55 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-24 10:20:55 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-24 10:20:55 - PyLongslit - INFO - check_config.py:354 - Checking directories...
+2025-02-24 10:20:55 - PyLongslit - INFO - check_config.py:47 - Raw bias directory: /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/bias was found.
+2025-02-24 10:20:55 - PyLongslit - INFO - check_config.py:49 - Bias directory is not empty.
+2025-02-24 10:20:55 - PyLongslit - INFO - check_config.py:47 - Raw flat directory: /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/flat was found.
+2025-02-24 10:20:55 - PyLongslit - INFO - check_config.py:49 - Flat directory is not empty.
+2025-02-24 10:20:55 - PyLongslit - INFO - check_config.py:47 - Raw science directory: /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/object was found.
+2025-02-24 10:20:55 - PyLongslit - INFO - check_config.py:49 - Science directory is not empty.
+2025-02-24 10:20:55 - PyLongslit - INFO - check_config.py:47 - Raw standard star directory: /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/stds was found.
+2025-02-24 10:20:55 - PyLongslit - INFO - check_config.py:49 - Standard star directory is not empty.
+2025-02-24 10:20:55 - PyLongslit - INFO - check_config.py:47 - Raw arc directory: /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/arc was found.
+2025-02-24 10:20:55 - PyLongslit - INFO - check_config.py:49 - Arc directory is not empty.
+2025-02-24 10:20:55 - PyLongslit - INFO - check_config.py:131 - All input directories are found and not empty.
+2025-02-24 10:20:55 - PyLongslit - INFO - check_config.py:360 - Checking user-defined overscan region...
+2025-02-24 10:20:55 - PyLongslit - INFO - check_config.py:179 - Overscan is set to be skipped in configuration file.
+2025-02-24 10:20:55 - PyLongslit - INFO - check_config.py:365 - Showing user-defined overscan region...
+2025-02-24 10:20:55 - PyLongslit - INFO - check_config.py:213 - Overscan is set to be skipped in configuration file.
+2025-02-24 10:20:55 - PyLongslit - INFO - check_config.py:372 - Checking reduction parameters...
+2025-02-24 10:20:55 - PyLongslit - INFO - check_config.py:381 - Check complete.
+2025-02-24 10:20:55 - PyLongslit - INFO - check_config.py:385 - Checking for negative physical parameters...
+2025-02-24 10:20:55 - PyLongslit - INFO - check_config.py:393 - All physical parameters are positive.
+2025-02-24 10:20:55 - PyLongslit - INFO - check_config.py:402 - NO ERRORS FOUND.
+2025-02-24 10:20:55 - PyLongslit - INFO - check_config.py:403 - CONFIGURATION FILE IS READY FOR PIPELINE EXECUTION.
+2025-02-24 10:21:19 - PyLongslit - INFO - logger.py:69 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-24 10:21:19 - PyLongslit - INFO - check_config.py:346 - Doing a test read of the configuration file...
+2025-02-24 10:21:19 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-24 10:21:19 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-24 10:21:20 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-24 10:21:20 - PyLongslit - INFO - check_config.py:354 - Checking directories...
+2025-02-24 10:21:20 - PyLongslit - INFO - check_config.py:47 - Raw bias directory: /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/bias was found.
+2025-02-24 10:21:20 - PyLongslit - INFO - check_config.py:49 - Bias directory is not empty.
+2025-02-24 10:21:20 - PyLongslit - INFO - check_config.py:47 - Raw flat directory: /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/flat was found.
+2025-02-24 10:21:20 - PyLongslit - INFO - check_config.py:49 - Flat directory is not empty.
+2025-02-24 10:21:20 - PyLongslit - INFO - check_config.py:47 - Raw science directory: /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/object was found.
+2025-02-24 10:21:20 - PyLongslit - INFO - check_config.py:49 - Science directory is not empty.
+2025-02-24 10:21:20 - PyLongslit - INFO - check_config.py:47 - Raw standard star directory: /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/stds was found.
+2025-02-24 10:21:20 - PyLongslit - INFO - check_config.py:49 - Standard star directory is not empty.
+2025-02-24 10:21:20 - PyLongslit - INFO - check_config.py:47 - Raw arc directory: /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/arc was found.
+2025-02-24 10:21:20 - PyLongslit - INFO - check_config.py:49 - Arc directory is not empty.
+2025-02-24 10:21:20 - PyLongslit - INFO - check_config.py:131 - All input directories are found and not empty.
+2025-02-24 10:21:20 - PyLongslit - INFO - check_config.py:360 - Checking user-defined overscan region...
+2025-02-24 10:21:20 - PyLongslit - INFO - check_config.py:179 - Overscan is set to be skipped in configuration file.
+2025-02-24 10:21:20 - PyLongslit - INFO - check_config.py:365 - Showing user-defined overscan region...
+2025-02-24 10:21:20 - PyLongslit - INFO - check_config.py:213 - Overscan is set to be skipped in configuration file.
+2025-02-24 10:21:20 - PyLongslit - INFO - check_config.py:372 - Checking reduction parameters...
+2025-02-24 10:21:20 - PyLongslit - INFO - check_config.py:381 - Check complete.
+2025-02-24 10:21:20 - PyLongslit - INFO - check_config.py:385 - Checking for negative physical parameters...
+2025-02-24 10:21:20 - PyLongslit - INFO - check_config.py:393 - All physical parameters are positive.
+2025-02-24 10:21:20 - PyLongslit - INFO - check_config.py:402 - NO ERRORS FOUND.
+2025-02-24 10:21:20 - PyLongslit - INFO - check_config.py:403 - CONFIGURATION FILE IS READY FOR PIPELINE EXECUTION.
+2025-02-25 13:11:33 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 13:11:33 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 13:11:33 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 13:11:33 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 13:11:33 - PyLongslit - INFO - mkspecflat.py:419 - Flat-field procedure running...
+2025-02-25 13:11:33 - PyLongslit - INFO - mkspecflat.py:420 - Using the following parameters:
+2025-02-25 13:11:33 - PyLongslit - INFO - mkspecflat.py:421 - xsize = 2073
+2025-02-25 13:11:33 - PyLongslit - INFO - mkspecflat.py:422 - ysize = 2056
+2025-02-25 13:11:33 - PyLongslit - INFO - mkspecflat.py:427 - Found 5 flat frames.
+2025-02-25 13:11:33 - PyLongslit - INFO - mkspecflat.py:428 - Files used for flat-fielding:
+2025-02-25 13:11:33 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 13:11:33 - PyLongslit - INFO - mkspecflat.py:438 - Fetching the master bias frame...
+2025-02-25 13:11:33 - PyLongslit - INFO - mkspecflat.py:443 - Master bias frame found and loaded.
+2025-02-25 13:11:33 - PyLongslit - INFO - mkspecflat.py:452 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:11:33 - PyLongslit - INFO - mkspecflat.py:464 - Subtracted the bias.
+2025-02-25 13:11:33 - PyLongslit - INFO - mkspecflat.py:472 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:11:33 - PyLongslit - INFO - mkspecflat.py:452 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:11:33 - PyLongslit - INFO - mkspecflat.py:464 - Subtracted the bias.
+2025-02-25 13:11:33 - PyLongslit - INFO - mkspecflat.py:472 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:11:34 - PyLongslit - INFO - mkspecflat.py:452 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:11:34 - PyLongslit - INFO - mkspecflat.py:464 - Subtracted the bias.
+2025-02-25 13:11:34 - PyLongslit - INFO - mkspecflat.py:472 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:11:34 - PyLongslit - INFO - mkspecflat.py:452 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:11:34 - PyLongslit - INFO - mkspecflat.py:464 - Subtracted the bias.
+2025-02-25 13:11:34 - PyLongslit - INFO - mkspecflat.py:472 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:11:34 - PyLongslit - INFO - mkspecflat.py:452 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:11:34 - PyLongslit - INFO - mkspecflat.py:464 - Subtracted the bias.
+2025-02-25 13:11:34 - PyLongslit - INFO - mkspecflat.py:472 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:11:34 - PyLongslit - INFO - stats.py:22 - Bootstrapping errors. This will take a while...
+2025-02-25 13:11:34 - PyLongslit - INFO - stats.py:23 - You can turn off bootstrapping in the config file if you want to speed up the process.
+2025-02-25 13:17:49 - PyLongslit - INFO - mkspecflat.py:492 - Estimating the spectral response and normalizing...
+2025-02-25 13:17:50 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 13:17:50 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 13:17:50 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 13:17:50 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 13:19:07 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 13:19:07 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 13:19:07 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 13:19:07 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 13:19:07 - PyLongslit - INFO - mkspecflat.py:419 - Flat-field procedure running...
+2025-02-25 13:19:07 - PyLongslit - INFO - mkspecflat.py:420 - Using the following parameters:
+2025-02-25 13:19:07 - PyLongslit - INFO - mkspecflat.py:421 - xsize = 2073
+2025-02-25 13:19:07 - PyLongslit - INFO - mkspecflat.py:422 - ysize = 2056
+2025-02-25 13:19:07 - PyLongslit - INFO - mkspecflat.py:427 - Found 5 flat frames.
+2025-02-25 13:19:07 - PyLongslit - INFO - mkspecflat.py:428 - Files used for flat-fielding:
+2025-02-25 13:19:07 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 13:19:07 - PyLongslit - INFO - mkspecflat.py:438 - Fetching the master bias frame...
+2025-02-25 13:19:07 - PyLongslit - INFO - mkspecflat.py:443 - Master bias frame found and loaded.
+2025-02-25 13:19:07 - PyLongslit - INFO - mkspecflat.py:452 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:19:07 - PyLongslit - INFO - mkspecflat.py:464 - Subtracted the bias.
+2025-02-25 13:19:07 - PyLongslit - INFO - mkspecflat.py:472 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:19:07 - PyLongslit - INFO - mkspecflat.py:452 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:19:07 - PyLongslit - INFO - mkspecflat.py:464 - Subtracted the bias.
+2025-02-25 13:19:07 - PyLongslit - INFO - mkspecflat.py:472 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:19:07 - PyLongslit - INFO - mkspecflat.py:452 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:19:07 - PyLongslit - INFO - mkspecflat.py:464 - Subtracted the bias.
+2025-02-25 13:19:07 - PyLongslit - INFO - mkspecflat.py:472 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:19:07 - PyLongslit - INFO - mkspecflat.py:452 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:19:07 - PyLongslit - INFO - mkspecflat.py:464 - Subtracted the bias.
+2025-02-25 13:19:07 - PyLongslit - INFO - mkspecflat.py:472 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:19:07 - PyLongslit - INFO - mkspecflat.py:452 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:19:08 - PyLongslit - INFO - mkspecflat.py:464 - Subtracted the bias.
+2025-02-25 13:19:08 - PyLongslit - INFO - mkspecflat.py:472 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:19:08 - PyLongslit - WARNING - mkspecflat.py:481 - Number of flat frames (5) is less than 30. Error estimation might not be accurate.
+2025-02-25 13:19:08 - PyLongslit - WARNING - mkspecflat.py:484 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-25 13:19:08 - PyLongslit - INFO - mkspecflat.py:492 - Estimating the spectral response and normalizing...
+2025-02-25 13:19:09 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 13:19:09 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 13:19:09 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 13:19:09 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 13:19:34 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 13:19:34 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 13:19:34 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 13:19:34 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 13:19:34 - PyLongslit - INFO - mkspecflat.py:419 - Flat-field procedure running...
+2025-02-25 13:19:34 - PyLongslit - INFO - mkspecflat.py:420 - Using the following parameters:
+2025-02-25 13:19:34 - PyLongslit - INFO - mkspecflat.py:421 - xsize = 2073
+2025-02-25 13:19:34 - PyLongslit - INFO - mkspecflat.py:422 - ysize = 2056
+2025-02-25 13:19:34 - PyLongslit - INFO - mkspecflat.py:427 - Found 5 flat frames.
+2025-02-25 13:19:34 - PyLongslit - INFO - mkspecflat.py:428 - Files used for flat-fielding:
+2025-02-25 13:19:34 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 13:19:34 - PyLongslit - INFO - mkspecflat.py:438 - Fetching the master bias frame...
+2025-02-25 13:19:34 - PyLongslit - INFO - mkspecflat.py:443 - Master bias frame found and loaded.
+2025-02-25 13:19:34 - PyLongslit - INFO - mkspecflat.py:452 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:19:34 - PyLongslit - INFO - mkspecflat.py:464 - Subtracted the bias.
+2025-02-25 13:19:34 - PyLongslit - INFO - mkspecflat.py:472 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:19:34 - PyLongslit - INFO - mkspecflat.py:452 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:19:34 - PyLongslit - INFO - mkspecflat.py:464 - Subtracted the bias.
+2025-02-25 13:19:34 - PyLongslit - INFO - mkspecflat.py:472 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:19:34 - PyLongslit - INFO - mkspecflat.py:452 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:19:34 - PyLongslit - INFO - mkspecflat.py:464 - Subtracted the bias.
+2025-02-25 13:19:34 - PyLongslit - INFO - mkspecflat.py:472 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:19:34 - PyLongslit - INFO - mkspecflat.py:452 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:19:34 - PyLongslit - INFO - mkspecflat.py:464 - Subtracted the bias.
+2025-02-25 13:19:34 - PyLongslit - INFO - mkspecflat.py:472 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:19:34 - PyLongslit - INFO - mkspecflat.py:452 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:19:35 - PyLongslit - INFO - mkspecflat.py:464 - Subtracted the bias.
+2025-02-25 13:19:35 - PyLongslit - INFO - mkspecflat.py:472 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:19:35 - PyLongslit - WARNING - mkspecflat.py:481 - Number of flat frames (5) is less than 30. Error estimation might not be accurate.
+2025-02-25 13:19:35 - PyLongslit - WARNING - mkspecflat.py:484 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-25 13:19:36 - PyLongslit - INFO - mkspecflat.py:492 - Estimating the spectral response and normalizing...
+2025-02-25 13:19:37 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 13:19:37 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 13:19:37 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 13:19:37 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 13:19:58 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 13:19:58 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 13:19:58 - PyLongslit - INFO - mkspecflat.py:509 - Estimating the spacial response and normalizing...
+2025-02-25 13:21:46 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 13:21:46 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 13:21:46 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 13:21:46 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 13:21:46 - PyLongslit - INFO - mkspecflat.py:419 - Flat-field procedure running...
+2025-02-25 13:21:46 - PyLongslit - INFO - mkspecflat.py:420 - Using the following parameters:
+2025-02-25 13:21:46 - PyLongslit - INFO - mkspecflat.py:421 - xsize = 2073
+2025-02-25 13:21:46 - PyLongslit - INFO - mkspecflat.py:422 - ysize = 2056
+2025-02-25 13:21:46 - PyLongslit - INFO - mkspecflat.py:427 - Found 5 flat frames.
+2025-02-25 13:21:46 - PyLongslit - INFO - mkspecflat.py:428 - Files used for flat-fielding:
+2025-02-25 13:21:46 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 13:21:46 - PyLongslit - INFO - mkspecflat.py:438 - Fetching the master bias frame...
+2025-02-25 13:21:46 - PyLongslit - INFO - mkspecflat.py:443 - Master bias frame found and loaded.
+2025-02-25 13:21:46 - PyLongslit - INFO - mkspecflat.py:452 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:21:46 - PyLongslit - INFO - mkspecflat.py:464 - Subtracted the bias.
+2025-02-25 13:21:46 - PyLongslit - INFO - mkspecflat.py:472 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:21:46 - PyLongslit - INFO - mkspecflat.py:452 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:21:46 - PyLongslit - INFO - mkspecflat.py:464 - Subtracted the bias.
+2025-02-25 13:21:46 - PyLongslit - INFO - mkspecflat.py:472 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:21:46 - PyLongslit - INFO - mkspecflat.py:452 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:21:46 - PyLongslit - INFO - mkspecflat.py:464 - Subtracted the bias.
+2025-02-25 13:21:46 - PyLongslit - INFO - mkspecflat.py:472 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:21:46 - PyLongslit - INFO - mkspecflat.py:452 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:21:46 - PyLongslit - INFO - mkspecflat.py:464 - Subtracted the bias.
+2025-02-25 13:21:46 - PyLongslit - INFO - mkspecflat.py:472 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:21:46 - PyLongslit - INFO - mkspecflat.py:452 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:21:46 - PyLongslit - INFO - mkspecflat.py:464 - Subtracted the bias.
+2025-02-25 13:21:46 - PyLongslit - INFO - mkspecflat.py:472 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:21:47 - PyLongslit - WARNING - mkspecflat.py:481 - Number of flat frames (5) is less than 30. Error estimation might not be accurate.
+2025-02-25 13:21:47 - PyLongslit - WARNING - mkspecflat.py:484 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-25 13:21:47 - PyLongslit - INFO - mkspecflat.py:492 - Estimating the spectral response and normalizing...
+2025-02-25 13:21:48 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 13:21:48 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 13:21:48 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 13:21:48 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 13:21:55 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 13:21:55 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 13:21:55 - PyLongslit - INFO - mkspecflat.py:509 - Estimating the spacial response and normalizing...
+2025-02-25 13:24:04 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 13:24:04 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 13:24:04 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 13:24:04 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 13:24:04 - PyLongslit - INFO - mkspecflat.py:420 - Flat-field procedure running...
+2025-02-25 13:24:04 - PyLongslit - INFO - mkspecflat.py:421 - Using the following parameters:
+2025-02-25 13:24:04 - PyLongslit - INFO - mkspecflat.py:422 - xsize = 2073
+2025-02-25 13:24:04 - PyLongslit - INFO - mkspecflat.py:423 - ysize = 2056
+2025-02-25 13:24:04 - PyLongslit - INFO - mkspecflat.py:428 - Found 5 flat frames.
+2025-02-25 13:24:04 - PyLongslit - INFO - mkspecflat.py:429 - Files used for flat-fielding:
+2025-02-25 13:24:04 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 13:24:04 - PyLongslit - INFO - mkspecflat.py:439 - Fetching the master bias frame...
+2025-02-25 13:24:04 - PyLongslit - INFO - mkspecflat.py:444 - Master bias frame found and loaded.
+2025-02-25 13:24:04 - PyLongslit - INFO - mkspecflat.py:453 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:24:04 - PyLongslit - INFO - mkspecflat.py:465 - Subtracted the bias.
+2025-02-25 13:24:04 - PyLongslit - INFO - mkspecflat.py:473 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:24:04 - PyLongslit - INFO - mkspecflat.py:453 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:24:04 - PyLongslit - INFO - mkspecflat.py:465 - Subtracted the bias.
+2025-02-25 13:24:04 - PyLongslit - INFO - mkspecflat.py:473 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:24:04 - PyLongslit - INFO - mkspecflat.py:453 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:24:04 - PyLongslit - INFO - mkspecflat.py:465 - Subtracted the bias.
+2025-02-25 13:24:04 - PyLongslit - INFO - mkspecflat.py:473 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:24:04 - PyLongslit - INFO - mkspecflat.py:453 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:24:04 - PyLongslit - INFO - mkspecflat.py:465 - Subtracted the bias.
+2025-02-25 13:24:04 - PyLongslit - INFO - mkspecflat.py:473 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:24:04 - PyLongslit - INFO - mkspecflat.py:453 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:24:04 - PyLongslit - INFO - mkspecflat.py:465 - Subtracted the bias.
+2025-02-25 13:24:04 - PyLongslit - INFO - mkspecflat.py:473 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:24:05 - PyLongslit - WARNING - mkspecflat.py:482 - Number of flat frames (5) is less than 30. Error estimation might not be accurate.
+2025-02-25 13:24:05 - PyLongslit - WARNING - mkspecflat.py:485 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-25 13:24:05 - PyLongslit - INFO - mkspecflat.py:493 - Estimating the spectral response and normalizing...
+2025-02-25 13:24:06 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 13:24:06 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 13:24:06 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 13:24:06 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 13:24:33 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 13:24:33 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 13:24:33 - PyLongslit - INFO - mkspecflat.py:510 - Estimating the spacial response and normalizing...
+2025-02-25 13:25:53 - PyLongslit - INFO - mkspecflat.py:610 - Mean pixel value of the final master flat-field: 0.99998 +/- 0.0005192596571869516 (should be 1.0).
+2025-02-25 13:25:54 - PyLongslit - INFO - mkspecflat.py:623 - Attaching header and writing to disc...
+2025-02-25 13:27:17 - PyLongslit - INFO - utils.py:157 - Saving plot to /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out/master_flat.png
+2025-02-25 13:27:17 - PyLongslit - INFO - utils.py:56 - File written to /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out/master_flat.fits
+2025-02-25 13:31:19 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 13:31:19 - PyLongslit - ERROR - parser.py:18 - Config file not found.
+2025-02-25 13:31:19 - PyLongslit - ERROR - parser.py:19 - Make sure a config file exists. 
+See the docs at:
+https://kostasvaleckas.github.io/PyLongslit/
+2025-02-25 13:31:25 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 13:31:25 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 13:31:25 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 13:31:25 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 13:31:26 - PyLongslit - INFO - mkspecflat.py:420 - Flat-field procedure running...
+2025-02-25 13:31:26 - PyLongslit - INFO - mkspecflat.py:421 - Using the following parameters:
+2025-02-25 13:31:26 - PyLongslit - INFO - mkspecflat.py:422 - xsize = 2073
+2025-02-25 13:31:26 - PyLongslit - INFO - mkspecflat.py:423 - ysize = 2056
+2025-02-25 13:31:26 - PyLongslit - INFO - mkspecflat.py:428 - Found 5 flat frames.
+2025-02-25 13:31:26 - PyLongslit - INFO - mkspecflat.py:429 - Files used for flat-fielding:
+2025-02-25 13:31:26 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 13:31:26 - PyLongslit - INFO - mkspecflat.py:439 - Fetching the master bias frame...
+2025-02-25 13:31:26 - PyLongslit - INFO - mkspecflat.py:444 - Master bias frame found and loaded.
+2025-02-25 13:31:26 - PyLongslit - INFO - mkspecflat.py:453 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:31:26 - PyLongslit - INFO - mkspecflat.py:465 - Subtracted the bias.
+2025-02-25 13:31:26 - PyLongslit - INFO - mkspecflat.py:473 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:31:26 - PyLongslit - INFO - mkspecflat.py:453 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:31:26 - PyLongslit - INFO - mkspecflat.py:465 - Subtracted the bias.
+2025-02-25 13:31:26 - PyLongslit - INFO - mkspecflat.py:473 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:31:26 - PyLongslit - INFO - mkspecflat.py:453 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:31:26 - PyLongslit - INFO - mkspecflat.py:465 - Subtracted the bias.
+2025-02-25 13:31:26 - PyLongslit - INFO - mkspecflat.py:473 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:31:26 - PyLongslit - INFO - mkspecflat.py:453 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:31:26 - PyLongslit - INFO - mkspecflat.py:465 - Subtracted the bias.
+2025-02-25 13:31:26 - PyLongslit - INFO - mkspecflat.py:473 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:31:26 - PyLongslit - INFO - mkspecflat.py:453 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:31:26 - PyLongslit - INFO - mkspecflat.py:465 - Subtracted the bias.
+2025-02-25 13:31:26 - PyLongslit - INFO - mkspecflat.py:473 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:31:26 - PyLongslit - WARNING - mkspecflat.py:482 - Number of flat frames (5) is less than 30. Error estimation might not be accurate.
+2025-02-25 13:31:26 - PyLongslit - WARNING - mkspecflat.py:485 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-25 13:31:26 - PyLongslit - INFO - mkspecflat.py:493 - Estimating the spectral response and normalizing...
+2025-02-25 13:31:28 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 13:31:28 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 13:31:28 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 13:31:28 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 13:31:39 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 13:31:39 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 13:31:39 - PyLongslit - INFO - mkspecflat.py:510 - Estimating the spacial response and normalizing...
+2025-02-25 13:32:54 - PyLongslit - INFO - mkspecflat.py:610 - Mean pixel value of the final master flat-field: 1.0001 +/- 0.0005173682907464005 (should be 1.0).
+2025-02-25 13:32:54 - PyLongslit - INFO - mkspecflat.py:623 - Attaching header and writing to disc...
+2025-02-25 13:33:31 - PyLongslit - INFO - utils.py:157 - Saving plot to /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out/master_flat.png
+2025-02-25 13:33:32 - PyLongslit - INFO - utils.py:56 - File written to /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out/master_flat.fits
+2025-02-25 13:35:08 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 13:35:08 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 13:35:08 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 13:35:08 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 13:35:08 - PyLongslit - INFO - mkspecflat.py:423 - Flat-field procedure running...
+2025-02-25 13:35:08 - PyLongslit - INFO - mkspecflat.py:424 - Using the following parameters:
+2025-02-25 13:35:08 - PyLongslit - INFO - mkspecflat.py:425 - xsize = 2073
+2025-02-25 13:35:08 - PyLongslit - INFO - mkspecflat.py:426 - ysize = 2056
+2025-02-25 13:35:08 - PyLongslit - INFO - mkspecflat.py:431 - Found 5 flat frames.
+2025-02-25 13:35:08 - PyLongslit - INFO - mkspecflat.py:432 - Files used for flat-fielding:
+2025-02-25 13:35:08 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 13:35:08 - PyLongslit - INFO - mkspecflat.py:442 - Fetching the master bias frame...
+2025-02-25 13:35:08 - PyLongslit - INFO - mkspecflat.py:447 - Master bias frame found and loaded.
+2025-02-25 13:35:08 - PyLongslit - INFO - mkspecflat.py:456 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:35:08 - PyLongslit - INFO - mkspecflat.py:468 - Subtracted the bias.
+2025-02-25 13:35:08 - PyLongslit - INFO - mkspecflat.py:476 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:35:08 - PyLongslit - INFO - mkspecflat.py:456 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:35:08 - PyLongslit - INFO - mkspecflat.py:468 - Subtracted the bias.
+2025-02-25 13:35:08 - PyLongslit - INFO - mkspecflat.py:476 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:35:08 - PyLongslit - INFO - mkspecflat.py:456 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:35:08 - PyLongslit - INFO - mkspecflat.py:468 - Subtracted the bias.
+2025-02-25 13:35:08 - PyLongslit - INFO - mkspecflat.py:476 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:35:08 - PyLongslit - INFO - mkspecflat.py:456 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:35:08 - PyLongslit - INFO - mkspecflat.py:468 - Subtracted the bias.
+2025-02-25 13:35:08 - PyLongslit - INFO - mkspecflat.py:476 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:35:08 - PyLongslit - INFO - mkspecflat.py:456 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:35:08 - PyLongslit - INFO - mkspecflat.py:468 - Subtracted the bias.
+2025-02-25 13:35:08 - PyLongslit - INFO - mkspecflat.py:476 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:35:08 - PyLongslit - WARNING - mkspecflat.py:485 - Number of flat frames (5) is less than 30. Error estimation might not be accurate.
+2025-02-25 13:35:08 - PyLongslit - WARNING - mkspecflat.py:488 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-25 13:35:09 - PyLongslit - INFO - mkspecflat.py:496 - Estimating the spectral response and normalizing...
+2025-02-25 13:35:09 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 13:35:09 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 13:35:09 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 13:35:09 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 13:35:20 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 13:35:20 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 13:35:21 - PyLongslit - INFO - mkspecflat.py:513 - Estimating the spacial response and normalizing...
+2025-02-25 13:39:19 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 13:39:19 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 13:39:19 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 13:39:19 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 13:39:19 - PyLongslit - INFO - mkspecflat.py:420 - Flat-field procedure running...
+2025-02-25 13:39:19 - PyLongslit - INFO - mkspecflat.py:421 - Using the following parameters:
+2025-02-25 13:39:19 - PyLongslit - INFO - mkspecflat.py:422 - xsize = 2073
+2025-02-25 13:39:19 - PyLongslit - INFO - mkspecflat.py:423 - ysize = 2056
+2025-02-25 13:39:19 - PyLongslit - INFO - mkspecflat.py:428 - Found 5 flat frames.
+2025-02-25 13:39:19 - PyLongslit - INFO - mkspecflat.py:429 - Files used for flat-fielding:
+2025-02-25 13:39:19 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 13:39:19 - PyLongslit - INFO - mkspecflat.py:439 - Fetching the master bias frame...
+2025-02-25 13:39:19 - PyLongslit - INFO - mkspecflat.py:444 - Master bias frame found and loaded.
+2025-02-25 13:39:19 - PyLongslit - INFO - mkspecflat.py:453 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:39:19 - PyLongslit - INFO - mkspecflat.py:465 - Subtracted the bias.
+2025-02-25 13:39:19 - PyLongslit - INFO - mkspecflat.py:473 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:39:19 - PyLongslit - INFO - mkspecflat.py:453 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:39:19 - PyLongslit - INFO - mkspecflat.py:465 - Subtracted the bias.
+2025-02-25 13:39:19 - PyLongslit - INFO - mkspecflat.py:473 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:39:19 - PyLongslit - INFO - mkspecflat.py:453 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:39:19 - PyLongslit - INFO - mkspecflat.py:465 - Subtracted the bias.
+2025-02-25 13:39:19 - PyLongslit - INFO - mkspecflat.py:473 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:39:19 - PyLongslit - INFO - mkspecflat.py:453 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:39:19 - PyLongslit - INFO - mkspecflat.py:465 - Subtracted the bias.
+2025-02-25 13:39:19 - PyLongslit - INFO - mkspecflat.py:473 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:39:19 - PyLongslit - INFO - mkspecflat.py:453 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:39:19 - PyLongslit - INFO - mkspecflat.py:465 - Subtracted the bias.
+2025-02-25 13:39:19 - PyLongslit - INFO - mkspecflat.py:473 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:39:20 - PyLongslit - WARNING - mkspecflat.py:482 - Number of flat frames (5) is less than 30. Error estimation might not be accurate.
+2025-02-25 13:39:20 - PyLongslit - WARNING - mkspecflat.py:485 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-25 13:39:20 - PyLongslit - INFO - mkspecflat.py:493 - Estimating the spectral response and normalizing...
+2025-02-25 13:39:21 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 13:39:21 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 13:39:21 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 13:39:21 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 13:39:27 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 13:39:27 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 13:39:49 - PyLongslit - INFO - mkspecflat.py:513 - Estimating the spacial response and normalizing...
+2025-02-25 13:40:26 - PyLongslit - INFO - mkspecflat.py:613 - Mean pixel value of the final master flat-field: 1.00011 +/- 0.0005075234456039122 (should be 1.0).
+2025-02-25 13:40:26 - PyLongslit - INFO - mkspecflat.py:626 - Attaching header and writing to disc...
+2025-02-25 13:40:29 - PyLongslit - INFO - utils.py:157 - Saving plot to /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out/master_flat.png
+2025-02-25 13:40:29 - PyLongslit - INFO - utils.py:56 - File written to /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out/master_flat.fits
+2025-02-25 13:41:14 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 13:41:14 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 13:41:14 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 13:41:14 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 13:41:14 - PyLongslit - INFO - mkspecflat.py:420 - Flat-field procedure running...
+2025-02-25 13:41:14 - PyLongslit - INFO - mkspecflat.py:421 - Using the following parameters:
+2025-02-25 13:41:14 - PyLongslit - INFO - mkspecflat.py:422 - xsize = 2073
+2025-02-25 13:41:14 - PyLongslit - INFO - mkspecflat.py:423 - ysize = 2056
+2025-02-25 13:41:14 - PyLongslit - INFO - mkspecflat.py:428 - Found 5 flat frames.
+2025-02-25 13:41:14 - PyLongslit - INFO - mkspecflat.py:429 - Files used for flat-fielding:
+2025-02-25 13:41:14 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 13:41:14 - PyLongslit - INFO - mkspecflat.py:439 - Fetching the master bias frame...
+2025-02-25 13:41:14 - PyLongslit - INFO - mkspecflat.py:444 - Master bias frame found and loaded.
+2025-02-25 13:41:14 - PyLongslit - INFO - mkspecflat.py:453 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:41:14 - PyLongslit - INFO - mkspecflat.py:465 - Subtracted the bias.
+2025-02-25 13:41:14 - PyLongslit - INFO - mkspecflat.py:473 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:41:14 - PyLongslit - INFO - mkspecflat.py:453 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:41:14 - PyLongslit - INFO - mkspecflat.py:465 - Subtracted the bias.
+2025-02-25 13:41:14 - PyLongslit - INFO - mkspecflat.py:473 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:41:14 - PyLongslit - INFO - mkspecflat.py:453 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:41:14 - PyLongslit - INFO - mkspecflat.py:465 - Subtracted the bias.
+2025-02-25 13:41:14 - PyLongslit - INFO - mkspecflat.py:473 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:41:14 - PyLongslit - INFO - mkspecflat.py:453 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:41:14 - PyLongslit - INFO - mkspecflat.py:465 - Subtracted the bias.
+2025-02-25 13:41:14 - PyLongslit - INFO - mkspecflat.py:473 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:41:14 - PyLongslit - INFO - mkspecflat.py:453 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:41:14 - PyLongslit - INFO - mkspecflat.py:465 - Subtracted the bias.
+2025-02-25 13:41:14 - PyLongslit - INFO - mkspecflat.py:473 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:41:15 - PyLongslit - WARNING - mkspecflat.py:482 - Number of flat frames (5) is less than 30. Error estimation might not be accurate.
+2025-02-25 13:41:15 - PyLongslit - WARNING - mkspecflat.py:485 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-25 13:41:15 - PyLongslit - INFO - mkspecflat.py:493 - Estimating the spectral response and normalizing...
+2025-02-25 13:41:16 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 13:41:16 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 13:41:16 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 13:41:16 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 13:41:41 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 13:41:41 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 13:41:41 - PyLongslit - INFO - mkspecflat.py:510 - Estimating the spacial response and normalizing...
+2025-02-25 13:42:40 - PyLongslit - INFO - mkspecflat.py:610 - Mean pixel value of the final master flat-field: 0.99987 +/- 0.0005316327000415415 (should be 1.0).
+2025-02-25 13:42:40 - PyLongslit - INFO - mkspecflat.py:623 - Attaching header and writing to disc...
+2025-02-25 13:42:42 - PyLongslit - INFO - utils.py:157 - Saving plot to /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out/master_flat.png
+2025-02-25 13:42:42 - PyLongslit - INFO - utils.py:56 - File written to /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out/master_flat.fits
+2025-02-25 13:51:08 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 13:51:08 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 13:51:08 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 13:51:08 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 13:51:08 - PyLongslit - INFO - mkspecflat.py:434 - Flat-field procedure running...
+2025-02-25 13:51:08 - PyLongslit - INFO - mkspecflat.py:435 - Using the following parameters:
+2025-02-25 13:51:08 - PyLongslit - INFO - mkspecflat.py:436 - xsize = 2073
+2025-02-25 13:51:08 - PyLongslit - INFO - mkspecflat.py:437 - ysize = 2056
+2025-02-25 13:51:08 - PyLongslit - INFO - mkspecflat.py:442 - Found 5 flat frames.
+2025-02-25 13:51:08 - PyLongslit - INFO - mkspecflat.py:443 - Files used for flat-fielding:
+2025-02-25 13:51:08 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 13:51:08 - PyLongslit - INFO - mkspecflat.py:453 - Fetching the master bias frame...
+2025-02-25 13:51:08 - PyLongslit - INFO - mkspecflat.py:458 - Master bias frame found and loaded.
+2025-02-25 13:51:08 - PyLongslit - INFO - mkspecflat.py:467 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:51:08 - PyLongslit - INFO - mkspecflat.py:479 - Subtracted the bias.
+2025-02-25 13:51:08 - PyLongslit - INFO - mkspecflat.py:487 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:51:08 - PyLongslit - INFO - mkspecflat.py:467 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:51:08 - PyLongslit - INFO - mkspecflat.py:479 - Subtracted the bias.
+2025-02-25 13:51:08 - PyLongslit - INFO - mkspecflat.py:487 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:51:08 - PyLongslit - INFO - mkspecflat.py:467 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:51:08 - PyLongslit - INFO - mkspecflat.py:479 - Subtracted the bias.
+2025-02-25 13:51:08 - PyLongslit - INFO - mkspecflat.py:487 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:51:08 - PyLongslit - INFO - mkspecflat.py:467 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:51:08 - PyLongslit - INFO - mkspecflat.py:479 - Subtracted the bias.
+2025-02-25 13:51:08 - PyLongslit - INFO - mkspecflat.py:487 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:51:08 - PyLongslit - INFO - mkspecflat.py:467 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:51:08 - PyLongslit - INFO - mkspecflat.py:479 - Subtracted the bias.
+2025-02-25 13:51:08 - PyLongslit - INFO - mkspecflat.py:487 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:51:09 - PyLongslit - WARNING - mkspecflat.py:496 - Number of flat frames (5) is less than 30. Error estimation might not be accurate.
+2025-02-25 13:51:09 - PyLongslit - WARNING - mkspecflat.py:499 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-25 13:51:09 - PyLongslit - INFO - mkspecflat.py:507 - Estimating the spectral response and normalizing...
+2025-02-25 13:51:09 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 13:51:09 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 13:51:09 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 13:51:09 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 13:51:17 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 13:51:17 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 13:51:17 - PyLongslit - INFO - mkspecflat.py:524 - Estimating the spacial response and normalizing...
+2025-02-25 13:52:19 - PyLongslit - INFO - mkspecflat.py:624 - Mean pixel value of the final master flat-field: 0.99995 +/- 0.00103895222140944 (should be 1.0).
+2025-02-25 13:52:19 - PyLongslit - INFO - mkspecflat.py:637 - Attaching header and writing to disc...
+2025-02-25 13:52:22 - PyLongslit - INFO - utils.py:157 - Saving plot to /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out/master_flat.png
+2025-02-25 13:52:22 - PyLongslit - INFO - utils.py:56 - File written to /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out/master_flat.fits
+2025-02-25 13:53:40 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 13:53:40 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 13:53:40 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 13:53:40 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 13:53:40 - PyLongslit - INFO - mkspecflat.py:434 - Flat-field procedure running...
+2025-02-25 13:53:40 - PyLongslit - INFO - mkspecflat.py:435 - Using the following parameters:
+2025-02-25 13:53:40 - PyLongslit - INFO - mkspecflat.py:436 - xsize = 2073
+2025-02-25 13:53:40 - PyLongslit - INFO - mkspecflat.py:437 - ysize = 2056
+2025-02-25 13:53:40 - PyLongslit - INFO - mkspecflat.py:442 - Found 5 flat frames.
+2025-02-25 13:53:40 - PyLongslit - INFO - mkspecflat.py:443 - Files used for flat-fielding:
+2025-02-25 13:53:40 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 13:53:40 - PyLongslit - INFO - mkspecflat.py:453 - Fetching the master bias frame...
+2025-02-25 13:53:40 - PyLongslit - INFO - mkspecflat.py:458 - Master bias frame found and loaded.
+2025-02-25 13:53:40 - PyLongslit - INFO - mkspecflat.py:467 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:53:40 - PyLongslit - INFO - mkspecflat.py:479 - Subtracted the bias.
+2025-02-25 13:53:40 - PyLongslit - INFO - mkspecflat.py:487 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:53:40 - PyLongslit - INFO - mkspecflat.py:467 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:53:40 - PyLongslit - INFO - mkspecflat.py:479 - Subtracted the bias.
+2025-02-25 13:53:40 - PyLongslit - INFO - mkspecflat.py:487 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:53:40 - PyLongslit - INFO - mkspecflat.py:467 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:53:40 - PyLongslit - INFO - mkspecflat.py:479 - Subtracted the bias.
+2025-02-25 13:53:40 - PyLongslit - INFO - mkspecflat.py:487 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:53:40 - PyLongslit - INFO - mkspecflat.py:467 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:53:40 - PyLongslit - INFO - mkspecflat.py:479 - Subtracted the bias.
+2025-02-25 13:53:40 - PyLongslit - INFO - mkspecflat.py:487 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:53:40 - PyLongslit - INFO - mkspecflat.py:467 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:53:40 - PyLongslit - INFO - mkspecflat.py:479 - Subtracted the bias.
+2025-02-25 13:53:40 - PyLongslit - INFO - mkspecflat.py:487 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:53:41 - PyLongslit - WARNING - mkspecflat.py:496 - Number of flat frames (5) is less than 30. Error estimation might not be accurate.
+2025-02-25 13:53:41 - PyLongslit - WARNING - mkspecflat.py:499 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-25 13:53:41 - PyLongslit - INFO - mkspecflat.py:507 - Estimating the spectral response and normalizing...
+2025-02-25 13:53:42 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 13:53:42 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 13:53:42 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 13:53:42 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 13:53:47 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 13:53:47 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 13:53:47 - PyLongslit - INFO - mkspecflat.py:524 - Estimating the spacial response and normalizing...
+2025-02-25 13:56:02 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 13:56:02 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 13:56:02 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 13:56:02 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 13:56:02 - PyLongslit - INFO - mkspecflat.py:436 - Flat-field procedure running...
+2025-02-25 13:56:02 - PyLongslit - INFO - mkspecflat.py:437 - Using the following parameters:
+2025-02-25 13:56:02 - PyLongslit - INFO - mkspecflat.py:438 - xsize = 2073
+2025-02-25 13:56:02 - PyLongslit - INFO - mkspecflat.py:439 - ysize = 2056
+2025-02-25 13:56:02 - PyLongslit - INFO - mkspecflat.py:444 - Found 5 flat frames.
+2025-02-25 13:56:02 - PyLongslit - INFO - mkspecflat.py:445 - Files used for flat-fielding:
+2025-02-25 13:56:02 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 13:56:02 - PyLongslit - INFO - mkspecflat.py:455 - Fetching the master bias frame...
+2025-02-25 13:56:02 - PyLongslit - INFO - mkspecflat.py:460 - Master bias frame found and loaded.
+2025-02-25 13:56:02 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:56:02 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 13:56:02 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:56:02 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:56:02 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 13:56:02 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:56:02 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:56:02 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 13:56:02 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:56:02 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:56:02 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 13:56:02 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:56:02 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:56:02 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 13:56:02 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:56:03 - PyLongslit - WARNING - mkspecflat.py:498 - Number of flat frames (5) is less than 30. Error estimation might not be accurate.
+2025-02-25 13:56:03 - PyLongslit - WARNING - mkspecflat.py:501 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-25 13:56:03 - PyLongslit - INFO - mkspecflat.py:509 - Estimating the spectral response and normalizing...
+2025-02-25 13:56:04 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 13:56:04 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 13:56:04 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 13:56:04 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 13:56:11 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 13:56:11 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 13:56:11 - PyLongslit - INFO - mkspecflat.py:526 - Estimating the spacial response and normalizing...
+2025-02-25 13:56:37 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 13:56:37 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 13:56:37 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 13:56:37 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 13:56:38 - PyLongslit - INFO - mkspecflat.py:436 - Flat-field procedure running...
+2025-02-25 13:56:38 - PyLongslit - INFO - mkspecflat.py:437 - Using the following parameters:
+2025-02-25 13:56:38 - PyLongslit - INFO - mkspecflat.py:438 - xsize = 2073
+2025-02-25 13:56:38 - PyLongslit - INFO - mkspecflat.py:439 - ysize = 2056
+2025-02-25 13:56:38 - PyLongslit - INFO - mkspecflat.py:444 - Found 5 flat frames.
+2025-02-25 13:56:38 - PyLongslit - INFO - mkspecflat.py:445 - Files used for flat-fielding:
+2025-02-25 13:56:38 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 13:56:38 - PyLongslit - INFO - mkspecflat.py:455 - Fetching the master bias frame...
+2025-02-25 13:56:38 - PyLongslit - INFO - mkspecflat.py:460 - Master bias frame found and loaded.
+2025-02-25 13:56:38 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:56:38 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 13:56:38 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:56:38 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:56:38 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 13:56:38 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:56:38 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:56:38 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 13:56:38 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:56:38 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:56:38 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 13:56:38 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:56:38 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:56:38 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 13:56:38 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:56:38 - PyLongslit - WARNING - mkspecflat.py:498 - Number of flat frames (5) is less than 30. Error estimation might not be accurate.
+2025-02-25 13:56:38 - PyLongslit - WARNING - mkspecflat.py:501 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-25 13:56:38 - PyLongslit - INFO - mkspecflat.py:509 - Estimating the spectral response and normalizing...
+2025-02-25 13:56:39 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 13:56:39 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 13:56:39 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 13:56:39 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 13:56:45 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 13:56:45 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 13:56:45 - PyLongslit - INFO - mkspecflat.py:526 - Estimating the spacial response and normalizing...
+2025-02-25 13:57:32 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 13:57:32 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 13:57:32 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 13:57:32 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 13:57:32 - PyLongslit - INFO - mkspecflat.py:436 - Flat-field procedure running...
+2025-02-25 13:57:32 - PyLongslit - INFO - mkspecflat.py:437 - Using the following parameters:
+2025-02-25 13:57:32 - PyLongslit - INFO - mkspecflat.py:438 - xsize = 2073
+2025-02-25 13:57:32 - PyLongslit - INFO - mkspecflat.py:439 - ysize = 2056
+2025-02-25 13:57:32 - PyLongslit - INFO - mkspecflat.py:444 - Found 5 flat frames.
+2025-02-25 13:57:32 - PyLongslit - INFO - mkspecflat.py:445 - Files used for flat-fielding:
+2025-02-25 13:57:32 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 13:57:32 - PyLongslit - INFO - mkspecflat.py:455 - Fetching the master bias frame...
+2025-02-25 13:57:32 - PyLongslit - INFO - mkspecflat.py:460 - Master bias frame found and loaded.
+2025-02-25 13:57:32 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:57:32 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 13:57:32 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:57:32 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:57:32 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 13:57:32 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:57:32 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:57:32 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 13:57:32 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:57:32 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:57:32 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 13:57:32 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:57:32 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:57:32 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 13:57:32 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:57:33 - PyLongslit - WARNING - mkspecflat.py:498 - Number of flat frames (5) is less than 30. Error estimation might not be accurate.
+2025-02-25 13:57:33 - PyLongslit - WARNING - mkspecflat.py:501 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-25 13:57:33 - PyLongslit - INFO - mkspecflat.py:509 - Estimating the spectral response and normalizing...
+2025-02-25 13:57:33 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 13:57:33 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 13:57:33 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 13:57:33 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 13:57:39 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 13:57:39 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 13:57:39 - PyLongslit - INFO - mkspecflat.py:526 - Estimating the spacial response and normalizing...
+2025-02-25 13:58:08 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 13:58:08 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 13:58:08 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 13:58:08 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 13:58:09 - PyLongslit - INFO - mkspecflat.py:436 - Flat-field procedure running...
+2025-02-25 13:58:09 - PyLongslit - INFO - mkspecflat.py:437 - Using the following parameters:
+2025-02-25 13:58:09 - PyLongslit - INFO - mkspecflat.py:438 - xsize = 2073
+2025-02-25 13:58:09 - PyLongslit - INFO - mkspecflat.py:439 - ysize = 2056
+2025-02-25 13:58:09 - PyLongslit - INFO - mkspecflat.py:444 - Found 5 flat frames.
+2025-02-25 13:58:09 - PyLongslit - INFO - mkspecflat.py:445 - Files used for flat-fielding:
+2025-02-25 13:58:09 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 13:58:09 - PyLongslit - INFO - mkspecflat.py:455 - Fetching the master bias frame...
+2025-02-25 13:58:09 - PyLongslit - INFO - mkspecflat.py:460 - Master bias frame found and loaded.
+2025-02-25 13:58:09 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:58:09 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 13:58:09 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:58:09 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:58:09 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 13:58:09 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:58:09 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:58:09 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 13:58:09 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:58:09 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:58:09 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 13:58:09 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:58:09 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:58:09 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 13:58:09 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:58:09 - PyLongslit - WARNING - mkspecflat.py:498 - Number of flat frames (5) is less than 30. Error estimation might not be accurate.
+2025-02-25 13:58:09 - PyLongslit - WARNING - mkspecflat.py:501 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-25 13:58:09 - PyLongslit - INFO - mkspecflat.py:509 - Estimating the spectral response and normalizing...
+2025-02-25 13:58:10 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 13:58:10 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 13:58:10 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 13:58:10 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 13:58:15 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 13:58:15 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 13:58:15 - PyLongslit - INFO - mkspecflat.py:526 - Estimating the spacial response and normalizing...
+2025-02-25 13:59:22 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 13:59:22 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 13:59:22 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 13:59:22 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 13:59:23 - PyLongslit - INFO - mkspecflat.py:437 - Flat-field procedure running...
+2025-02-25 13:59:23 - PyLongslit - INFO - mkspecflat.py:438 - Using the following parameters:
+2025-02-25 13:59:23 - PyLongslit - INFO - mkspecflat.py:439 - xsize = 2073
+2025-02-25 13:59:23 - PyLongslit - INFO - mkspecflat.py:440 - ysize = 2056
+2025-02-25 13:59:23 - PyLongslit - INFO - mkspecflat.py:445 - Found 5 flat frames.
+2025-02-25 13:59:23 - PyLongslit - INFO - mkspecflat.py:446 - Files used for flat-fielding:
+2025-02-25 13:59:23 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 13:59:23 - PyLongslit - INFO - mkspecflat.py:456 - Fetching the master bias frame...
+2025-02-25 13:59:23 - PyLongslit - INFO - mkspecflat.py:461 - Master bias frame found and loaded.
+2025-02-25 13:59:23 - PyLongslit - INFO - mkspecflat.py:470 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:59:23 - PyLongslit - INFO - mkspecflat.py:482 - Subtracted the bias.
+2025-02-25 13:59:23 - PyLongslit - INFO - mkspecflat.py:490 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:59:23 - PyLongslit - INFO - mkspecflat.py:470 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:59:23 - PyLongslit - INFO - mkspecflat.py:482 - Subtracted the bias.
+2025-02-25 13:59:23 - PyLongslit - INFO - mkspecflat.py:490 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:59:23 - PyLongslit - INFO - mkspecflat.py:470 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:59:23 - PyLongslit - INFO - mkspecflat.py:482 - Subtracted the bias.
+2025-02-25 13:59:23 - PyLongslit - INFO - mkspecflat.py:490 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:59:23 - PyLongslit - INFO - mkspecflat.py:470 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:59:23 - PyLongslit - INFO - mkspecflat.py:482 - Subtracted the bias.
+2025-02-25 13:59:23 - PyLongslit - INFO - mkspecflat.py:490 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:59:23 - PyLongslit - INFO - mkspecflat.py:470 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 13:59:23 - PyLongslit - INFO - mkspecflat.py:482 - Subtracted the bias.
+2025-02-25 13:59:23 - PyLongslit - INFO - mkspecflat.py:490 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 13:59:23 - PyLongslit - WARNING - mkspecflat.py:499 - Number of flat frames (5) is less than 30. Error estimation might not be accurate.
+2025-02-25 13:59:23 - PyLongslit - WARNING - mkspecflat.py:502 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-25 13:59:23 - PyLongslit - INFO - mkspecflat.py:510 - Estimating the spectral response and normalizing...
+2025-02-25 13:59:24 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 13:59:24 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 13:59:24 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 13:59:24 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 13:59:29 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 13:59:29 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 13:59:30 - PyLongslit - INFO - mkspecflat.py:527 - Estimating the spacial response and normalizing...
+2025-02-25 14:00:21 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 14:00:21 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 14:00:21 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 14:00:21 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 14:00:21 - PyLongslit - INFO - mkspecflat.py:436 - Flat-field procedure running...
+2025-02-25 14:00:21 - PyLongslit - INFO - mkspecflat.py:437 - Using the following parameters:
+2025-02-25 14:00:21 - PyLongslit - INFO - mkspecflat.py:438 - xsize = 2073
+2025-02-25 14:00:21 - PyLongslit - INFO - mkspecflat.py:439 - ysize = 2056
+2025-02-25 14:00:21 - PyLongslit - INFO - mkspecflat.py:444 - Found 5 flat frames.
+2025-02-25 14:00:21 - PyLongslit - INFO - mkspecflat.py:445 - Files used for flat-fielding:
+2025-02-25 14:00:21 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 14:00:21 - PyLongslit - INFO - mkspecflat.py:455 - Fetching the master bias frame...
+2025-02-25 14:00:21 - PyLongslit - INFO - mkspecflat.py:460 - Master bias frame found and loaded.
+2025-02-25 14:00:21 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:00:21 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:00:21 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:00:21 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:00:21 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:00:21 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:00:21 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:00:21 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:00:21 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:00:21 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:00:21 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:00:21 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:00:21 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:00:21 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:00:21 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:00:22 - PyLongslit - WARNING - mkspecflat.py:498 - Number of flat frames (5) is less than 30. Error estimation might not be accurate.
+2025-02-25 14:00:22 - PyLongslit - WARNING - mkspecflat.py:501 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-25 14:00:22 - PyLongslit - INFO - mkspecflat.py:509 - Estimating the spectral response and normalizing...
+2025-02-25 14:00:23 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 14:00:23 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 14:00:23 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 14:00:23 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 14:00:29 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 14:00:29 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 14:00:29 - PyLongslit - INFO - mkspecflat.py:526 - Estimating the spacial response and normalizing...
+2025-02-25 14:01:33 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 14:01:33 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 14:01:33 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 14:01:33 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 14:01:33 - PyLongslit - INFO - mkspecflat.py:436 - Flat-field procedure running...
+2025-02-25 14:01:33 - PyLongslit - INFO - mkspecflat.py:437 - Using the following parameters:
+2025-02-25 14:01:33 - PyLongslit - INFO - mkspecflat.py:438 - xsize = 2073
+2025-02-25 14:01:33 - PyLongslit - INFO - mkspecflat.py:439 - ysize = 2056
+2025-02-25 14:01:33 - PyLongslit - INFO - mkspecflat.py:444 - Found 5 flat frames.
+2025-02-25 14:01:33 - PyLongslit - INFO - mkspecflat.py:445 - Files used for flat-fielding:
+2025-02-25 14:01:33 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 14:01:33 - PyLongslit - INFO - mkspecflat.py:455 - Fetching the master bias frame...
+2025-02-25 14:01:33 - PyLongslit - INFO - mkspecflat.py:460 - Master bias frame found and loaded.
+2025-02-25 14:01:33 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:01:33 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:01:33 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:01:33 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:01:33 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:01:33 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:01:33 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:01:33 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:01:33 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:01:33 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:01:33 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:01:33 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:01:33 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:01:33 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:01:33 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:01:34 - PyLongslit - WARNING - mkspecflat.py:498 - Number of flat frames (5) is less than 30. Error estimation might not be accurate.
+2025-02-25 14:01:34 - PyLongslit - WARNING - mkspecflat.py:501 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-25 14:01:34 - PyLongslit - INFO - mkspecflat.py:509 - Estimating the spectral response and normalizing...
+2025-02-25 14:01:34 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 14:01:34 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 14:01:34 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 14:01:34 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 14:01:44 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 14:01:44 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 14:01:44 - PyLongslit - INFO - mkspecflat.py:526 - Estimating the spacial response and normalizing...
+2025-02-25 14:02:24 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 14:02:24 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 14:02:24 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 14:02:24 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 14:02:24 - PyLongslit - INFO - mkspecflat.py:436 - Flat-field procedure running...
+2025-02-25 14:02:24 - PyLongslit - INFO - mkspecflat.py:437 - Using the following parameters:
+2025-02-25 14:02:24 - PyLongslit - INFO - mkspecflat.py:438 - xsize = 2073
+2025-02-25 14:02:24 - PyLongslit - INFO - mkspecflat.py:439 - ysize = 2056
+2025-02-25 14:02:24 - PyLongslit - INFO - mkspecflat.py:444 - Found 5 flat frames.
+2025-02-25 14:02:24 - PyLongslit - INFO - mkspecflat.py:445 - Files used for flat-fielding:
+2025-02-25 14:02:24 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 14:02:24 - PyLongslit - INFO - mkspecflat.py:455 - Fetching the master bias frame...
+2025-02-25 14:02:24 - PyLongslit - INFO - mkspecflat.py:460 - Master bias frame found and loaded.
+2025-02-25 14:02:24 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:02:24 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:02:24 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:02:24 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:02:24 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:02:25 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:02:25 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:02:25 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:02:25 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:02:25 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:02:25 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:02:25 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:02:25 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:02:25 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:02:25 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:02:25 - PyLongslit - WARNING - mkspecflat.py:498 - Number of flat frames (5) is less than 30. Error estimation might not be accurate.
+2025-02-25 14:02:25 - PyLongslit - WARNING - mkspecflat.py:501 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-25 14:02:25 - PyLongslit - INFO - mkspecflat.py:509 - Estimating the spectral response and normalizing...
+2025-02-25 14:02:26 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 14:02:26 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 14:02:26 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 14:02:26 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 14:02:31 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 14:02:31 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 14:02:31 - PyLongslit - INFO - mkspecflat.py:526 - Estimating the spacial response and normalizing...
+2025-02-25 14:03:40 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 14:03:40 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 14:03:40 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 14:03:40 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 14:03:40 - PyLongslit - INFO - mkspecflat.py:436 - Flat-field procedure running...
+2025-02-25 14:03:40 - PyLongslit - INFO - mkspecflat.py:437 - Using the following parameters:
+2025-02-25 14:03:40 - PyLongslit - INFO - mkspecflat.py:438 - xsize = 2073
+2025-02-25 14:03:40 - PyLongslit - INFO - mkspecflat.py:439 - ysize = 2056
+2025-02-25 14:03:40 - PyLongslit - INFO - mkspecflat.py:444 - Found 5 flat frames.
+2025-02-25 14:03:40 - PyLongslit - INFO - mkspecflat.py:445 - Files used for flat-fielding:
+2025-02-25 14:03:41 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 14:03:41 - PyLongslit - INFO - mkspecflat.py:455 - Fetching the master bias frame...
+2025-02-25 14:03:41 - PyLongslit - INFO - mkspecflat.py:460 - Master bias frame found and loaded.
+2025-02-25 14:03:41 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:03:41 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:03:41 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:03:41 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:03:41 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:03:41 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:03:41 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:03:41 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:03:41 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:03:41 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:03:41 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:03:41 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:03:41 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:03:41 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:03:41 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:03:41 - PyLongslit - WARNING - mkspecflat.py:498 - Number of flat frames (5) is less than 30. Error estimation might not be accurate.
+2025-02-25 14:03:41 - PyLongslit - WARNING - mkspecflat.py:501 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-25 14:03:41 - PyLongslit - INFO - mkspecflat.py:509 - Estimating the spectral response and normalizing...
+2025-02-25 14:03:42 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 14:03:42 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 14:03:42 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 14:03:42 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 14:03:49 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 14:03:49 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 14:03:49 - PyLongslit - INFO - mkspecflat.py:526 - Estimating the spacial response and normalizing...
+2025-02-25 14:04:40 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 14:04:40 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 14:04:40 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 14:04:40 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 14:04:40 - PyLongslit - INFO - mkspecflat.py:436 - Flat-field procedure running...
+2025-02-25 14:04:40 - PyLongslit - INFO - mkspecflat.py:437 - Using the following parameters:
+2025-02-25 14:04:40 - PyLongslit - INFO - mkspecflat.py:438 - xsize = 2073
+2025-02-25 14:04:40 - PyLongslit - INFO - mkspecflat.py:439 - ysize = 2056
+2025-02-25 14:04:40 - PyLongslit - INFO - mkspecflat.py:444 - Found 5 flat frames.
+2025-02-25 14:04:40 - PyLongslit - INFO - mkspecflat.py:445 - Files used for flat-fielding:
+2025-02-25 14:04:41 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 14:04:41 - PyLongslit - INFO - mkspecflat.py:455 - Fetching the master bias frame...
+2025-02-25 14:04:41 - PyLongslit - INFO - mkspecflat.py:460 - Master bias frame found and loaded.
+2025-02-25 14:04:41 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:04:41 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:04:41 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:04:41 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:04:41 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:04:41 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:04:41 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:04:41 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:04:41 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:04:41 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:04:41 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:04:41 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:04:41 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:04:41 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:04:41 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:04:41 - PyLongslit - WARNING - mkspecflat.py:498 - Number of flat frames (5) is less than 30. Error estimation might not be accurate.
+2025-02-25 14:04:41 - PyLongslit - WARNING - mkspecflat.py:501 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-25 14:04:41 - PyLongslit - INFO - mkspecflat.py:509 - Estimating the spectral response and normalizing...
+2025-02-25 14:04:42 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 14:04:42 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 14:04:42 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 14:04:42 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 14:04:49 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 14:04:49 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 14:04:50 - PyLongslit - INFO - mkspecflat.py:526 - Estimating the spacial response and normalizing...
+2025-02-25 14:05:59 - PyLongslit - INFO - mkspecflat.py:626 - Mean pixel value of the final master flat-field: 0.99977 +/- 0.0005010245782129573 (should be 1.0).
+2025-02-25 14:05:59 - PyLongslit - INFO - mkspecflat.py:639 - Attaching header and writing to disc...
+2025-02-25 14:06:05 - PyLongslit - INFO - utils.py:157 - Saving plot to /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out/master_flat.png
+2025-02-25 14:06:05 - PyLongslit - INFO - utils.py:56 - File written to /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out/master_flat.fits
+2025-02-25 14:06:11 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 14:06:11 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 14:06:11 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 14:06:11 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 14:06:11 - PyLongslit - INFO - mkspecflat.py:436 - Flat-field procedure running...
+2025-02-25 14:06:11 - PyLongslit - INFO - mkspecflat.py:437 - Using the following parameters:
+2025-02-25 14:06:11 - PyLongslit - INFO - mkspecflat.py:438 - xsize = 2073
+2025-02-25 14:06:11 - PyLongslit - INFO - mkspecflat.py:439 - ysize = 2056
+2025-02-25 14:06:11 - PyLongslit - INFO - mkspecflat.py:444 - Found 5 flat frames.
+2025-02-25 14:06:11 - PyLongslit - INFO - mkspecflat.py:445 - Files used for flat-fielding:
+2025-02-25 14:06:11 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 14:06:11 - PyLongslit - INFO - mkspecflat.py:455 - Fetching the master bias frame...
+2025-02-25 14:06:11 - PyLongslit - INFO - mkspecflat.py:460 - Master bias frame found and loaded.
+2025-02-25 14:06:11 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:06:11 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:06:11 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:06:11 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:06:11 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:06:12 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:06:12 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:06:12 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:06:12 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:06:12 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:06:12 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:06:12 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:06:12 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:06:12 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:06:12 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:06:12 - PyLongslit - WARNING - mkspecflat.py:498 - Number of flat frames (5) is less than 30. Error estimation might not be accurate.
+2025-02-25 14:06:12 - PyLongslit - WARNING - mkspecflat.py:501 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-25 14:06:12 - PyLongslit - INFO - mkspecflat.py:509 - Estimating the spectral response and normalizing...
+2025-02-25 14:06:13 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 14:06:13 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 14:06:13 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 14:06:13 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 14:06:19 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 14:06:19 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 14:06:19 - PyLongslit - INFO - mkspecflat.py:526 - Estimating the spacial response and normalizing...
+2025-02-25 14:07:53 - PyLongslit - INFO - mkspecflat.py:626 - Mean pixel value of the final master flat-field: 0.99986 +/- 0.0004998283614065973 (should be 1.0).
+2025-02-25 14:07:53 - PyLongslit - INFO - mkspecflat.py:639 - Attaching header and writing to disc...
+2025-02-25 14:07:55 - PyLongslit - INFO - utils.py:157 - Saving plot to /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out/master_flat.png
+2025-02-25 14:07:55 - PyLongslit - INFO - utils.py:56 - File written to /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out/master_flat.fits
+2025-02-25 14:09:54 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 14:09:54 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 14:09:54 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 14:09:54 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 14:09:54 - PyLongslit - INFO - mkspecflat.py:436 - Flat-field procedure running...
+2025-02-25 14:09:54 - PyLongslit - INFO - mkspecflat.py:437 - Using the following parameters:
+2025-02-25 14:09:54 - PyLongslit - INFO - mkspecflat.py:438 - xsize = 2073
+2025-02-25 14:09:54 - PyLongslit - INFO - mkspecflat.py:439 - ysize = 2056
+2025-02-25 14:09:54 - PyLongslit - INFO - mkspecflat.py:444 - Found 5 flat frames.
+2025-02-25 14:09:54 - PyLongslit - INFO - mkspecflat.py:445 - Files used for flat-fielding:
+2025-02-25 14:09:54 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 14:09:54 - PyLongslit - INFO - mkspecflat.py:455 - Fetching the master bias frame...
+2025-02-25 14:09:54 - PyLongslit - INFO - mkspecflat.py:460 - Master bias frame found and loaded.
+2025-02-25 14:09:54 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:09:54 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:09:54 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:09:54 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:09:54 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:09:54 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:09:54 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:09:54 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:09:54 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:09:54 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:09:54 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:09:54 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:09:54 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:09:54 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:09:54 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:09:54 - PyLongslit - WARNING - mkspecflat.py:498 - Number of flat frames (5) is less than 30. Error estimation might not be accurate.
+2025-02-25 14:09:54 - PyLongslit - WARNING - mkspecflat.py:501 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-25 14:09:55 - PyLongslit - INFO - mkspecflat.py:509 - Estimating the spectral response and normalizing...
+2025-02-25 14:09:55 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 14:09:55 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 14:09:55 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 14:09:55 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 14:10:02 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 14:10:02 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 14:10:02 - PyLongslit - INFO - mkspecflat.py:526 - Estimating the spacial response and normalizing...
+2025-02-25 14:11:22 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 14:11:22 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 14:11:22 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 14:11:22 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 14:11:22 - PyLongslit - INFO - mkspecflat.py:436 - Flat-field procedure running...
+2025-02-25 14:11:22 - PyLongslit - INFO - mkspecflat.py:437 - Using the following parameters:
+2025-02-25 14:11:22 - PyLongslit - INFO - mkspecflat.py:438 - xsize = 2073
+2025-02-25 14:11:22 - PyLongslit - INFO - mkspecflat.py:439 - ysize = 2056
+2025-02-25 14:11:22 - PyLongslit - INFO - mkspecflat.py:444 - Found 5 flat frames.
+2025-02-25 14:11:22 - PyLongslit - INFO - mkspecflat.py:445 - Files used for flat-fielding:
+2025-02-25 14:11:22 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 14:11:22 - PyLongslit - INFO - mkspecflat.py:455 - Fetching the master bias frame...
+2025-02-25 14:11:22 - PyLongslit - INFO - mkspecflat.py:460 - Master bias frame found and loaded.
+2025-02-25 14:11:22 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:11:22 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:11:22 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:11:22 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:11:23 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:11:23 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:11:23 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:11:23 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:11:23 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:11:23 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:11:23 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:11:23 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:11:23 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:11:23 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:11:23 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:11:23 - PyLongslit - WARNING - mkspecflat.py:498 - Number of flat frames (5) is less than 30. Error estimation might not be accurate.
+2025-02-25 14:11:23 - PyLongslit - WARNING - mkspecflat.py:501 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-25 14:11:23 - PyLongslit - INFO - mkspecflat.py:509 - Estimating the spectral response and normalizing...
+2025-02-25 14:11:24 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 14:11:24 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 14:11:24 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 14:11:24 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 14:11:31 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 14:11:31 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 14:11:32 - PyLongslit - INFO - mkspecflat.py:526 - Estimating the spacial response and normalizing...
+2025-02-25 14:13:17 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 14:13:17 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 14:13:17 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 14:13:17 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 14:13:17 - PyLongslit - INFO - mkspecflat.py:436 - Flat-field procedure running...
+2025-02-25 14:13:17 - PyLongslit - INFO - mkspecflat.py:437 - Using the following parameters:
+2025-02-25 14:13:17 - PyLongslit - INFO - mkspecflat.py:438 - xsize = 2073
+2025-02-25 14:13:17 - PyLongslit - INFO - mkspecflat.py:439 - ysize = 2056
+2025-02-25 14:13:17 - PyLongslit - INFO - mkspecflat.py:444 - Found 5 flat frames.
+2025-02-25 14:13:17 - PyLongslit - INFO - mkspecflat.py:445 - Files used for flat-fielding:
+2025-02-25 14:13:17 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 14:13:17 - PyLongslit - INFO - mkspecflat.py:455 - Fetching the master bias frame...
+2025-02-25 14:13:17 - PyLongslit - INFO - mkspecflat.py:460 - Master bias frame found and loaded.
+2025-02-25 14:13:17 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:13:17 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:13:17 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:13:17 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:13:17 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:13:17 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:13:17 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:13:17 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:13:17 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:13:17 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:13:17 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:13:17 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:13:17 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:13:17 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:13:17 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:13:18 - PyLongslit - WARNING - mkspecflat.py:498 - Number of flat frames (5) is less than 30. Error estimation might not be accurate.
+2025-02-25 14:13:18 - PyLongslit - WARNING - mkspecflat.py:501 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-25 14:13:18 - PyLongslit - INFO - mkspecflat.py:509 - Estimating the spectral response and normalizing...
+2025-02-25 14:13:19 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 14:13:19 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 14:13:19 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 14:13:19 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 14:13:27 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 14:13:27 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 14:13:27 - PyLongslit - INFO - mkspecflat.py:526 - Estimating the spacial response and normalizing...
+2025-02-25 14:14:22 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 14:14:22 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 14:14:22 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 14:14:22 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 14:14:22 - PyLongslit - INFO - mkspecflat.py:436 - Flat-field procedure running...
+2025-02-25 14:14:22 - PyLongslit - INFO - mkspecflat.py:437 - Using the following parameters:
+2025-02-25 14:14:22 - PyLongslit - INFO - mkspecflat.py:438 - xsize = 2073
+2025-02-25 14:14:22 - PyLongslit - INFO - mkspecflat.py:439 - ysize = 2056
+2025-02-25 14:14:22 - PyLongslit - INFO - mkspecflat.py:444 - Found 5 flat frames.
+2025-02-25 14:14:22 - PyLongslit - INFO - mkspecflat.py:445 - Files used for flat-fielding:
+2025-02-25 14:14:22 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 14:14:22 - PyLongslit - INFO - mkspecflat.py:455 - Fetching the master bias frame...
+2025-02-25 14:14:22 - PyLongslit - INFO - mkspecflat.py:460 - Master bias frame found and loaded.
+2025-02-25 14:14:22 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:14:22 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:14:22 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:14:22 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:14:22 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:14:22 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:14:22 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:14:22 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:14:22 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:14:22 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:14:22 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:14:22 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:14:22 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:14:22 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:14:22 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:14:22 - PyLongslit - WARNING - mkspecflat.py:498 - Number of flat frames (5) is less than 30. Error estimation might not be accurate.
+2025-02-25 14:14:22 - PyLongslit - WARNING - mkspecflat.py:501 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-25 14:14:23 - PyLongslit - INFO - mkspecflat.py:509 - Estimating the spectral response and normalizing...
+2025-02-25 14:14:23 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 14:14:23 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 14:14:23 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 14:14:23 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 14:14:31 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 14:14:31 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 14:14:31 - PyLongslit - INFO - mkspecflat.py:526 - Estimating the spacial response and normalizing...
+2025-02-25 14:15:34 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 14:15:34 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 14:15:34 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 14:15:34 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 14:15:34 - PyLongslit - INFO - mkspecflat.py:436 - Flat-field procedure running...
+2025-02-25 14:15:34 - PyLongslit - INFO - mkspecflat.py:437 - Using the following parameters:
+2025-02-25 14:15:34 - PyLongslit - INFO - mkspecflat.py:438 - xsize = 2073
+2025-02-25 14:15:34 - PyLongslit - INFO - mkspecflat.py:439 - ysize = 2056
+2025-02-25 14:15:34 - PyLongslit - INFO - mkspecflat.py:444 - Found 5 flat frames.
+2025-02-25 14:15:34 - PyLongslit - INFO - mkspecflat.py:445 - Files used for flat-fielding:
+2025-02-25 14:15:34 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 14:15:34 - PyLongslit - INFO - mkspecflat.py:455 - Fetching the master bias frame...
+2025-02-25 14:15:34 - PyLongslit - INFO - mkspecflat.py:460 - Master bias frame found and loaded.
+2025-02-25 14:15:34 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:15:34 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:15:34 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:15:34 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:15:34 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:15:34 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:15:34 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:15:35 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:15:35 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:15:35 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:15:35 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:15:35 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:15:35 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:15:35 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:15:35 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:15:35 - PyLongslit - WARNING - mkspecflat.py:498 - Number of flat frames (5) is less than 30. Error estimation might not be accurate.
+2025-02-25 14:15:35 - PyLongslit - WARNING - mkspecflat.py:501 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-25 14:15:35 - PyLongslit - INFO - mkspecflat.py:509 - Estimating the spectral response and normalizing...
+2025-02-25 14:15:36 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 14:15:36 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 14:15:36 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 14:15:36 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 14:15:46 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 14:15:46 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 14:15:46 - PyLongslit - INFO - mkspecflat.py:526 - Estimating the spacial response and normalizing...
+2025-02-25 14:16:48 - PyLongslit - INFO - mkspecflat.py:626 - Mean pixel value of the final master flat-field: 0.99809 +/- 0.0007064819509520662 (should be 1.0).
+2025-02-25 14:16:48 - PyLongslit - INFO - mkspecflat.py:639 - Attaching header and writing to disc...
+2025-02-25 14:17:02 - PyLongslit - INFO - utils.py:157 - Saving plot to /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out/master_flat.png
+2025-02-25 14:17:03 - PyLongslit - INFO - utils.py:56 - File written to /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out/master_flat.fits
+2025-02-25 14:19:13 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 14:19:13 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 14:19:13 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 14:19:13 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 14:19:13 - PyLongslit - INFO - mkspecflat.py:436 - Flat-field procedure running...
+2025-02-25 14:19:13 - PyLongslit - INFO - mkspecflat.py:437 - Using the following parameters:
+2025-02-25 14:19:13 - PyLongslit - INFO - mkspecflat.py:438 - xsize = 2073
+2025-02-25 14:19:13 - PyLongslit - INFO - mkspecflat.py:439 - ysize = 2056
+2025-02-25 14:19:13 - PyLongslit - INFO - mkspecflat.py:444 - Found 5 flat frames.
+2025-02-25 14:19:13 - PyLongslit - INFO - mkspecflat.py:445 - Files used for flat-fielding:
+2025-02-25 14:19:13 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 14:19:13 - PyLongslit - INFO - mkspecflat.py:455 - Fetching the master bias frame...
+2025-02-25 14:19:13 - PyLongslit - INFO - mkspecflat.py:460 - Master bias frame found and loaded.
+2025-02-25 14:19:13 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:19:13 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:19:13 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:19:13 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:19:13 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:19:13 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:19:13 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:19:13 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:19:13 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:19:13 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:19:13 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:19:13 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:19:13 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:19:13 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:19:13 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:19:14 - PyLongslit - WARNING - mkspecflat.py:498 - Number of flat frames (5) is less than 30. Error estimation might not be accurate.
+2025-02-25 14:19:14 - PyLongslit - WARNING - mkspecflat.py:501 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-25 14:19:14 - PyLongslit - INFO - mkspecflat.py:509 - Estimating the spectral response and normalizing...
+2025-02-25 14:19:14 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 14:19:14 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 14:19:14 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 14:19:14 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 14:19:20 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 14:19:20 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 14:19:20 - PyLongslit - INFO - mkspecflat.py:526 - Estimating the spacial response and normalizing...
+2025-02-25 14:20:29 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 14:20:29 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 14:20:29 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 14:20:29 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 14:20:29 - PyLongslit - INFO - mkspecflat.py:436 - Flat-field procedure running...
+2025-02-25 14:20:29 - PyLongslit - INFO - mkspecflat.py:437 - Using the following parameters:
+2025-02-25 14:20:29 - PyLongslit - INFO - mkspecflat.py:438 - xsize = 2073
+2025-02-25 14:20:29 - PyLongslit - INFO - mkspecflat.py:439 - ysize = 2056
+2025-02-25 14:20:29 - PyLongslit - INFO - mkspecflat.py:444 - Found 5 flat frames.
+2025-02-25 14:20:29 - PyLongslit - INFO - mkspecflat.py:445 - Files used for flat-fielding:
+2025-02-25 14:20:29 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 14:20:29 - PyLongslit - INFO - mkspecflat.py:455 - Fetching the master bias frame...
+2025-02-25 14:20:29 - PyLongslit - INFO - mkspecflat.py:460 - Master bias frame found and loaded.
+2025-02-25 14:20:29 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:20:29 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:20:29 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:20:29 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:20:29 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:20:29 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:20:29 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:20:29 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:20:29 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:20:29 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:20:29 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:20:29 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:20:29 - PyLongslit - INFO - mkspecflat.py:469 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 14:20:29 - PyLongslit - INFO - mkspecflat.py:481 - Subtracted the bias.
+2025-02-25 14:20:30 - PyLongslit - INFO - mkspecflat.py:489 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 14:20:30 - PyLongslit - WARNING - mkspecflat.py:498 - Number of flat frames (5) is less than 30. Error estimation might not be accurate.
+2025-02-25 14:20:30 - PyLongslit - WARNING - mkspecflat.py:501 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-25 14:20:30 - PyLongslit - INFO - mkspecflat.py:509 - Estimating the spectral response and normalizing...
+2025-02-25 14:20:31 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 14:20:31 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 14:20:31 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 14:20:31 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 14:20:38 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 14:20:38 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 14:20:38 - PyLongslit - INFO - mkspecflat.py:526 - Estimating the spacial response and normalizing...
+2025-02-25 19:39:40 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 19:39:40 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 19:39:40 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 19:39:40 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 19:39:40 - PyLongslit - INFO - mkspecflat.py:446 - Flat-field procedure running...
+2025-02-25 19:39:40 - PyLongslit - INFO - mkspecflat.py:447 - Using the following parameters:
+2025-02-25 19:39:40 - PyLongslit - INFO - mkspecflat.py:448 - xsize = 2073
+2025-02-25 19:39:40 - PyLongslit - INFO - mkspecflat.py:449 - ysize = 2056
+2025-02-25 19:39:40 - PyLongslit - INFO - mkspecflat.py:454 - Found 5 flat frames.
+2025-02-25 19:39:40 - PyLongslit - INFO - mkspecflat.py:455 - Files used for flat-fielding:
+2025-02-25 19:39:41 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 19:39:41 - PyLongslit - INFO - mkspecflat.py:465 - Fetching the master bias frame...
+2025-02-25 19:39:41 - PyLongslit - INFO - mkspecflat.py:470 - Master bias frame found and loaded.
+2025-02-25 19:39:41 - PyLongslit - INFO - mkspecflat.py:479 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 19:39:41 - PyLongslit - INFO - mkspecflat.py:491 - Subtracted the bias.
+2025-02-25 19:39:41 - PyLongslit - INFO - mkspecflat.py:499 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 19:39:41 - PyLongslit - INFO - mkspecflat.py:479 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 19:39:41 - PyLongslit - INFO - mkspecflat.py:491 - Subtracted the bias.
+2025-02-25 19:39:41 - PyLongslit - INFO - mkspecflat.py:499 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 19:39:41 - PyLongslit - INFO - mkspecflat.py:479 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 19:39:41 - PyLongslit - INFO - mkspecflat.py:491 - Subtracted the bias.
+2025-02-25 19:39:41 - PyLongslit - INFO - mkspecflat.py:499 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 19:39:41 - PyLongslit - INFO - mkspecflat.py:479 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 19:39:41 - PyLongslit - INFO - mkspecflat.py:491 - Subtracted the bias.
+2025-02-25 19:39:41 - PyLongslit - INFO - mkspecflat.py:499 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 19:39:41 - PyLongslit - INFO - mkspecflat.py:479 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 19:39:41 - PyLongslit - INFO - mkspecflat.py:491 - Subtracted the bias.
+2025-02-25 19:39:41 - PyLongslit - INFO - mkspecflat.py:499 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 19:39:41 - PyLongslit - WARNING - mkspecflat.py:508 - Number of flat frames (5) is less than 30. Error estimation might not be accurate.
+2025-02-25 19:39:41 - PyLongslit - WARNING - mkspecflat.py:511 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-25 19:39:41 - PyLongslit - INFO - mkspecflat.py:519 - Estimating the spectral response and normalizing...
+2025-02-25 19:39:42 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 19:39:42 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 19:39:42 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 19:39:42 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 19:39:53 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 19:39:53 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 19:39:53 - PyLongslit - INFO - mkspecflat.py:536 - Estimating the spacial response and normalizing...
+2025-02-25 19:40:38 - PyLongslit - INFO - mkspecflat.py:636 - Mean pixel value of the final master flat-field: 0.9989 +/- 0.0005981078930716452 (should be 1.0).
+2025-02-25 19:40:38 - PyLongslit - INFO - mkspecflat.py:649 - Attaching header and writing to disc...
+2025-02-25 19:40:40 - PyLongslit - INFO - utils.py:157 - Saving plot to /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out/master_flat.png
+2025-02-25 19:40:40 - PyLongslit - INFO - utils.py:56 - File written to /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out/master_flat.fits
+2025-02-25 19:40:44 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 19:40:44 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 19:40:44 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 19:40:44 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 19:40:44 - PyLongslit - INFO - mkspecflat.py:446 - Flat-field procedure running...
+2025-02-25 19:40:44 - PyLongslit - INFO - mkspecflat.py:447 - Using the following parameters:
+2025-02-25 19:40:44 - PyLongslit - INFO - mkspecflat.py:448 - xsize = 2073
+2025-02-25 19:40:44 - PyLongslit - INFO - mkspecflat.py:449 - ysize = 2056
+2025-02-25 19:40:44 - PyLongslit - INFO - mkspecflat.py:454 - Found 5 flat frames.
+2025-02-25 19:40:44 - PyLongslit - INFO - mkspecflat.py:455 - Files used for flat-fielding:
+2025-02-25 19:40:45 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 19:40:45 - PyLongslit - INFO - mkspecflat.py:465 - Fetching the master bias frame...
+2025-02-25 19:40:45 - PyLongslit - INFO - mkspecflat.py:470 - Master bias frame found and loaded.
+2025-02-25 19:40:45 - PyLongslit - INFO - mkspecflat.py:479 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 19:40:45 - PyLongslit - INFO - mkspecflat.py:491 - Subtracted the bias.
+2025-02-25 19:40:45 - PyLongslit - INFO - mkspecflat.py:499 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 19:40:45 - PyLongslit - INFO - mkspecflat.py:479 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 19:40:45 - PyLongslit - INFO - mkspecflat.py:491 - Subtracted the bias.
+2025-02-25 19:40:45 - PyLongslit - INFO - mkspecflat.py:499 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 19:40:45 - PyLongslit - INFO - mkspecflat.py:479 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 19:40:45 - PyLongslit - INFO - mkspecflat.py:491 - Subtracted the bias.
+2025-02-25 19:40:45 - PyLongslit - INFO - mkspecflat.py:499 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 19:40:45 - PyLongslit - INFO - mkspecflat.py:479 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 19:40:45 - PyLongslit - INFO - mkspecflat.py:491 - Subtracted the bias.
+2025-02-25 19:40:45 - PyLongslit - INFO - mkspecflat.py:499 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 19:40:45 - PyLongslit - INFO - mkspecflat.py:479 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 19:40:45 - PyLongslit - INFO - mkspecflat.py:491 - Subtracted the bias.
+2025-02-25 19:40:45 - PyLongslit - INFO - mkspecflat.py:499 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 19:40:45 - PyLongslit - WARNING - mkspecflat.py:508 - Number of flat frames (5) is less than 30. Error estimation might not be accurate.
+2025-02-25 19:40:45 - PyLongslit - WARNING - mkspecflat.py:511 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-25 19:40:45 - PyLongslit - INFO - mkspecflat.py:519 - Estimating the spectral response and normalizing...
+2025-02-25 19:40:46 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 19:40:46 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 19:40:46 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 19:40:46 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 19:40:52 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 19:40:52 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 19:40:52 - PyLongslit - INFO - mkspecflat.py:536 - Estimating the spacial response and normalizing...
+2025-02-25 19:41:36 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 19:41:36 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 19:41:36 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 19:41:36 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 19:41:36 - PyLongslit - INFO - mkspecflat.py:446 - Flat-field procedure running...
+2025-02-25 19:41:36 - PyLongslit - INFO - mkspecflat.py:447 - Using the following parameters:
+2025-02-25 19:41:36 - PyLongslit - INFO - mkspecflat.py:448 - xsize = 2073
+2025-02-25 19:41:36 - PyLongslit - INFO - mkspecflat.py:449 - ysize = 2056
+2025-02-25 19:41:36 - PyLongslit - INFO - mkspecflat.py:454 - Found 5 flat frames.
+2025-02-25 19:41:36 - PyLongslit - INFO - mkspecflat.py:455 - Files used for flat-fielding:
+2025-02-25 19:41:36 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 19:41:36 - PyLongslit - INFO - mkspecflat.py:465 - Fetching the master bias frame...
+2025-02-25 19:41:36 - PyLongslit - INFO - mkspecflat.py:470 - Master bias frame found and loaded.
+2025-02-25 19:41:36 - PyLongslit - INFO - mkspecflat.py:479 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 19:41:36 - PyLongslit - INFO - mkspecflat.py:491 - Subtracted the bias.
+2025-02-25 19:41:36 - PyLongslit - INFO - mkspecflat.py:499 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 19:41:36 - PyLongslit - INFO - mkspecflat.py:479 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 19:41:36 - PyLongslit - INFO - mkspecflat.py:491 - Subtracted the bias.
+2025-02-25 19:41:37 - PyLongslit - INFO - mkspecflat.py:499 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 19:41:37 - PyLongslit - INFO - mkspecflat.py:479 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 19:41:37 - PyLongslit - INFO - mkspecflat.py:491 - Subtracted the bias.
+2025-02-25 19:41:37 - PyLongslit - INFO - mkspecflat.py:499 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 19:41:37 - PyLongslit - INFO - mkspecflat.py:479 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 19:41:37 - PyLongslit - INFO - mkspecflat.py:491 - Subtracted the bias.
+2025-02-25 19:41:37 - PyLongslit - INFO - mkspecflat.py:499 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 19:41:37 - PyLongslit - INFO - mkspecflat.py:479 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 19:41:37 - PyLongslit - INFO - mkspecflat.py:491 - Subtracted the bias.
+2025-02-25 19:41:37 - PyLongslit - INFO - mkspecflat.py:499 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 19:41:37 - PyLongslit - WARNING - mkspecflat.py:508 - Number of flat frames (5) is less than 30. Error estimation might not be accurate.
+2025-02-25 19:41:37 - PyLongslit - WARNING - mkspecflat.py:511 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-25 19:41:37 - PyLongslit - INFO - mkspecflat.py:519 - Estimating the spectral response and normalizing...
+2025-02-25 19:41:38 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 19:41:38 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 19:41:38 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 19:41:38 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 19:42:07 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 19:42:07 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 19:42:07 - PyLongslit - INFO - mkspecflat.py:536 - Estimating the spacial response and normalizing...
+2025-02-25 19:42:55 - PyLongslit - INFO - mkspecflat.py:636 - Mean pixel value of the final master flat-field: 0.99938 +/- 0.0005213295695038198 (should be 1.0).
+2025-02-25 19:42:55 - PyLongslit - INFO - mkspecflat.py:649 - Attaching header and writing to disc...
+2025-02-25 19:42:57 - PyLongslit - INFO - utils.py:157 - Saving plot to /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out/master_flat.png
+2025-02-25 19:42:57 - PyLongslit - INFO - utils.py:56 - File written to /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out/master_flat.fits
+2025-02-25 19:43:01 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 19:43:01 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 19:43:01 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 19:43:01 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 19:43:01 - PyLongslit - INFO - mkspecflat.py:446 - Flat-field procedure running...
+2025-02-25 19:43:01 - PyLongslit - INFO - mkspecflat.py:447 - Using the following parameters:
+2025-02-25 19:43:01 - PyLongslit - INFO - mkspecflat.py:448 - xsize = 2073
+2025-02-25 19:43:01 - PyLongslit - INFO - mkspecflat.py:449 - ysize = 2056
+2025-02-25 19:43:01 - PyLongslit - INFO - mkspecflat.py:454 - Found 5 flat frames.
+2025-02-25 19:43:01 - PyLongslit - INFO - mkspecflat.py:455 - Files used for flat-fielding:
+2025-02-25 19:43:02 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 19:43:02 - PyLongslit - INFO - mkspecflat.py:465 - Fetching the master bias frame...
+2025-02-25 19:43:02 - PyLongslit - INFO - mkspecflat.py:470 - Master bias frame found and loaded.
+2025-02-25 19:43:02 - PyLongslit - INFO - mkspecflat.py:479 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 19:43:02 - PyLongslit - INFO - mkspecflat.py:491 - Subtracted the bias.
+2025-02-25 19:43:02 - PyLongslit - INFO - mkspecflat.py:499 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 19:43:02 - PyLongslit - INFO - mkspecflat.py:479 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 19:43:02 - PyLongslit - INFO - mkspecflat.py:491 - Subtracted the bias.
+2025-02-25 19:43:02 - PyLongslit - INFO - mkspecflat.py:499 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 19:43:02 - PyLongslit - INFO - mkspecflat.py:479 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 19:43:02 - PyLongslit - INFO - mkspecflat.py:491 - Subtracted the bias.
+2025-02-25 19:43:02 - PyLongslit - INFO - mkspecflat.py:499 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 19:43:02 - PyLongslit - INFO - mkspecflat.py:479 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 19:43:02 - PyLongslit - INFO - mkspecflat.py:491 - Subtracted the bias.
+2025-02-25 19:43:02 - PyLongslit - INFO - mkspecflat.py:499 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 19:43:02 - PyLongslit - INFO - mkspecflat.py:479 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 19:43:02 - PyLongslit - INFO - mkspecflat.py:491 - Subtracted the bias.
+2025-02-25 19:43:02 - PyLongslit - INFO - mkspecflat.py:499 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 19:43:02 - PyLongslit - WARNING - mkspecflat.py:508 - Number of flat frames (5) is less than 30. Error estimation might not be accurate.
+2025-02-25 19:43:02 - PyLongslit - WARNING - mkspecflat.py:511 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-25 19:43:02 - PyLongslit - INFO - mkspecflat.py:519 - Estimating the spectral response and normalizing...
+2025-02-25 19:43:03 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 19:43:03 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 19:43:03 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 19:43:03 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 19:43:11 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 19:43:11 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 19:43:11 - PyLongslit - INFO - mkspecflat.py:536 - Estimating the spacial response and normalizing...
+2025-02-25 19:44:22 - PyLongslit - INFO - mkspecflat.py:636 - Mean pixel value of the final master flat-field: 0.99866 +/- 0.0005487225528912945 (should be 1.0).
+2025-02-25 19:44:22 - PyLongslit - INFO - mkspecflat.py:649 - Attaching header and writing to disc...
+2025-02-25 19:44:24 - PyLongslit - INFO - utils.py:157 - Saving plot to /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out/master_flat.png
+2025-02-25 19:44:24 - PyLongslit - INFO - utils.py:56 - File written to /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out/master_flat.fits
+2025-02-25 19:44:31 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 19:44:31 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 19:44:31 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 19:44:31 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 19:44:31 - PyLongslit - INFO - mkspecflat.py:446 - Flat-field procedure running...
+2025-02-25 19:44:31 - PyLongslit - INFO - mkspecflat.py:447 - Using the following parameters:
+2025-02-25 19:44:31 - PyLongslit - INFO - mkspecflat.py:448 - xsize = 2073
+2025-02-25 19:44:31 - PyLongslit - INFO - mkspecflat.py:449 - ysize = 2056
+2025-02-25 19:44:31 - PyLongslit - INFO - mkspecflat.py:454 - Found 5 flat frames.
+2025-02-25 19:44:31 - PyLongslit - INFO - mkspecflat.py:455 - Files used for flat-fielding:
+2025-02-25 19:44:31 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 19:44:31 - PyLongslit - INFO - mkspecflat.py:465 - Fetching the master bias frame...
+2025-02-25 19:44:32 - PyLongslit - INFO - mkspecflat.py:470 - Master bias frame found and loaded.
+2025-02-25 19:44:32 - PyLongslit - INFO - mkspecflat.py:479 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 19:44:32 - PyLongslit - INFO - mkspecflat.py:491 - Subtracted the bias.
+2025-02-25 19:44:32 - PyLongslit - INFO - mkspecflat.py:499 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 19:44:32 - PyLongslit - INFO - mkspecflat.py:479 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 19:44:32 - PyLongslit - INFO - mkspecflat.py:491 - Subtracted the bias.
+2025-02-25 19:44:32 - PyLongslit - INFO - mkspecflat.py:499 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 19:44:32 - PyLongslit - INFO - mkspecflat.py:479 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 19:44:32 - PyLongslit - INFO - mkspecflat.py:491 - Subtracted the bias.
+2025-02-25 19:44:32 - PyLongslit - INFO - mkspecflat.py:499 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 19:44:32 - PyLongslit - INFO - mkspecflat.py:479 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 19:44:32 - PyLongslit - INFO - mkspecflat.py:491 - Subtracted the bias.
+2025-02-25 19:44:32 - PyLongslit - INFO - mkspecflat.py:499 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 19:44:32 - PyLongslit - INFO - mkspecflat.py:479 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 19:44:32 - PyLongslit - INFO - mkspecflat.py:491 - Subtracted the bias.
+2025-02-25 19:44:32 - PyLongslit - INFO - mkspecflat.py:499 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 19:44:32 - PyLongslit - WARNING - mkspecflat.py:508 - Number of flat frames (5) is less than 30. Error estimation might not be accurate.
+2025-02-25 19:44:32 - PyLongslit - WARNING - mkspecflat.py:511 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-25 19:44:32 - PyLongslit - INFO - mkspecflat.py:519 - Estimating the spectral response and normalizing...
+2025-02-25 19:44:33 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 19:44:33 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 19:44:33 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 19:44:33 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 19:44:40 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 19:44:40 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 19:44:40 - PyLongslit - INFO - mkspecflat.py:536 - Estimating the spacial response and normalizing...
+2025-02-25 19:46:37 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832.log.
+2025-02-25 19:46:37 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-25 19:46:37 - PyLongslit - INFO - parser.py:62 - User parameters loaded successfully.
+2025-02-25 19:46:37 - PyLongslit - INFO - parser.py:73 - Output directory /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out found.
+2025-02-25 19:46:37 - PyLongslit - INFO - mkspecflat.py:446 - Flat-field procedure running...
+2025-02-25 19:46:37 - PyLongslit - INFO - mkspecflat.py:447 - Using the following parameters:
+2025-02-25 19:46:37 - PyLongslit - INFO - mkspecflat.py:448 - xsize = 2073
+2025-02-25 19:46:37 - PyLongslit - INFO - mkspecflat.py:449 - ysize = 2056
+2025-02-25 19:46:37 - PyLongslit - INFO - mkspecflat.py:454 - Found 5 flat frames.
+2025-02-25 19:46:37 - PyLongslit - INFO - mkspecflat.py:455 - Files used for flat-fielding:
+2025-02-25 19:46:37 - PyLongslit - INFO - utils.py:396 - All files have the correct dimensions.
+2025-02-25 19:46:37 - PyLongslit - INFO - mkspecflat.py:465 - Fetching the master bias frame...
+2025-02-25 19:46:37 - PyLongslit - INFO - mkspecflat.py:470 - Master bias frame found and loaded.
+2025-02-25 19:46:37 - PyLongslit - INFO - mkspecflat.py:479 - Processing file: 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 19:46:37 - PyLongslit - INFO - mkspecflat.py:491 - Subtracted the bias.
+2025-02-25 19:46:37 - PyLongslit - INFO - mkspecflat.py:499 - File 0003881853-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 19:46:37 - PyLongslit - INFO - mkspecflat.py:479 - Processing file: 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 19:46:37 - PyLongslit - INFO - mkspecflat.py:491 - Subtracted the bias.
+2025-02-25 19:46:37 - PyLongslit - INFO - mkspecflat.py:499 - File 0003881854-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 19:46:37 - PyLongslit - INFO - mkspecflat.py:479 - Processing file: 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 19:46:37 - PyLongslit - INFO - mkspecflat.py:491 - Subtracted the bias.
+2025-02-25 19:46:37 - PyLongslit - INFO - mkspecflat.py:499 - File 0003881855-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 19:46:37 - PyLongslit - INFO - mkspecflat.py:479 - Processing file: 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 19:46:37 - PyLongslit - INFO - mkspecflat.py:491 - Subtracted the bias.
+2025-02-25 19:46:37 - PyLongslit - INFO - mkspecflat.py:499 - File 0003881856-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 19:46:37 - PyLongslit - INFO - mkspecflat.py:479 - Processing file: 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits
+2025-02-25 19:46:37 - PyLongslit - INFO - mkspecflat.py:491 - Subtracted the bias.
+2025-02-25 19:46:37 - PyLongslit - INFO - mkspecflat.py:499 - File 0003881857-20230707-OSIRIS-OsirisSpectralFlat.fits processed.
+
+2025-02-25 19:46:38 - PyLongslit - WARNING - mkspecflat.py:508 - Number of flat frames (5) is less than 30. Error estimation might not be accurate.
+2025-02-25 19:46:38 - PyLongslit - WARNING - mkspecflat.py:511 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-25 19:46:38 - PyLongslit - INFO - mkspecflat.py:519 - Estimating the spectral response and normalizing...
+2025-02-25 19:46:39 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-25 19:46:39 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-25 19:46:39 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-25 19:46:39 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-25 19:46:46 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 19:46:46 - PyLongslit - INFO - utils.py:595 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-25 19:46:46 - PyLongslit - INFO - mkspecflat.py:536 - Estimating the spacial response and normalizing...
+2025-02-25 19:48:17 - PyLongslit - INFO - mkspecflat.py:636 - Mean pixel value of the final master flat-field: 0.99781 +/- 0.0007312238892785664 (should be 1.0).
+2025-02-25 19:48:17 - PyLongslit - INFO - mkspecflat.py:649 - Attaching header and writing to disc...
+2025-02-25 19:48:42 - PyLongslit - INFO - utils.py:157 - Saving plot to /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out/master_flat.png
+2025-02-25 19:48:43 - PyLongslit - INFO - utils.py:56 - File written to /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/out/master_flat.fits

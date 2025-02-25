@@ -34,8 +34,12 @@
 
     "flat": {
         "flat_dir": "/home/kostas/Documents/PyLongslit_dev/GQ1218+0832/flat",
-        "bootstrap_errors": true,
-        "skip_spacial": false
+        "bootstrap_errors": false,
+        "skip_spacial": false,
+        "knots_spectral_bspline": 70,
+        "degree_spectral_bspline": 3,
+        "knots_spacial_bspline": 20,
+        "degree_spacial_bspline": 3
     },
 
     "output": {
