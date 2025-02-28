@@ -39,7 +39,8 @@
         "knots_spectral_bspline": 70,
         "degree_spectral_bspline": 3,
         "knots_spacial_bspline": 20,
-        "degree_spacial_bspline": 3
+        "degree_spacial_bspline": 3,
+        "R2_spacial_bspline": 0.65
     },
 
     "output": {

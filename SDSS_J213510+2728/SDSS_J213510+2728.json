@@ -13,12 +13,12 @@
         },
         "gain": 0.16,
         "read_out_noise": 4.3,
-        "dark_current": 1.0,
+        "dark_current": 0,
         "overscan" : {
             "use_overscan": true,
             "overscan_x_start": 0,
             "overscan_x_end": 499,
-            "overscan_y_start": 2065,
+            "overscan_y_start": 2064,
             "overscan_y_end": 2102
         }
     },
@@ -40,7 +40,8 @@
         "knots_spectral_bspline": 70,
         "degree_spectral_bspline": 3,
         "knots_spacial_bspline": 4,
-        "degree_spacial_bspline": 3
+        "degree_spacial_bspline": 3,
+        "R2_spacial_bspline": 0.4
 
     },
 
