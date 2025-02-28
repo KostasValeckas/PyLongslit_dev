@@ -1,0 +1,5 @@
+2025-02-28 14:04:59 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/GQ1218+0832/GQ1218+0832..log.
+2025-02-28 14:04:59 - PyLongslit - ERROR - parser.py:18 - Config file not found.
+2025-02-28 14:04:59 - PyLongslit - ERROR - parser.py:19 - Make sure a config file exists. 
+See the docs at:
+https://kostasvaleckas.github.io/PyLongslit/

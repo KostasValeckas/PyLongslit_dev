@@ -141,6 +141,11 @@
 
     "combine": {
         "SDSS_J213510+2728": ["ALHh080251.fits", "ALHh080252.fits"]
-    }
+    },
 
+    "developer": {
+        "debug_plots": false,
+        "verbose_print": false  
+
+    }
 }

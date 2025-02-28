@@ -40,7 +40,7 @@
         "degree_spectral_bspline": 3,
         "knots_spacial_bspline": 20,
         "degree_spacial_bspline": 3,
-        "R2_spacial_bspline": 0.65
+        "R2_spacial_bspline": 0.5
     },
 
     "output": {
@@ -145,5 +145,12 @@
         "GQ1218+0832": 
             ["0003881272-20230707-OSIRIS-OsirisLongSlitSpectroscopy.fits",
              "0003881273-20230707-OSIRIS-OsirisLongSlitSpectroscopy.fits"]
+    },
+
+    "developer": {
+        "debug_plots": false,
+        "verbose_print": false  
+
     }
 }
+

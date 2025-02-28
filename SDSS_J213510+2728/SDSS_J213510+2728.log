@@ -39281,3 +39281,2223 @@ https://kostasvaleckas.github.io/PyLongslit/
 2025-02-28 11:41:16 - PyLongslit - INFO - mkspecflat.py:766 - Mean pixel value of the final master flat-field: 1.00041 +/- 0.0003460559020053397 (should be 1.0).
 2025-02-28 11:41:16 - PyLongslit - INFO - mkspecflat.py:779 - Attaching header and writing to disc...
 2025-02-28 11:41:56 - PyLongslit - INFO - utils.py:56 - File written to /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/output/master_flat.fits
+2025-02-28 13:00:54 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/SDSS_J213510+2728.log.
+2025-02-28 13:00:54 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-28 13:01:17 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/SDSS_J213510+2728.log.
+2025-02-28 13:01:17 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-28 13:01:17 - PyLongslit - INFO - parser.py:63 - User parameters loaded successfully.
+2025-02-28 13:01:17 - PyLongslit - INFO - parser.py:74 - Output directory /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/output found.
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:571 - Flat-field procedure running...
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:572 - Using the following parameters:
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:573 - xsize = 500
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:574 - ysize = 2102
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:579 - Found 26 flat frames.
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:580 - Files used for flat-fielding:
+2025-02-28 13:01:18 - PyLongslit - INFO - utils.py:397 - All files have the correct dimensions.
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:590 - Fetching the master bias frame...
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:595 - Master bias frame found and loaded.
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh050135.fits
+2025-02-28 13:01:18 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh050135.fits processed.
+
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh050143.fits
+2025-02-28 13:01:18 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh050143.fits processed.
+
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh050199.fits
+2025-02-28 13:01:18 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh050199.fits processed.
+
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh050282.fits
+2025-02-28 13:01:18 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh050282.fits processed.
+
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh050283.fits
+2025-02-28 13:01:18 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh050283.fits processed.
+
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh050284.fits
+2025-02-28 13:01:18 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh050284.fits processed.
+
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh050285.fits
+2025-02-28 13:01:18 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh050285.fits processed.
+
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh050286.fits
+2025-02-28 13:01:18 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh050286.fits processed.
+
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh080254.fits
+2025-02-28 13:01:18 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh080254.fits processed.
+
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh080262.fits
+2025-02-28 13:01:18 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh080262.fits processed.
+
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh080277.fits
+2025-02-28 13:01:18 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh080277.fits processed.
+
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh080396.fits
+2025-02-28 13:01:18 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh080396.fits processed.
+
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh080397.fits
+2025-02-28 13:01:18 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh080397.fits processed.
+
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh080398.fits
+2025-02-28 13:01:18 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh080398.fits processed.
+
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh080399.fits
+2025-02-28 13:01:18 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh080399.fits processed.
+
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh080400.fits
+2025-02-28 13:01:18 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh080400.fits processed.
+
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh090206.fits
+2025-02-28 13:01:18 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh090206.fits processed.
+
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh090214.fits
+2025-02-28 13:01:18 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:18 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:19 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh090214.fits processed.
+
+2025-02-28 13:01:19 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh090222.fits
+2025-02-28 13:01:19 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:19 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:19 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh090222.fits processed.
+
+2025-02-28 13:01:19 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh090234.fits
+2025-02-28 13:01:19 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:19 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:19 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh090234.fits processed.
+
+2025-02-28 13:01:19 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh090245.fits
+2025-02-28 13:01:19 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:19 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:19 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh090245.fits processed.
+
+2025-02-28 13:01:19 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh090403.fits
+2025-02-28 13:01:19 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:19 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:19 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh090403.fits processed.
+
+2025-02-28 13:01:19 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh090404.fits
+2025-02-28 13:01:19 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:19 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:19 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh090404.fits processed.
+
+2025-02-28 13:01:19 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh090405.fits
+2025-02-28 13:01:19 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:19 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:19 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh090405.fits processed.
+
+2025-02-28 13:01:19 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh090406.fits
+2025-02-28 13:01:19 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:19 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:19 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh090406.fits processed.
+
+2025-02-28 13:01:19 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh090407.fits
+2025-02-28 13:01:19 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:19 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:19 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh090407.fits processed.
+
+2025-02-28 13:01:20 - PyLongslit - WARNING - mkspecflat.py:633 - Number of flat frames (26) is less than 30. Error estimation might not be accurate.
+2025-02-28 13:01:20 - PyLongslit - WARNING - mkspecflat.py:636 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-28 13:01:22 - PyLongslit - INFO - mkspecflat.py:649 - Estimating the spectral response and normalizing...
+2025-02-28 13:01:23 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-28 13:01:23 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-28 13:01:23 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-28 13:01:23 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-28 13:01:28 - PyLongslit - INFO - utils.py:600 - Rotating image to make x the spectral direction...
+2025-02-28 13:01:28 - PyLongslit - INFO - utils.py:604 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-28 13:01:28 - PyLongslit - INFO - utils.py:600 - Rotating image to make x the spectral direction...
+2025-02-28 13:01:28 - PyLongslit - INFO - utils.py:604 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-28 13:01:30 - PyLongslit - INFO - mkspecflat.py:690 - Estimating the spacial response and normalizing...
+2025-02-28 13:01:57 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/SDSS_J213510+2728.log.
+2025-02-28 13:01:57 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-28 13:01:57 - PyLongslit - INFO - parser.py:63 - User parameters loaded successfully.
+2025-02-28 13:01:57 - PyLongslit - INFO - parser.py:74 - Output directory /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/output found.
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:571 - Flat-field procedure running...
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:572 - Using the following parameters:
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:573 - xsize = 500
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:574 - ysize = 2102
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:579 - Found 26 flat frames.
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:580 - Files used for flat-fielding:
+2025-02-28 13:01:58 - PyLongslit - INFO - utils.py:397 - All files have the correct dimensions.
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:590 - Fetching the master bias frame...
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:595 - Master bias frame found and loaded.
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh050135.fits
+2025-02-28 13:01:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh050135.fits processed.
+
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh050143.fits
+2025-02-28 13:01:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh050143.fits processed.
+
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh050199.fits
+2025-02-28 13:01:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh050199.fits processed.
+
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh050282.fits
+2025-02-28 13:01:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh050282.fits processed.
+
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh050283.fits
+2025-02-28 13:01:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh050283.fits processed.
+
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh050284.fits
+2025-02-28 13:01:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh050284.fits processed.
+
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh050285.fits
+2025-02-28 13:01:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh050285.fits processed.
+
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh050286.fits
+2025-02-28 13:01:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh050286.fits processed.
+
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh080254.fits
+2025-02-28 13:01:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh080254.fits processed.
+
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh080262.fits
+2025-02-28 13:01:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh080262.fits processed.
+
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh080277.fits
+2025-02-28 13:01:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh080277.fits processed.
+
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh080396.fits
+2025-02-28 13:01:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh080396.fits processed.
+
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh080397.fits
+2025-02-28 13:01:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh080397.fits processed.
+
+2025-02-28 13:01:58 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh080398.fits
+2025-02-28 13:01:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh080398.fits processed.
+
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh080399.fits
+2025-02-28 13:01:59 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh080399.fits processed.
+
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh080400.fits
+2025-02-28 13:01:59 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh080400.fits processed.
+
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh090206.fits
+2025-02-28 13:01:59 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh090206.fits processed.
+
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh090214.fits
+2025-02-28 13:01:59 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh090214.fits processed.
+
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh090222.fits
+2025-02-28 13:01:59 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh090222.fits processed.
+
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh090234.fits
+2025-02-28 13:01:59 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh090234.fits processed.
+
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh090245.fits
+2025-02-28 13:01:59 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh090245.fits processed.
+
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh090403.fits
+2025-02-28 13:01:59 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh090403.fits processed.
+
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh090404.fits
+2025-02-28 13:01:59 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh090404.fits processed.
+
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh090405.fits
+2025-02-28 13:01:59 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh090405.fits processed.
+
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh090406.fits
+2025-02-28 13:01:59 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh090406.fits processed.
+
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:604 - Processing file: ALHh090407.fits
+2025-02-28 13:01:59 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:616 - Subtracted the bias.
+2025-02-28 13:01:59 - PyLongslit - INFO - mkspecflat.py:624 - File ALHh090407.fits processed.
+
+2025-02-28 13:02:00 - PyLongslit - WARNING - mkspecflat.py:633 - Number of flat frames (26) is less than 30. Error estimation might not be accurate.
+2025-02-28 13:02:00 - PyLongslit - WARNING - mkspecflat.py:636 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-28 13:02:01 - PyLongslit - INFO - mkspecflat.py:649 - Estimating the spectral response and normalizing...
+2025-02-28 13:02:02 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-28 13:02:02 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-28 13:02:02 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-28 13:02:02 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-28 13:02:08 - PyLongslit - INFO - utils.py:600 - Rotating image to make x the spectral direction...
+2025-02-28 13:02:08 - PyLongslit - INFO - utils.py:604 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-28 13:02:08 - PyLongslit - INFO - utils.py:600 - Rotating image to make x the spectral direction...
+2025-02-28 13:02:08 - PyLongslit - INFO - utils.py:604 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-28 13:02:09 - PyLongslit - INFO - mkspecflat.py:690 - Estimating the spacial response and normalizing...
+2025-02-28 13:02:52 - PyLongslit - WARNING - mkspecflat.py:432 - Number of fits with R2 < 0.4: 81 out of total 2102 fits. A handfull is expected
+2025-02-28 13:02:52 - PyLongslit - WARNING - mkspecflat.py:433 - If a substantial amount of fits are bad, revise the spacial flat parameters in the config. file.
+2025-02-28 13:02:52 - PyLongslit - WARNING - mkspecflat.py:434 - Bad spacial indices: [   4.   11.   19.   35.   42.   43.   50.   51.   66.   74.  119.  159.
+  160.  161.  180.  181.  182.  315.  356.  505.  556.  734. 1009. 1439.
+ 1442. 1444. 1446. 1449. 1451. 1452. 1454. 1455. 1456. 1457. 1471. 1501.
+ 2057. 2058. 2059. 2060. 2061. 2062. 2063. 2064. 2065. 2066. 2067. 2068.
+ 2069. 2070. 2071. 2072. 2073. 2074. 2075. 2076. 2077. 2078. 2079. 2080.
+ 2081. 2082. 2083. 2084. 2085. 2086. 2087. 2088. 2089. 2090. 2091. 2092.
+ 2093. 2094. 2095. 2096. 2097. 2098. 2099. 2100. 2101.]
+2025-02-28 13:02:52 - PyLongslit - WARNING - mkspecflat.py:435 - These will be interpolated
+2025-02-28 13:03:58 - PyLongslit - INFO - mkspecflat.py:799 - Mean pixel value of the final master flat-field: 1.0002 +/- 0.0003390286471179042 (should be 1.0).
+2025-02-28 13:03:58 - PyLongslit - INFO - mkspecflat.py:812 - Attaching header and writing to disc...
+2025-02-28 13:04:04 - PyLongslit - INFO - utils.py:56 - File written to /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/output/master_flat.fits
+2025-02-28 13:26:15 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/SDSS_J213510+2728.log.
+2025-02-28 13:26:15 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-28 13:26:15 - PyLongslit - INFO - parser.py:63 - User parameters loaded successfully.
+2025-02-28 13:26:15 - PyLongslit - INFO - parser.py:74 - Output directory /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/output found.
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:570 - Flat-field procedure running...
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:571 - Using the following parameters:
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:572 - xsize = 500
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:573 - ysize = 2102
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:578 - Found 26 flat frames.
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:579 - Files used for flat-fielding:
+2025-02-28 13:26:15 - PyLongslit - INFO - utils.py:397 - All files have the correct dimensions.
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:589 - Fetching the master bias frame...
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:594 - Master bias frame found and loaded.
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:603 - Processing file: ALHh050135.fits
+2025-02-28 13:26:15 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:615 - Subtracted the bias.
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:623 - File ALHh050135.fits processed.
+
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:603 - Processing file: ALHh050143.fits
+2025-02-28 13:26:15 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:615 - Subtracted the bias.
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:623 - File ALHh050143.fits processed.
+
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:603 - Processing file: ALHh050199.fits
+2025-02-28 13:26:15 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:615 - Subtracted the bias.
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:623 - File ALHh050199.fits processed.
+
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:603 - Processing file: ALHh050282.fits
+2025-02-28 13:26:15 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:615 - Subtracted the bias.
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:623 - File ALHh050282.fits processed.
+
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:603 - Processing file: ALHh050283.fits
+2025-02-28 13:26:15 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:615 - Subtracted the bias.
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:623 - File ALHh050283.fits processed.
+
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:603 - Processing file: ALHh050284.fits
+2025-02-28 13:26:15 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:615 - Subtracted the bias.
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:623 - File ALHh050284.fits processed.
+
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:603 - Processing file: ALHh050285.fits
+2025-02-28 13:26:15 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:615 - Subtracted the bias.
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:623 - File ALHh050285.fits processed.
+
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:603 - Processing file: ALHh050286.fits
+2025-02-28 13:26:15 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:615 - Subtracted the bias.
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:623 - File ALHh050286.fits processed.
+
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:603 - Processing file: ALHh080254.fits
+2025-02-28 13:26:15 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:615 - Subtracted the bias.
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:623 - File ALHh080254.fits processed.
+
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:603 - Processing file: ALHh080262.fits
+2025-02-28 13:26:15 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:615 - Subtracted the bias.
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:623 - File ALHh080262.fits processed.
+
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:603 - Processing file: ALHh080277.fits
+2025-02-28 13:26:15 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:615 - Subtracted the bias.
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:623 - File ALHh080277.fits processed.
+
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:603 - Processing file: ALHh080396.fits
+2025-02-28 13:26:15 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:615 - Subtracted the bias.
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:623 - File ALHh080396.fits processed.
+
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:603 - Processing file: ALHh080397.fits
+2025-02-28 13:26:15 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:615 - Subtracted the bias.
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:623 - File ALHh080397.fits processed.
+
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:603 - Processing file: ALHh080398.fits
+2025-02-28 13:26:15 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:615 - Subtracted the bias.
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:623 - File ALHh080398.fits processed.
+
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:603 - Processing file: ALHh080399.fits
+2025-02-28 13:26:15 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:615 - Subtracted the bias.
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:623 - File ALHh080399.fits processed.
+
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:603 - Processing file: ALHh080400.fits
+2025-02-28 13:26:15 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:615 - Subtracted the bias.
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:623 - File ALHh080400.fits processed.
+
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:603 - Processing file: ALHh090206.fits
+2025-02-28 13:26:15 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:615 - Subtracted the bias.
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:623 - File ALHh090206.fits processed.
+
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:603 - Processing file: ALHh090214.fits
+2025-02-28 13:26:15 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:615 - Subtracted the bias.
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:623 - File ALHh090214.fits processed.
+
+2025-02-28 13:26:15 - PyLongslit - INFO - mkspecflat.py:603 - Processing file: ALHh090222.fits
+2025-02-28 13:26:16 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:26:16 - PyLongslit - INFO - mkspecflat.py:615 - Subtracted the bias.
+2025-02-28 13:26:16 - PyLongslit - INFO - mkspecflat.py:623 - File ALHh090222.fits processed.
+
+2025-02-28 13:26:16 - PyLongslit - INFO - mkspecflat.py:603 - Processing file: ALHh090234.fits
+2025-02-28 13:26:16 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:26:16 - PyLongslit - INFO - mkspecflat.py:615 - Subtracted the bias.
+2025-02-28 13:26:16 - PyLongslit - INFO - mkspecflat.py:623 - File ALHh090234.fits processed.
+
+2025-02-28 13:26:16 - PyLongslit - INFO - mkspecflat.py:603 - Processing file: ALHh090245.fits
+2025-02-28 13:26:16 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:26:16 - PyLongslit - INFO - mkspecflat.py:615 - Subtracted the bias.
+2025-02-28 13:26:16 - PyLongslit - INFO - mkspecflat.py:623 - File ALHh090245.fits processed.
+
+2025-02-28 13:26:16 - PyLongslit - INFO - mkspecflat.py:603 - Processing file: ALHh090403.fits
+2025-02-28 13:26:16 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:26:16 - PyLongslit - INFO - mkspecflat.py:615 - Subtracted the bias.
+2025-02-28 13:26:16 - PyLongslit - INFO - mkspecflat.py:623 - File ALHh090403.fits processed.
+
+2025-02-28 13:26:16 - PyLongslit - INFO - mkspecflat.py:603 - Processing file: ALHh090404.fits
+2025-02-28 13:26:16 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:26:16 - PyLongslit - INFO - mkspecflat.py:615 - Subtracted the bias.
+2025-02-28 13:26:16 - PyLongslit - INFO - mkspecflat.py:623 - File ALHh090404.fits processed.
+
+2025-02-28 13:26:16 - PyLongslit - INFO - mkspecflat.py:603 - Processing file: ALHh090405.fits
+2025-02-28 13:26:16 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:26:16 - PyLongslit - INFO - mkspecflat.py:615 - Subtracted the bias.
+2025-02-28 13:26:16 - PyLongslit - INFO - mkspecflat.py:623 - File ALHh090405.fits processed.
+
+2025-02-28 13:26:16 - PyLongslit - INFO - mkspecflat.py:603 - Processing file: ALHh090406.fits
+2025-02-28 13:26:16 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:26:16 - PyLongslit - INFO - mkspecflat.py:615 - Subtracted the bias.
+2025-02-28 13:26:16 - PyLongslit - INFO - mkspecflat.py:623 - File ALHh090406.fits processed.
+
+2025-02-28 13:26:16 - PyLongslit - INFO - mkspecflat.py:603 - Processing file: ALHh090407.fits
+2025-02-28 13:26:16 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:26:16 - PyLongslit - INFO - mkspecflat.py:615 - Subtracted the bias.
+2025-02-28 13:26:16 - PyLongslit - INFO - mkspecflat.py:623 - File ALHh090407.fits processed.
+
+2025-02-28 13:26:16 - PyLongslit - WARNING - mkspecflat.py:632 - Number of flat frames (26) is less than 30. Error estimation might not be accurate.
+2025-02-28 13:26:16 - PyLongslit - WARNING - mkspecflat.py:635 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-28 13:26:17 - PyLongslit - INFO - mkspecflat.py:648 - Estimating the spectral response and normalizing...
+2025-02-28 13:26:17 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-28 13:26:17 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-28 13:26:17 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-28 13:26:17 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-28 13:26:23 - PyLongslit - INFO - utils.py:600 - Rotating image to make x the spectral direction...
+2025-02-28 13:26:23 - PyLongslit - INFO - utils.py:604 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-28 13:26:23 - PyLongslit - INFO - utils.py:600 - Rotating image to make x the spectral direction...
+2025-02-28 13:26:23 - PyLongslit - INFO - utils.py:604 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-28 13:26:23 - PyLongslit - INFO - mkspecflat.py:689 - Estimating the spacial response and normalizing...
+2025-02-28 13:26:29 - PyLongslit - WARNING - mkspecflat.py:432 - Number of fits with R2 < 0.4: 77 out of total 2102 fits. A handfull is expected
+2025-02-28 13:26:29 - PyLongslit - WARNING - mkspecflat.py:433 - If a substantial amount of fits are bad, revise the spacial flat parameters in the config. file.
+2025-02-28 13:26:29 - PyLongslit - WARNING - mkspecflat.py:434 - Bad spacial indices: [   4.   11.   19.   35.   42.   43.   50.   51.   66.   74.  119.  159.
+  160.  161.  180.  181.  182.  315.  356.  505.  556.  734. 1009. 1439.
+ 1442. 1444. 1446. 1449. 1451. 1452. 1454. 1455. 1456. 1457. 1471. 1501.
+ 2061. 2062. 2063. 2064. 2065. 2066. 2067. 2068. 2069. 2070. 2071. 2072.
+ 2073. 2074. 2075. 2076. 2077. 2078. 2079. 2080. 2081. 2082. 2083. 2084.
+ 2085. 2086. 2087. 2088. 2089. 2090. 2091. 2092. 2093. 2094. 2095. 2096.
+ 2097. 2098. 2099. 2100. 2101.]
+2025-02-28 13:26:29 - PyLongslit - WARNING - mkspecflat.py:435 - These will be interpolated
+2025-02-28 13:30:52 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/SDSS_J213510+2728.log.
+2025-02-28 13:30:52 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-28 13:30:52 - PyLongslit - INFO - parser.py:63 - User parameters loaded successfully.
+2025-02-28 13:30:52 - PyLongslit - INFO - parser.py:74 - Output directory /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/output found.
+2025-02-28 13:30:52 - PyLongslit - INFO - mkspecflat.py:572 - Flat-field procedure running...
+2025-02-28 13:30:52 - PyLongslit - INFO - mkspecflat.py:573 - Using the following parameters:
+2025-02-28 13:30:52 - PyLongslit - INFO - mkspecflat.py:574 - xsize = 500
+2025-02-28 13:30:52 - PyLongslit - INFO - mkspecflat.py:575 - ysize = 2102
+2025-02-28 13:30:52 - PyLongslit - INFO - mkspecflat.py:580 - Found 26 flat frames.
+2025-02-28 13:30:52 - PyLongslit - INFO - mkspecflat.py:581 - Files used for flat-fielding:
+2025-02-28 13:30:53 - PyLongslit - INFO - utils.py:397 - All files have the correct dimensions.
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:591 - Fetching the master bias frame...
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:596 - Master bias frame found and loaded.
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh050135.fits
+2025-02-28 13:30:53 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh050135.fits processed.
+
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh050143.fits
+2025-02-28 13:30:53 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh050143.fits processed.
+
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh050199.fits
+2025-02-28 13:30:53 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh050199.fits processed.
+
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh050282.fits
+2025-02-28 13:30:53 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh050282.fits processed.
+
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh050283.fits
+2025-02-28 13:30:53 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh050283.fits processed.
+
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh050284.fits
+2025-02-28 13:30:53 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh050284.fits processed.
+
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh050285.fits
+2025-02-28 13:30:53 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh050285.fits processed.
+
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh050286.fits
+2025-02-28 13:30:53 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh050286.fits processed.
+
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh080254.fits
+2025-02-28 13:30:53 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh080254.fits processed.
+
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh080262.fits
+2025-02-28 13:30:53 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh080262.fits processed.
+
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh080277.fits
+2025-02-28 13:30:53 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh080277.fits processed.
+
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh080396.fits
+2025-02-28 13:30:53 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh080396.fits processed.
+
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh080397.fits
+2025-02-28 13:30:53 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh080397.fits processed.
+
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh080398.fits
+2025-02-28 13:30:53 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh080398.fits processed.
+
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh080399.fits
+2025-02-28 13:30:53 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh080399.fits processed.
+
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh080400.fits
+2025-02-28 13:30:53 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh080400.fits processed.
+
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh090206.fits
+2025-02-28 13:30:53 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh090206.fits processed.
+
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh090214.fits
+2025-02-28 13:30:53 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh090214.fits processed.
+
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh090222.fits
+2025-02-28 13:30:53 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh090222.fits processed.
+
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh090234.fits
+2025-02-28 13:30:53 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh090234.fits processed.
+
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh090245.fits
+2025-02-28 13:30:53 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh090245.fits processed.
+
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh090403.fits
+2025-02-28 13:30:53 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh090403.fits processed.
+
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh090404.fits
+2025-02-28 13:30:53 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh090404.fits processed.
+
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh090405.fits
+2025-02-28 13:30:53 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh090405.fits processed.
+
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh090406.fits
+2025-02-28 13:30:53 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh090406.fits processed.
+
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh090407.fits
+2025-02-28 13:30:53 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:30:53 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh090407.fits processed.
+
+2025-02-28 13:30:54 - PyLongslit - WARNING - mkspecflat.py:634 - Number of flat frames (26) is less than 30. Error estimation might not be accurate.
+2025-02-28 13:30:54 - PyLongslit - WARNING - mkspecflat.py:637 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-28 13:30:54 - PyLongslit - INFO - mkspecflat.py:650 - Estimating the spectral response and normalizing...
+2025-02-28 13:30:55 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-28 13:30:55 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-28 13:30:55 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-28 13:30:55 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-28 13:31:15 - PyLongslit - INFO - mkspecflat.py:194 - Rotating spectral response model...
+2025-02-28 13:31:15 - PyLongslit - INFO - utils.py:600 - Rotating image to make x the spectral direction...
+2025-02-28 13:31:15 - PyLongslit - INFO - utils.py:604 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-28 13:31:15 - PyLongslit - INFO - mkspecflat.py:198 - Rotating the bad pixel mask...
+2025-02-28 13:31:15 - PyLongslit - INFO - utils.py:600 - Rotating image to make x the spectral direction...
+2025-02-28 13:31:15 - PyLongslit - INFO - utils.py:604 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-28 13:31:15 - PyLongslit - INFO - mkspecflat.py:691 - Estimating the spacial response and normalizing...
+2025-02-28 13:31:22 - PyLongslit - WARNING - mkspecflat.py:434 - Number of fits with R2 < 0.4: 81 out of total 2102 fits. A handfull is expected
+2025-02-28 13:31:22 - PyLongslit - WARNING - mkspecflat.py:435 - If a substantial amount of fits are bad, revise the spacial flat parameters in the configuration file.
+2025-02-28 13:31:22 - PyLongslit - WARNING - mkspecflat.py:436 - Bad spacial indices: [   4.   11.   19.   35.   42.   43.   50.   51.   66.   74.  119.  159.
+  160.  161.  180.  181.  182.  315.  356.  505.  556.  734. 1009. 1439.
+ 1442. 1444. 1446. 1449. 1451. 1452. 1454. 1455. 1456. 1457. 1471. 1501.
+ 2057. 2058. 2059. 2060. 2061. 2062. 2063. 2064. 2065. 2066. 2067. 2068.
+ 2069. 2070. 2071. 2072. 2073. 2074. 2075. 2076. 2077. 2078. 2079. 2080.
+ 2081. 2082. 2083. 2084. 2085. 2086. 2087. 2088. 2089. 2090. 2091. 2092.
+ 2093. 2094. 2095. 2096. 2097. 2098. 2099. 2100. 2101.]
+2025-02-28 13:31:22 - PyLongslit - WARNING - mkspecflat.py:437 - These will be interpolated
+2025-02-28 13:32:11 - PyLongslit - INFO - mkspecflat.py:800 - Mean pixel value of the final master flat-field: 1.0002 +/- 0.0003390286471179042 (should be 1.0).
+2025-02-28 13:32:11 - PyLongslit - INFO - mkspecflat.py:813 - Attaching header and writing to disc...
+2025-02-28 13:32:16 - PyLongslit - INFO - utils.py:56 - File written to /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/output/master_flat.fits
+2025-02-28 13:34:15 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/SDSS_J213510+2728.log.
+2025-02-28 13:34:15 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-28 13:34:15 - PyLongslit - INFO - parser.py:63 - User parameters loaded successfully.
+2025-02-28 13:34:15 - PyLongslit - INFO - parser.py:74 - Output directory /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/output found.
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:572 - Flat-field procedure running...
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:573 - Using the following parameters:
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:574 - xsize = 500
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:575 - ysize = 2102
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:580 - Found 26 flat frames.
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:581 - Files used for flat-fielding:
+2025-02-28 13:34:16 - PyLongslit - INFO - utils.py:397 - All files have the correct dimensions.
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:591 - Fetching the master bias frame...
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:596 - Master bias frame found and loaded.
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh050135.fits
+2025-02-28 13:34:16 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh050135.fits processed.
+
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh050143.fits
+2025-02-28 13:34:16 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh050143.fits processed.
+
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh050199.fits
+2025-02-28 13:34:16 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh050199.fits processed.
+
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh050282.fits
+2025-02-28 13:34:16 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh050282.fits processed.
+
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh050283.fits
+2025-02-28 13:34:16 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh050283.fits processed.
+
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh050284.fits
+2025-02-28 13:34:16 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh050284.fits processed.
+
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh050285.fits
+2025-02-28 13:34:16 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh050285.fits processed.
+
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh050286.fits
+2025-02-28 13:34:16 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh050286.fits processed.
+
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh080254.fits
+2025-02-28 13:34:16 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh080254.fits processed.
+
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh080262.fits
+2025-02-28 13:34:16 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh080262.fits processed.
+
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh080277.fits
+2025-02-28 13:34:16 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh080277.fits processed.
+
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh080396.fits
+2025-02-28 13:34:16 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh080396.fits processed.
+
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh080397.fits
+2025-02-28 13:34:16 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh080397.fits processed.
+
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh080398.fits
+2025-02-28 13:34:16 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh080398.fits processed.
+
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh080399.fits
+2025-02-28 13:34:16 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh080399.fits processed.
+
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh080400.fits
+2025-02-28 13:34:16 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh080400.fits processed.
+
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh090206.fits
+2025-02-28 13:34:16 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh090206.fits processed.
+
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh090214.fits
+2025-02-28 13:34:16 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh090214.fits processed.
+
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh090222.fits
+2025-02-28 13:34:16 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh090222.fits processed.
+
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh090234.fits
+2025-02-28 13:34:16 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh090234.fits processed.
+
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh090245.fits
+2025-02-28 13:34:16 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh090245.fits processed.
+
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh090403.fits
+2025-02-28 13:34:16 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh090403.fits processed.
+
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh090404.fits
+2025-02-28 13:34:16 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh090404.fits processed.
+
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh090405.fits
+2025-02-28 13:34:16 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh090405.fits processed.
+
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh090406.fits
+2025-02-28 13:34:16 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh090406.fits processed.
+
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:605 - Processing file: ALHh090407.fits
+2025-02-28 13:34:16 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:617 - Subtracted the bias.
+2025-02-28 13:34:16 - PyLongslit - INFO - mkspecflat.py:625 - File ALHh090407.fits processed.
+
+2025-02-28 13:34:17 - PyLongslit - WARNING - mkspecflat.py:634 - Number of flat frames (26) is less than 30. Error estimation might not be accurate.
+2025-02-28 13:34:17 - PyLongslit - WARNING - mkspecflat.py:637 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-28 13:34:17 - PyLongslit - INFO - mkspecflat.py:650 - Estimating the spectral response and normalizing...
+2025-02-28 13:34:19 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-28 13:34:19 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-28 13:34:19 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-28 13:34:19 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-28 13:34:42 - PyLongslit - INFO - mkspecflat.py:194 - Rotating spectral response model...
+2025-02-28 13:34:42 - PyLongslit - INFO - utils.py:600 - Rotating image to make x the spectral direction...
+2025-02-28 13:34:42 - PyLongslit - INFO - utils.py:604 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-28 13:34:42 - PyLongslit - INFO - mkspecflat.py:198 - Rotating the bad pixel mask...
+2025-02-28 13:34:42 - PyLongslit - INFO - utils.py:600 - Rotating image to make x the spectral direction...
+2025-02-28 13:34:42 - PyLongslit - INFO - utils.py:604 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-28 13:34:42 - PyLongslit - INFO - mkspecflat.py:691 - Estimating the spacial response and normalizing...
+2025-02-28 13:36:29 - PyLongslit - WARNING - mkspecflat.py:434 - Number of fits with R2 < 0.4: 90 out of total 2102 fits. A handfull is expected
+2025-02-28 13:36:29 - PyLongslit - WARNING - mkspecflat.py:435 - If a substantial amount of fits are bad, revise the spacial flat parameters in the configuration file.
+2025-02-28 13:36:29 - PyLongslit - WARNING - mkspecflat.py:436 - Bad spacial indices: [   4.   11.   19.   35.   42.   43.   50.   51.   66.   74.  119.  159.
+  160.  161.  180.  181.  182.  315.  356.  505.  556.  734. 1009. 1439.
+ 1442. 1444. 1446. 1449. 1451. 1452. 1454. 1455. 1456. 1457. 1471. 1501.
+ 2048. 2049. 2050. 2051. 2052. 2053. 2054. 2055. 2056. 2057. 2058. 2059.
+ 2060. 2061. 2062. 2063. 2064. 2065. 2066. 2067. 2068. 2069. 2070. 2071.
+ 2072. 2073. 2074. 2075. 2076. 2077. 2078. 2079. 2080. 2081. 2082. 2083.
+ 2084. 2085. 2086. 2087. 2088. 2089. 2090. 2091. 2092. 2093. 2094. 2095.
+ 2096. 2097. 2098. 2099. 2100. 2101.]
+2025-02-28 13:36:29 - PyLongslit - WARNING - mkspecflat.py:437 - These will be interpolated
+2025-02-28 13:45:52 - PyLongslit - INFO - mkspecflat.py:800 - Mean pixel value of the final master flat-field: 1.00041 +/- 0.0003460559020053397 (should be 1.0).
+2025-02-28 13:45:52 - PyLongslit - INFO - mkspecflat.py:813 - Attaching header and writing to disc...
+2025-02-28 13:45:54 - PyLongslit - INFO - utils.py:56 - File written to /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/output/master_flat.fits
+2025-02-28 13:46:06 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/SDSS_J213510+2728.log.
+2025-02-28 13:46:06 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-28 13:46:06 - PyLongslit - INFO - parser.py:63 - User parameters loaded successfully.
+2025-02-28 13:46:06 - PyLongslit - INFO - parser.py:74 - Output directory /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/output found.
+2025-02-28 13:46:06 - PyLongslit - INFO - mkspecflat.py:578 - Flat-field procedure running...
+2025-02-28 13:46:06 - PyLongslit - INFO - mkspecflat.py:579 - Using the following parameters:
+2025-02-28 13:46:06 - PyLongslit - INFO - mkspecflat.py:580 - xsize = 500
+2025-02-28 13:46:06 - PyLongslit - INFO - mkspecflat.py:581 - ysize = 2102
+2025-02-28 13:46:06 - PyLongslit - INFO - mkspecflat.py:586 - Found 26 flat frames.
+2025-02-28 13:46:06 - PyLongslit - INFO - mkspecflat.py:587 - Files used for flat-fielding:
+2025-02-28 13:46:06 - PyLongslit - INFO - utils.py:397 - All files have the correct dimensions.
+2025-02-28 13:46:06 - PyLongslit - INFO - mkspecflat.py:597 - Fetching the master bias frame...
+2025-02-28 13:46:06 - PyLongslit - INFO - mkspecflat.py:602 - Master bias frame found and loaded.
+2025-02-28 13:46:06 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050135.fits
+2025-02-28 13:46:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:46:06 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:46:06 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050135.fits processed.
+
+2025-02-28 13:46:06 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050143.fits
+2025-02-28 13:46:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:46:06 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:46:06 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050143.fits processed.
+
+2025-02-28 13:46:06 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050199.fits
+2025-02-28 13:46:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:46:06 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:46:06 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050199.fits processed.
+
+2025-02-28 13:46:06 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050282.fits
+2025-02-28 13:46:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:46:06 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:46:06 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050282.fits processed.
+
+2025-02-28 13:46:06 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050283.fits
+2025-02-28 13:46:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:46:06 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:46:06 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050283.fits processed.
+
+2025-02-28 13:46:06 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050284.fits
+2025-02-28 13:46:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:46:06 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:46:06 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050284.fits processed.
+
+2025-02-28 13:46:06 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050285.fits
+2025-02-28 13:46:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:46:06 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:46:06 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050285.fits processed.
+
+2025-02-28 13:46:06 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050286.fits
+2025-02-28 13:46:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050286.fits processed.
+
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080254.fits
+2025-02-28 13:46:07 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080254.fits processed.
+
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080262.fits
+2025-02-28 13:46:07 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080262.fits processed.
+
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080277.fits
+2025-02-28 13:46:07 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080277.fits processed.
+
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080396.fits
+2025-02-28 13:46:07 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080396.fits processed.
+
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080397.fits
+2025-02-28 13:46:07 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080397.fits processed.
+
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080398.fits
+2025-02-28 13:46:07 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080398.fits processed.
+
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080399.fits
+2025-02-28 13:46:07 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080399.fits processed.
+
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080400.fits
+2025-02-28 13:46:07 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080400.fits processed.
+
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090206.fits
+2025-02-28 13:46:07 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090206.fits processed.
+
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090214.fits
+2025-02-28 13:46:07 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090214.fits processed.
+
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090222.fits
+2025-02-28 13:46:07 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090222.fits processed.
+
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090234.fits
+2025-02-28 13:46:07 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090234.fits processed.
+
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090245.fits
+2025-02-28 13:46:07 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090245.fits processed.
+
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090403.fits
+2025-02-28 13:46:07 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090403.fits processed.
+
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090404.fits
+2025-02-28 13:46:07 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090404.fits processed.
+
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090405.fits
+2025-02-28 13:46:07 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090405.fits processed.
+
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090406.fits
+2025-02-28 13:46:07 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090406.fits processed.
+
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090407.fits
+2025-02-28 13:46:07 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:46:07 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090407.fits processed.
+
+2025-02-28 13:46:07 - PyLongslit - WARNING - mkspecflat.py:640 - Number of flat frames (26) is less than 30. Error estimation might not be accurate.
+2025-02-28 13:46:07 - PyLongslit - WARNING - mkspecflat.py:643 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-28 13:46:08 - PyLongslit - INFO - mkspecflat.py:656 - Estimating the spectral response and normalizing...
+2025-02-28 13:46:09 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-28 13:46:09 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-28 13:46:09 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-28 13:46:09 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-28 13:46:17 - PyLongslit - INFO - mkspecflat.py:194 - Rotating spectral response model...
+2025-02-28 13:46:17 - PyLongslit - INFO - utils.py:600 - Rotating image to make x the spectral direction...
+2025-02-28 13:46:17 - PyLongslit - INFO - utils.py:604 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-28 13:46:17 - PyLongslit - INFO - mkspecflat.py:198 - Rotating the bad pixel mask...
+2025-02-28 13:46:17 - PyLongslit - INFO - utils.py:600 - Rotating image to make x the spectral direction...
+2025-02-28 13:46:17 - PyLongslit - INFO - utils.py:604 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-28 13:46:17 - PyLongslit - INFO - mkspecflat.py:697 - Estimating the spacial response and normalizing...
+2025-02-28 13:46:47 - PyLongslit - INFO - mkspecflat.py:440 - Number of fits with R2 < 0.4: 86 out of total 2102 fits. A handfull is expected.
+2025-02-28 13:46:47 - PyLongslit - INFO - mkspecflat.py:442 - Bad spacial indices: [   4.   11.   19.   35.   42.   43.   50.   51.   66.   74.  119.  159.
+  160.  161.  180.  181.  182.  315.  356.  505.  556.  734. 1009. 1439.
+ 1442. 1444. 1446. 1449. 1451. 1452. 1454. 1455. 1456. 1457. 1471. 1501.
+ 2052. 2053. 2054. 2055. 2056. 2057. 2058. 2059. 2060. 2061. 2062. 2063.
+ 2064. 2065. 2066. 2067. 2068. 2069. 2070. 2071. 2072. 2073. 2074. 2075.
+ 2076. 2077. 2078. 2079. 2080. 2081. 2082. 2083. 2084. 2085. 2086. 2087.
+ 2088. 2089. 2090. 2091. 2092. 2093. 2094. 2095. 2096. 2097. 2098. 2099.
+ 2100. 2101.]
+2025-02-28 13:46:47 - PyLongslit - INFO - mkspecflat.py:443 - These will be interpolated.
+2025-02-28 13:47:48 - PyLongslit - INFO - mkspecflat.py:806 - Mean pixel value of the final master flat-field: 1.00028 +/- 0.0003365496903740328 (should be 1.0).
+2025-02-28 13:47:48 - PyLongslit - INFO - mkspecflat.py:819 - Attaching header and writing to disc...
+2025-02-28 13:48:07 - PyLongslit - INFO - utils.py:56 - File written to /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/output/master_flat.fits
+2025-02-28 13:49:57 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/SDSS_J213510+2728.log.
+2025-02-28 13:49:57 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-28 13:49:57 - PyLongslit - INFO - parser.py:63 - User parameters loaded successfully.
+2025-02-28 13:49:57 - PyLongslit - INFO - parser.py:74 - Output directory /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/output found.
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:578 - Flat-field procedure running...
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:579 - Using the following parameters:
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:580 - xsize = 500
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:581 - ysize = 2102
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:586 - Found 26 flat frames.
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:587 - Files used for flat-fielding:
+2025-02-28 13:49:58 - PyLongslit - INFO - utils.py:397 - All files have the correct dimensions.
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:597 - Fetching the master bias frame...
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:602 - Master bias frame found and loaded.
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050135.fits
+2025-02-28 13:49:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050135.fits processed.
+
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050143.fits
+2025-02-28 13:49:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050143.fits processed.
+
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050199.fits
+2025-02-28 13:49:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050199.fits processed.
+
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050282.fits
+2025-02-28 13:49:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050282.fits processed.
+
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050283.fits
+2025-02-28 13:49:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050283.fits processed.
+
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050284.fits
+2025-02-28 13:49:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050284.fits processed.
+
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050285.fits
+2025-02-28 13:49:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050285.fits processed.
+
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050286.fits
+2025-02-28 13:49:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050286.fits processed.
+
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080254.fits
+2025-02-28 13:49:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080254.fits processed.
+
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080262.fits
+2025-02-28 13:49:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080262.fits processed.
+
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080277.fits
+2025-02-28 13:49:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080277.fits processed.
+
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080396.fits
+2025-02-28 13:49:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080396.fits processed.
+
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080397.fits
+2025-02-28 13:49:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080397.fits processed.
+
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080398.fits
+2025-02-28 13:49:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080398.fits processed.
+
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080399.fits
+2025-02-28 13:49:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080399.fits processed.
+
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080400.fits
+2025-02-28 13:49:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080400.fits processed.
+
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090206.fits
+2025-02-28 13:49:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090206.fits processed.
+
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090214.fits
+2025-02-28 13:49:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090214.fits processed.
+
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090222.fits
+2025-02-28 13:49:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090222.fits processed.
+
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090234.fits
+2025-02-28 13:49:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090234.fits processed.
+
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090245.fits
+2025-02-28 13:49:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090245.fits processed.
+
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090403.fits
+2025-02-28 13:49:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090403.fits processed.
+
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090404.fits
+2025-02-28 13:49:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090404.fits processed.
+
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090405.fits
+2025-02-28 13:49:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090405.fits processed.
+
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090406.fits
+2025-02-28 13:49:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090406.fits processed.
+
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090407.fits
+2025-02-28 13:49:58 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:49:58 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090407.fits processed.
+
+2025-02-28 13:49:59 - PyLongslit - WARNING - mkspecflat.py:640 - Number of flat frames (26) is less than 30. Error estimation might not be accurate.
+2025-02-28 13:49:59 - PyLongslit - WARNING - mkspecflat.py:643 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-28 13:49:59 - PyLongslit - INFO - mkspecflat.py:656 - Estimating the spectral response and normalizing...
+2025-02-28 13:50:01 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-28 13:50:01 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-28 13:50:01 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-28 13:50:01 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-28 13:50:07 - PyLongslit - INFO - mkspecflat.py:194 - Rotating spectral response model...
+2025-02-28 13:50:07 - PyLongslit - INFO - utils.py:595 - Rotating image to make x the spectral direction...
+2025-02-28 13:50:07 - PyLongslit - INFO - utils.py:599 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-28 13:50:07 - PyLongslit - INFO - mkspecflat.py:198 - Rotating the bad pixel mask...
+2025-02-28 13:50:07 - PyLongslit - INFO - utils.py:595 - Rotating image to make x the spectral direction...
+2025-02-28 13:50:07 - PyLongslit - INFO - utils.py:599 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-28 13:50:07 - PyLongslit - INFO - mkspecflat.py:697 - Estimating the spacial response and normalizing...
+2025-02-28 13:50:13 - PyLongslit - INFO - mkspecflat.py:440 - Number of fits with R2 < 0.4: 81 out of total 2102 fits. A handfull is expected.
+2025-02-28 13:50:13 - PyLongslit - INFO - mkspecflat.py:442 - Bad spacial indices: [   4.   11.   19.   35.   42.   43.   50.   51.   66.   74.  119.  159.
+  160.  161.  180.  181.  182.  315.  356.  505.  556.  734. 1009. 1439.
+ 1442. 1444. 1446. 1449. 1451. 1452. 1454. 1455. 1456. 1457. 1471. 1501.
+ 2057. 2058. 2059. 2060. 2061. 2062. 2063. 2064. 2065. 2066. 2067. 2068.
+ 2069. 2070. 2071. 2072. 2073. 2074. 2075. 2076. 2077. 2078. 2079. 2080.
+ 2081. 2082. 2083. 2084. 2085. 2086. 2087. 2088. 2089. 2090. 2091. 2092.
+ 2093. 2094. 2095. 2096. 2097. 2098. 2099. 2100. 2101.]
+2025-02-28 13:50:13 - PyLongslit - INFO - mkspecflat.py:443 - These will be interpolated.
+2025-02-28 13:50:34 - PyLongslit - INFO - mkspecflat.py:806 - Mean pixel value of the final master flat-field: 1.0002 +/- 0.0003390286471179042 (should be 1.0).
+2025-02-28 13:50:34 - PyLongslit - INFO - mkspecflat.py:819 - Attaching header and writing to disc...
+2025-02-28 13:50:42 - PyLongslit - INFO - utils.py:56 - File written to /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/output/master_flat.fits
+2025-02-28 13:55:05 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/SDSS_J213510+2728.log.
+2025-02-28 13:55:05 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-28 13:55:05 - PyLongslit - INFO - parser.py:63 - User parameters loaded successfully.
+2025-02-28 13:55:05 - PyLongslit - INFO - parser.py:74 - Output directory /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/output found.
+2025-02-28 13:55:05 - PyLongslit - INFO - mkspecflat.py:578 - Flat-field procedure running...
+2025-02-28 13:55:05 - PyLongslit - INFO - mkspecflat.py:579 - Using the following parameters:
+2025-02-28 13:55:05 - PyLongslit - INFO - mkspecflat.py:580 - xsize = 500
+2025-02-28 13:55:05 - PyLongslit - INFO - mkspecflat.py:581 - ysize = 2102
+2025-02-28 13:55:05 - PyLongslit - INFO - mkspecflat.py:586 - Found 26 flat frames.
+2025-02-28 13:55:05 - PyLongslit - INFO - mkspecflat.py:587 - Files used for flat-fielding:
+2025-02-28 13:55:06 - PyLongslit - INFO - utils.py:397 - All files have the correct dimensions.
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:597 - Fetching the master bias frame...
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:602 - Master bias frame found and loaded.
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050135.fits
+2025-02-28 13:55:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050135.fits processed.
+
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050143.fits
+2025-02-28 13:55:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050143.fits processed.
+
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050199.fits
+2025-02-28 13:55:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050199.fits processed.
+
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050282.fits
+2025-02-28 13:55:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050282.fits processed.
+
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050283.fits
+2025-02-28 13:55:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050283.fits processed.
+
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050284.fits
+2025-02-28 13:55:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050284.fits processed.
+
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050285.fits
+2025-02-28 13:55:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050285.fits processed.
+
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050286.fits
+2025-02-28 13:55:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050286.fits processed.
+
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080254.fits
+2025-02-28 13:55:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080254.fits processed.
+
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080262.fits
+2025-02-28 13:55:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080262.fits processed.
+
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080277.fits
+2025-02-28 13:55:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080277.fits processed.
+
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080396.fits
+2025-02-28 13:55:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080396.fits processed.
+
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080397.fits
+2025-02-28 13:55:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080397.fits processed.
+
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080398.fits
+2025-02-28 13:55:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080398.fits processed.
+
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080399.fits
+2025-02-28 13:55:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080399.fits processed.
+
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080400.fits
+2025-02-28 13:55:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080400.fits processed.
+
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090206.fits
+2025-02-28 13:55:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090206.fits processed.
+
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090214.fits
+2025-02-28 13:55:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090214.fits processed.
+
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090222.fits
+2025-02-28 13:55:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090222.fits processed.
+
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090234.fits
+2025-02-28 13:55:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090234.fits processed.
+
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090245.fits
+2025-02-28 13:55:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090245.fits processed.
+
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090403.fits
+2025-02-28 13:55:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090403.fits processed.
+
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090404.fits
+2025-02-28 13:55:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090404.fits processed.
+
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090405.fits
+2025-02-28 13:55:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090405.fits processed.
+
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090406.fits
+2025-02-28 13:55:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090406.fits processed.
+
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090407.fits
+2025-02-28 13:55:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:55:06 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090407.fits processed.
+
+2025-02-28 13:55:07 - PyLongslit - WARNING - mkspecflat.py:640 - Number of flat frames (26) is less than 30. Error estimation might not be accurate.
+2025-02-28 13:55:07 - PyLongslit - WARNING - mkspecflat.py:643 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-28 13:55:07 - PyLongslit - INFO - mkspecflat.py:657 - Estimating the spectral response and normalizing...
+2025-02-28 13:55:09 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-28 13:55:09 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-28 13:55:09 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-28 13:55:09 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-28 13:55:15 - PyLongslit - INFO - mkspecflat.py:194 - Rotating spectral response model...
+2025-02-28 13:55:15 - PyLongslit - INFO - utils.py:595 - Rotating image to make x the spectral direction...
+2025-02-28 13:55:15 - PyLongslit - INFO - utils.py:599 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-28 13:55:15 - PyLongslit - INFO - mkspecflat.py:198 - Rotating the bad pixel mask...
+2025-02-28 13:55:15 - PyLongslit - INFO - utils.py:595 - Rotating image to make x the spectral direction...
+2025-02-28 13:55:15 - PyLongslit - INFO - utils.py:599 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-28 13:55:15 - PyLongslit - INFO - mkspecflat.py:699 - Estimating the spacial response and normalizing...
+2025-02-28 13:55:23 - PyLongslit - INFO - mkspecflat.py:440 - Number of fits with R2 < 0.4: 121 out of total 2102 fits. A handfull is expected.
+2025-02-28 13:55:23 - PyLongslit - INFO - mkspecflat.py:442 - Bad spacial indices: [   4.   11.   19.   35.   42.   43.   50.   51.   66.   74.  119.  159.
+  160.  161.  180.  181.  182.  315.  356.  505.  556.  734. 1009. 1439.
+ 1442. 1444. 1446. 1449. 1451. 1452. 1454. 1455. 1456. 1457. 1471. 1501.
+ 2017. 2018. 2019. 2020. 2021. 2022. 2023. 2024. 2025. 2026. 2027. 2028.
+ 2029. 2030. 2031. 2032. 2033. 2034. 2035. 2036. 2037. 2038. 2039. 2040.
+ 2041. 2042. 2043. 2044. 2045. 2046. 2047. 2048. 2049. 2050. 2051. 2052.
+ 2053. 2054. 2055. 2056. 2057. 2058. 2059. 2060. 2061. 2062. 2063. 2064.
+ 2065. 2066. 2067. 2068. 2069. 2070. 2071. 2072. 2073. 2074. 2075. 2076.
+ 2077. 2078. 2079. 2080. 2081. 2082. 2083. 2084. 2085. 2086. 2087. 2088.
+ 2089. 2090. 2091. 2092. 2093. 2094. 2095. 2096. 2097. 2098. 2099. 2100.
+ 2101.]
+2025-02-28 13:55:23 - PyLongslit - INFO - mkspecflat.py:443 - These will be interpolated.
+2025-02-28 13:55:39 - PyLongslit - INFO - mkspecflat.py:718 - Rejecting outliers and plotting the results...
+2025-02-28 13:55:46 - PyLongslit - INFO - mkspecflat.py:812 - Mean pixel value of the final master flat-field: 1.00164 +/- 0.00046959033932857434 (should be 1.0).
+2025-02-28 13:55:46 - PyLongslit - INFO - mkspecflat.py:825 - Attaching header and writing to disc...
+2025-02-28 13:55:50 - PyLongslit - INFO - utils.py:56 - File written to /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/output/master_flat.fits
+2025-02-28 13:58:42 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/SDSS_J213510+2728.log.
+2025-02-28 13:58:42 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-28 13:58:42 - PyLongslit - INFO - parser.py:63 - User parameters loaded successfully.
+2025-02-28 13:58:42 - PyLongslit - INFO - parser.py:74 - Output directory /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/output found.
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:578 - Flat-field procedure running...
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:579 - Using the following parameters:
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:580 - xsize = 500
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:581 - ysize = 2102
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:586 - Found 26 flat frames.
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:587 - Files used for flat-fielding:
+2025-02-28 13:58:42 - PyLongslit - INFO - utils.py:397 - All files have the correct dimensions.
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:597 - Fetching the master bias frame...
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:602 - Master bias frame found and loaded.
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050135.fits
+2025-02-28 13:58:42 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050135.fits processed.
+
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050143.fits
+2025-02-28 13:58:42 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050143.fits processed.
+
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050199.fits
+2025-02-28 13:58:42 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050199.fits processed.
+
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050282.fits
+2025-02-28 13:58:42 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050282.fits processed.
+
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050283.fits
+2025-02-28 13:58:42 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050283.fits processed.
+
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050284.fits
+2025-02-28 13:58:42 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050284.fits processed.
+
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050285.fits
+2025-02-28 13:58:42 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050285.fits processed.
+
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050286.fits
+2025-02-28 13:58:42 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050286.fits processed.
+
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080254.fits
+2025-02-28 13:58:42 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080254.fits processed.
+
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080262.fits
+2025-02-28 13:58:42 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080262.fits processed.
+
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080277.fits
+2025-02-28 13:58:42 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080277.fits processed.
+
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080396.fits
+2025-02-28 13:58:42 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080396.fits processed.
+
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080397.fits
+2025-02-28 13:58:42 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080397.fits processed.
+
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080398.fits
+2025-02-28 13:58:42 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080398.fits processed.
+
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080399.fits
+2025-02-28 13:58:42 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080399.fits processed.
+
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080400.fits
+2025-02-28 13:58:42 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080400.fits processed.
+
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090206.fits
+2025-02-28 13:58:42 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090206.fits processed.
+
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090214.fits
+2025-02-28 13:58:42 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090214.fits processed.
+
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090222.fits
+2025-02-28 13:58:42 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:58:42 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:58:43 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090222.fits processed.
+
+2025-02-28 13:58:43 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090234.fits
+2025-02-28 13:58:43 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:58:43 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:58:43 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090234.fits processed.
+
+2025-02-28 13:58:43 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090245.fits
+2025-02-28 13:58:43 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:58:43 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:58:43 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090245.fits processed.
+
+2025-02-28 13:58:43 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090403.fits
+2025-02-28 13:58:43 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:58:43 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:58:43 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090403.fits processed.
+
+2025-02-28 13:58:43 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090404.fits
+2025-02-28 13:58:43 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:58:43 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:58:43 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090404.fits processed.
+
+2025-02-28 13:58:43 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090405.fits
+2025-02-28 13:58:43 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:58:43 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:58:43 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090405.fits processed.
+
+2025-02-28 13:58:43 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090406.fits
+2025-02-28 13:58:43 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:58:43 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:58:43 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090406.fits processed.
+
+2025-02-28 13:58:43 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090407.fits
+2025-02-28 13:58:43 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 13:58:43 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 13:58:43 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090407.fits processed.
+
+2025-02-28 13:58:44 - PyLongslit - WARNING - mkspecflat.py:640 - Number of flat frames (26) is less than 30. Error estimation might not be accurate.
+2025-02-28 13:58:44 - PyLongslit - WARNING - mkspecflat.py:643 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-28 13:58:44 - PyLongslit - INFO - mkspecflat.py:657 - Estimating the spectral response and normalizing...
+2025-02-28 13:58:46 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-28 13:58:46 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-28 13:58:46 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-28 13:58:46 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-28 13:58:53 - PyLongslit - INFO - mkspecflat.py:194 - Rotating spectral response model...
+2025-02-28 13:58:53 - PyLongslit - INFO - utils.py:595 - Rotating image to make x the spectral direction...
+2025-02-28 13:58:53 - PyLongslit - INFO - utils.py:599 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-28 13:58:53 - PyLongslit - INFO - mkspecflat.py:198 - Rotating the bad pixel mask...
+2025-02-28 13:58:53 - PyLongslit - INFO - utils.py:595 - Rotating image to make x the spectral direction...
+2025-02-28 13:58:53 - PyLongslit - INFO - utils.py:599 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-28 13:58:53 - PyLongslit - INFO - mkspecflat.py:677 - Spectral response normalization done.
+2025-02-28 13:58:53 - PyLongslit - INFO - mkspecflat.py:701 - Estimating the spacial response and normalizing...
+2025-02-28 13:59:11 - PyLongslit - INFO - mkspecflat.py:440 - Number of fits with R2 < 0.4: 95 out of total 2102 fits. A handfull is expected.
+2025-02-28 13:59:11 - PyLongslit - INFO - mkspecflat.py:442 - Bad spacial indices: [   4.   11.   19.   35.   42.   43.   50.   51.   66.   74.  119.  159.
+  160.  161.  180.  181.  182.  315.  356.  505.  556.  734. 1009. 1439.
+ 1442. 1444. 1446. 1449. 1451. 1452. 1454. 1455. 1456. 1457. 1471. 1501.
+ 2043. 2044. 2045. 2046. 2047. 2048. 2049. 2050. 2051. 2052. 2053. 2054.
+ 2055. 2056. 2057. 2058. 2059. 2060. 2061. 2062. 2063. 2064. 2065. 2066.
+ 2067. 2068. 2069. 2070. 2071. 2072. 2073. 2074. 2075. 2076. 2077. 2078.
+ 2079. 2080. 2081. 2082. 2083. 2084. 2085. 2086. 2087. 2088. 2089. 2090.
+ 2091. 2092. 2093. 2094. 2095. 2096. 2097. 2098. 2099. 2100. 2101.]
+2025-02-28 13:59:11 - PyLongslit - INFO - mkspecflat.py:443 - These will be interpolated.
+2025-02-28 13:59:15 - PyLongslit - INFO - mkspecflat.py:714 - Spacial response normalization done.
+2025-02-28 13:59:15 - PyLongslit - INFO - mkspecflat.py:722 - Rejecting outliers and plotting the results...
+2025-02-28 13:59:30 - PyLongslit - INFO - mkspecflat.py:816 - Mean pixel value of the final master flat-field: 1.00039 +/- 0.0003561796475375283 (should be 1.0).
+2025-02-28 13:59:30 - PyLongslit - INFO - mkspecflat.py:829 - Attaching header and writing to disc...
+2025-02-28 14:01:32 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/SDSS_J213510+2728.log.
+2025-02-28 14:01:32 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-28 14:01:32 - PyLongslit - INFO - parser.py:63 - User parameters loaded successfully.
+2025-02-28 14:01:32 - PyLongslit - INFO - parser.py:74 - Output directory /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/output found.
+2025-02-28 14:01:32 - PyLongslit - INFO - mkspecflat.py:578 - Flat-field procedure running...
+2025-02-28 14:01:32 - PyLongslit - INFO - mkspecflat.py:579 - Using the following parameters:
+2025-02-28 14:01:32 - PyLongslit - INFO - mkspecflat.py:580 - xsize = 500
+2025-02-28 14:01:32 - PyLongslit - INFO - mkspecflat.py:581 - ysize = 2102
+2025-02-28 14:01:32 - PyLongslit - INFO - mkspecflat.py:586 - Found 26 flat frames.
+2025-02-28 14:01:32 - PyLongslit - INFO - mkspecflat.py:587 - Files used for flat-fielding:
+2025-02-28 14:01:32 - PyLongslit - INFO - utils.py:397 - All files have the correct dimensions.
+2025-02-28 14:01:32 - PyLongslit - INFO - mkspecflat.py:597 - Fetching the master bias frame...
+2025-02-28 14:01:32 - PyLongslit - INFO - mkspecflat.py:602 - Master bias frame found and loaded.
+2025-02-28 14:01:32 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050135.fits
+2025-02-28 14:01:32 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:01:32 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 14:01:32 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050135.fits processed.
+
+2025-02-28 14:01:32 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050143.fits
+2025-02-28 14:01:32 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050143.fits processed.
+
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050199.fits
+2025-02-28 14:01:33 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050199.fits processed.
+
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050282.fits
+2025-02-28 14:01:33 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050282.fits processed.
+
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050283.fits
+2025-02-28 14:01:33 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050283.fits processed.
+
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050284.fits
+2025-02-28 14:01:33 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050284.fits processed.
+
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050285.fits
+2025-02-28 14:01:33 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050285.fits processed.
+
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh050286.fits
+2025-02-28 14:01:33 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh050286.fits processed.
+
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080254.fits
+2025-02-28 14:01:33 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080254.fits processed.
+
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080262.fits
+2025-02-28 14:01:33 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080262.fits processed.
+
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080277.fits
+2025-02-28 14:01:33 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080277.fits processed.
+
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080396.fits
+2025-02-28 14:01:33 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080396.fits processed.
+
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080397.fits
+2025-02-28 14:01:33 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080397.fits processed.
+
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080398.fits
+2025-02-28 14:01:33 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080398.fits processed.
+
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080399.fits
+2025-02-28 14:01:33 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080399.fits processed.
+
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh080400.fits
+2025-02-28 14:01:33 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh080400.fits processed.
+
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090206.fits
+2025-02-28 14:01:33 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090206.fits processed.
+
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090214.fits
+2025-02-28 14:01:33 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090214.fits processed.
+
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090222.fits
+2025-02-28 14:01:33 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090222.fits processed.
+
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090234.fits
+2025-02-28 14:01:33 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090234.fits processed.
+
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090245.fits
+2025-02-28 14:01:33 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090245.fits processed.
+
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090403.fits
+2025-02-28 14:01:33 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090403.fits processed.
+
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090404.fits
+2025-02-28 14:01:33 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090404.fits processed.
+
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090405.fits
+2025-02-28 14:01:33 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090405.fits processed.
+
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090406.fits
+2025-02-28 14:01:33 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090406.fits processed.
+
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:611 - Processing file: ALHh090407.fits
+2025-02-28 14:01:33 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:623 - Subtracted the bias.
+2025-02-28 14:01:33 - PyLongslit - INFO - mkspecflat.py:631 - File ALHh090407.fits processed.
+
+2025-02-28 14:01:33 - PyLongslit - WARNING - mkspecflat.py:640 - Number of flat frames (26) is less than 30. Error estimation might not be accurate.
+2025-02-28 14:01:33 - PyLongslit - WARNING - mkspecflat.py:643 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-28 14:01:34 - PyLongslit - INFO - mkspecflat.py:657 - Estimating the spectral response and normalizing...
+2025-02-28 14:01:35 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-28 14:01:35 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-28 14:01:35 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-28 14:01:35 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-28 14:01:39 - PyLongslit - INFO - mkspecflat.py:194 - Rotating spectral response model...
+2025-02-28 14:01:39 - PyLongslit - INFO - utils.py:595 - Rotating image to make x the spectral direction...
+2025-02-28 14:01:39 - PyLongslit - INFO - utils.py:599 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-28 14:01:39 - PyLongslit - INFO - mkspecflat.py:198 - Rotating the bad pixel mask...
+2025-02-28 14:01:39 - PyLongslit - INFO - utils.py:595 - Rotating image to make x the spectral direction...
+2025-02-28 14:01:39 - PyLongslit - INFO - utils.py:599 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-28 14:01:39 - PyLongslit - INFO - mkspecflat.py:677 - Spectral response normalization done.
+2025-02-28 14:01:39 - PyLongslit - INFO - mkspecflat.py:701 - Estimating the spacial response and normalizing...
+2025-02-28 14:01:47 - PyLongslit - INFO - mkspecflat.py:440 - Number of fits with R2 < 0.4: 77 out of total 2102 fits. A handfull is expected.
+2025-02-28 14:01:47 - PyLongslit - INFO - mkspecflat.py:442 - Bad spacial indices: [   4.   11.   19.   35.   42.   43.   50.   51.   66.   74.  119.  159.
+  160.  161.  180.  181.  182.  315.  356.  505.  556.  734. 1009. 1439.
+ 1442. 1444. 1446. 1449. 1451. 1452. 1454. 1455. 1456. 1457. 1471. 1501.
+ 2061. 2062. 2063. 2064. 2065. 2066. 2067. 2068. 2069. 2070. 2071. 2072.
+ 2073. 2074. 2075. 2076. 2077. 2078. 2079. 2080. 2081. 2082. 2083. 2084.
+ 2085. 2086. 2087. 2088. 2089. 2090. 2091. 2092. 2093. 2094. 2095. 2096.
+ 2097. 2098. 2099. 2100. 2101.]
+2025-02-28 14:01:47 - PyLongslit - INFO - mkspecflat.py:443 - These will be interpolated.
+2025-02-28 14:01:49 - PyLongslit - INFO - mkspecflat.py:714 - Spacial response normalization done.
+2025-02-28 14:01:49 - PyLongslit - INFO - mkspecflat.py:722 - Rejecting outliers and plotting the results...
+2025-02-28 14:01:55 - PyLongslit - INFO - mkspecflat.py:816 - Mean pixel value of the final master flat-field: 1.00005 +/- 0.0003155238486932897 (should be 1.0).
+2025-02-28 14:01:55 - PyLongslit - INFO - mkspecflat.py:829 - Attaching header and writing to disc...
+2025-02-28 14:01:56 - PyLongslit - INFO - utils.py:56 - File written to /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/output/master_flat.fits
+2025-02-28 14:03:05 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/SDSS_J213510+2728.log.
+2025-02-28 14:03:05 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-28 14:03:05 - PyLongslit - INFO - parser.py:63 - User parameters loaded successfully.
+2025-02-28 14:03:05 - PyLongslit - INFO - parser.py:74 - Output directory /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/output found.
+2025-02-28 14:03:05 - PyLongslit - INFO - mkspecflat.py:579 - Flat-field procedure running...
+2025-02-28 14:03:05 - PyLongslit - INFO - mkspecflat.py:580 - Using the following parameters:
+2025-02-28 14:03:05 - PyLongslit - INFO - mkspecflat.py:581 - xsize = 500
+2025-02-28 14:03:05 - PyLongslit - INFO - mkspecflat.py:582 - ysize = 2102
+2025-02-28 14:03:05 - PyLongslit - INFO - mkspecflat.py:587 - Found 26 flat frames.
+2025-02-28 14:03:05 - PyLongslit - INFO - mkspecflat.py:588 - Files used for flat-fielding:
+2025-02-28 14:03:05 - PyLongslit - INFO - utils.py:397 - All files have the correct dimensions.
+2025-02-28 14:03:05 - PyLongslit - INFO - mkspecflat.py:598 - Fetching the master bias frame...
+2025-02-28 14:03:05 - PyLongslit - INFO - mkspecflat.py:603 - Master bias frame found and loaded.
+2025-02-28 14:03:05 - PyLongslit - INFO - mkspecflat.py:612 - Processing file: ALHh050135.fits
+2025-02-28 14:03:05 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:03:05 - PyLongslit - INFO - mkspecflat.py:624 - Subtracted the bias.
+2025-02-28 14:03:05 - PyLongslit - INFO - mkspecflat.py:632 - File ALHh050135.fits processed.
+
+2025-02-28 14:03:05 - PyLongslit - INFO - mkspecflat.py:612 - Processing file: ALHh050143.fits
+2025-02-28 14:03:05 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:03:05 - PyLongslit - INFO - mkspecflat.py:624 - Subtracted the bias.
+2025-02-28 14:03:05 - PyLongslit - INFO - mkspecflat.py:632 - File ALHh050143.fits processed.
+
+2025-02-28 14:03:05 - PyLongslit - INFO - mkspecflat.py:612 - Processing file: ALHh050199.fits
+2025-02-28 14:03:05 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:03:05 - PyLongslit - INFO - mkspecflat.py:624 - Subtracted the bias.
+2025-02-28 14:03:05 - PyLongslit - INFO - mkspecflat.py:632 - File ALHh050199.fits processed.
+
+2025-02-28 14:03:05 - PyLongslit - INFO - mkspecflat.py:612 - Processing file: ALHh050282.fits
+2025-02-28 14:03:05 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:03:05 - PyLongslit - INFO - mkspecflat.py:624 - Subtracted the bias.
+2025-02-28 14:03:05 - PyLongslit - INFO - mkspecflat.py:632 - File ALHh050282.fits processed.
+
+2025-02-28 14:03:05 - PyLongslit - INFO - mkspecflat.py:612 - Processing file: ALHh050283.fits
+2025-02-28 14:03:05 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:03:05 - PyLongslit - INFO - mkspecflat.py:624 - Subtracted the bias.
+2025-02-28 14:03:05 - PyLongslit - INFO - mkspecflat.py:632 - File ALHh050283.fits processed.
+
+2025-02-28 14:03:05 - PyLongslit - INFO - mkspecflat.py:612 - Processing file: ALHh050284.fits
+2025-02-28 14:03:05 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:03:05 - PyLongslit - INFO - mkspecflat.py:624 - Subtracted the bias.
+2025-02-28 14:03:05 - PyLongslit - INFO - mkspecflat.py:632 - File ALHh050284.fits processed.
+
+2025-02-28 14:03:05 - PyLongslit - INFO - mkspecflat.py:612 - Processing file: ALHh050285.fits
+2025-02-28 14:03:05 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:03:05 - PyLongslit - INFO - mkspecflat.py:624 - Subtracted the bias.
+2025-02-28 14:03:05 - PyLongslit - INFO - mkspecflat.py:632 - File ALHh050285.fits processed.
+
+2025-02-28 14:03:05 - PyLongslit - INFO - mkspecflat.py:612 - Processing file: ALHh050286.fits
+2025-02-28 14:03:05 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:03:05 - PyLongslit - INFO - mkspecflat.py:624 - Subtracted the bias.
+2025-02-28 14:03:05 - PyLongslit - INFO - mkspecflat.py:632 - File ALHh050286.fits processed.
+
+2025-02-28 14:03:05 - PyLongslit - INFO - mkspecflat.py:612 - Processing file: ALHh080254.fits
+2025-02-28 14:03:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:624 - Subtracted the bias.
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:632 - File ALHh080254.fits processed.
+
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:612 - Processing file: ALHh080262.fits
+2025-02-28 14:03:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:624 - Subtracted the bias.
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:632 - File ALHh080262.fits processed.
+
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:612 - Processing file: ALHh080277.fits
+2025-02-28 14:03:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:624 - Subtracted the bias.
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:632 - File ALHh080277.fits processed.
+
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:612 - Processing file: ALHh080396.fits
+2025-02-28 14:03:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:624 - Subtracted the bias.
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:632 - File ALHh080396.fits processed.
+
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:612 - Processing file: ALHh080397.fits
+2025-02-28 14:03:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:624 - Subtracted the bias.
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:632 - File ALHh080397.fits processed.
+
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:612 - Processing file: ALHh080398.fits
+2025-02-28 14:03:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:624 - Subtracted the bias.
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:632 - File ALHh080398.fits processed.
+
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:612 - Processing file: ALHh080399.fits
+2025-02-28 14:03:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:624 - Subtracted the bias.
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:632 - File ALHh080399.fits processed.
+
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:612 - Processing file: ALHh080400.fits
+2025-02-28 14:03:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:624 - Subtracted the bias.
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:632 - File ALHh080400.fits processed.
+
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:612 - Processing file: ALHh090206.fits
+2025-02-28 14:03:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:624 - Subtracted the bias.
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:632 - File ALHh090206.fits processed.
+
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:612 - Processing file: ALHh090214.fits
+2025-02-28 14:03:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:624 - Subtracted the bias.
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:632 - File ALHh090214.fits processed.
+
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:612 - Processing file: ALHh090222.fits
+2025-02-28 14:03:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:624 - Subtracted the bias.
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:632 - File ALHh090222.fits processed.
+
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:612 - Processing file: ALHh090234.fits
+2025-02-28 14:03:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:624 - Subtracted the bias.
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:632 - File ALHh090234.fits processed.
+
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:612 - Processing file: ALHh090245.fits
+2025-02-28 14:03:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:624 - Subtracted the bias.
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:632 - File ALHh090245.fits processed.
+
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:612 - Processing file: ALHh090403.fits
+2025-02-28 14:03:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:624 - Subtracted the bias.
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:632 - File ALHh090403.fits processed.
+
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:612 - Processing file: ALHh090404.fits
+2025-02-28 14:03:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:624 - Subtracted the bias.
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:632 - File ALHh090404.fits processed.
+
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:612 - Processing file: ALHh090405.fits
+2025-02-28 14:03:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:624 - Subtracted the bias.
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:632 - File ALHh090405.fits processed.
+
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:612 - Processing file: ALHh090406.fits
+2025-02-28 14:03:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:624 - Subtracted the bias.
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:632 - File ALHh090406.fits processed.
+
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:612 - Processing file: ALHh090407.fits
+2025-02-28 14:03:06 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:624 - Subtracted the bias.
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:632 - File ALHh090407.fits processed.
+
+2025-02-28 14:03:06 - PyLongslit - WARNING - mkspecflat.py:641 - Number of flat frames (26) is less than 30. Error estimation might not be accurate.
+2025-02-28 14:03:06 - PyLongslit - WARNING - mkspecflat.py:644 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-28 14:03:06 - PyLongslit - INFO - mkspecflat.py:658 - Estimating the spectral response and normalizing...
+2025-02-28 14:03:07 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-28 14:03:07 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-28 14:03:07 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-28 14:03:07 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-28 14:03:11 - PyLongslit - INFO - mkspecflat.py:194 - Rotating spectral response model...
+2025-02-28 14:03:11 - PyLongslit - INFO - utils.py:595 - Rotating image to make x the spectral direction...
+2025-02-28 14:03:11 - PyLongslit - INFO - utils.py:599 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-28 14:03:11 - PyLongslit - INFO - mkspecflat.py:198 - Rotating the bad pixel mask...
+2025-02-28 14:03:11 - PyLongslit - INFO - utils.py:595 - Rotating image to make x the spectral direction...
+2025-02-28 14:03:11 - PyLongslit - INFO - utils.py:599 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-28 14:03:11 - PyLongslit - INFO - mkspecflat.py:678 - Spectral response normalization done.
+2025-02-28 14:03:11 - PyLongslit - INFO - mkspecflat.py:702 - Estimating the spacial response and normalizing...
+2025-02-28 14:03:17 - PyLongslit - INFO - mkspecflat.py:440 - Number of fits with R2 < 0.4: 86 out of total 2102 fits. A handfull is expected.
+2025-02-28 14:03:17 - PyLongslit - INFO - mkspecflat.py:442 - Bad spacial indices: [   4.   11.   19.   35.   42.   43.   50.   51.   66.   74.  119.  159.
+  160.  161.  180.  181.  182.  315.  356.  505.  556.  734. 1009. 1439.
+ 1442. 1444. 1446. 1449. 1451. 1452. 1454. 1455. 1456. 1457. 1471. 1501.
+ 2052. 2053. 2054. 2055. 2056. 2057. 2058. 2059. 2060. 2061. 2062. 2063.
+ 2064. 2065. 2066. 2067. 2068. 2069. 2070. 2071. 2072. 2073. 2074. 2075.
+ 2076. 2077. 2078. 2079. 2080. 2081. 2082. 2083. 2084. 2085. 2086. 2087.
+ 2088. 2089. 2090. 2091. 2092. 2093. 2094. 2095. 2096. 2097. 2098. 2099.
+ 2100. 2101.]
+2025-02-28 14:03:17 - PyLongslit - INFO - mkspecflat.py:443 - These will be interpolated.
+2025-02-28 14:03:29 - PyLongslit - INFO - mkspecflat.py:715 - Spacial response normalization done.
+2025-02-28 14:03:29 - PyLongslit - INFO - mkspecflat.py:723 - Rejecting outliers and plotting the results...
+2025-02-28 14:03:37 - PyLongslit - INFO - mkspecflat.py:817 - Mean pixel value of the final master flat-field: 1.00028 +/- 0.0003365496903740328 (should be 1.0).
+2025-02-28 14:03:37 - PyLongslit - INFO - mkspecflat.py:830 - Attaching header and writing to disc...
+2025-02-28 14:03:42 - PyLongslit - INFO - utils.py:56 - File written to /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/output/master_flat.fits
+2025-02-28 14:04:56 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/SDSS_J213510+2728.log.
+2025-02-28 14:04:56 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-28 14:04:56 - PyLongslit - INFO - parser.py:63 - User parameters loaded successfully.
+2025-02-28 14:04:56 - PyLongslit - INFO - parser.py:74 - Output directory /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/output found.
+2025-02-28 14:04:56 - PyLongslit - INFO - mkspecflat.py:579 - Flat-field procedure running...
+2025-02-28 14:04:56 - PyLongslit - INFO - mkspecflat.py:580 - Using the following parameters:
+2025-02-28 14:04:56 - PyLongslit - INFO - mkspecflat.py:581 - xsize = 500
+2025-02-28 14:04:56 - PyLongslit - INFO - mkspecflat.py:582 - ysize = 2102
+2025-02-28 14:04:56 - PyLongslit - INFO - mkspecflat.py:587 - Found 26 flat frames.
+2025-02-28 14:04:56 - PyLongslit - INFO - mkspecflat.py:588 - Files used for flat-fielding:
+2025-02-28 14:04:56 - PyLongslit - INFO - utils.py:397 - All files have the correct dimensions.
+2025-02-28 14:04:56 - PyLongslit - INFO - mkspecflat.py:598 - Fetching the master bias frame...
+2025-02-28 14:04:56 - PyLongslit - INFO - mkspecflat.py:603 - Master bias frame found and loaded.
+2025-02-28 14:04:56 - PyLongslit - INFO - mkspecflat.py:612 - Processing file: ALHh050135.fits
+2025-02-28 14:37:50 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/SDSS_J213510+2728.log.
+2025-02-28 14:37:50 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-28 14:37:50 - PyLongslit - INFO - parser.py:63 - User parameters loaded successfully.
+2025-02-28 14:37:50 - PyLongslit - INFO - parser.py:74 - Output directory /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/output found.
+2025-02-28 14:37:50 - PyLongslit - INFO - mkspecflat.py:584 - Flat-field procedure running...
+2025-02-28 14:37:50 - PyLongslit - INFO - mkspecflat.py:585 - Using the following parameters:
+2025-02-28 14:37:50 - PyLongslit - INFO - mkspecflat.py:586 - xsize = 500
+2025-02-28 14:37:50 - PyLongslit - INFO - mkspecflat.py:587 - ysize = 2102
+2025-02-28 14:37:50 - PyLongslit - INFO - mkspecflat.py:592 - Found 26 flat frames.
+2025-02-28 14:37:50 - PyLongslit - INFO - mkspecflat.py:593 - Files used for flat-fielding:
+2025-02-28 14:37:50 - PyLongslit - INFO - utils.py:397 - All files have the correct dimensions.
+2025-02-28 14:37:50 - PyLongslit - INFO - mkspecflat.py:603 - Fetching the master bias frame...
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:608 - Master bias frame found and loaded.
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:617 - Processing file: ALHh050135.fits
+2025-02-28 14:37:51 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:629 - Subtracted the bias.
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:637 - File ALHh050135.fits processed.
+
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:617 - Processing file: ALHh050143.fits
+2025-02-28 14:37:51 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:629 - Subtracted the bias.
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:637 - File ALHh050143.fits processed.
+
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:617 - Processing file: ALHh050199.fits
+2025-02-28 14:37:51 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:629 - Subtracted the bias.
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:637 - File ALHh050199.fits processed.
+
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:617 - Processing file: ALHh050282.fits
+2025-02-28 14:37:51 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:629 - Subtracted the bias.
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:637 - File ALHh050282.fits processed.
+
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:617 - Processing file: ALHh050283.fits
+2025-02-28 14:37:51 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:629 - Subtracted the bias.
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:637 - File ALHh050283.fits processed.
+
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:617 - Processing file: ALHh050284.fits
+2025-02-28 14:37:51 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:629 - Subtracted the bias.
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:637 - File ALHh050284.fits processed.
+
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:617 - Processing file: ALHh050285.fits
+2025-02-28 14:37:51 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:629 - Subtracted the bias.
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:637 - File ALHh050285.fits processed.
+
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:617 - Processing file: ALHh050286.fits
+2025-02-28 14:37:51 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:629 - Subtracted the bias.
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:637 - File ALHh050286.fits processed.
+
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:617 - Processing file: ALHh080254.fits
+2025-02-28 14:37:51 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:629 - Subtracted the bias.
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:637 - File ALHh080254.fits processed.
+
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:617 - Processing file: ALHh080262.fits
+2025-02-28 14:37:51 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:629 - Subtracted the bias.
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:637 - File ALHh080262.fits processed.
+
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:617 - Processing file: ALHh080277.fits
+2025-02-28 14:37:51 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:629 - Subtracted the bias.
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:637 - File ALHh080277.fits processed.
+
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:617 - Processing file: ALHh080396.fits
+2025-02-28 14:37:51 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:629 - Subtracted the bias.
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:637 - File ALHh080396.fits processed.
+
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:617 - Processing file: ALHh080397.fits
+2025-02-28 14:37:51 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:629 - Subtracted the bias.
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:637 - File ALHh080397.fits processed.
+
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:617 - Processing file: ALHh080398.fits
+2025-02-28 14:37:51 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:629 - Subtracted the bias.
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:637 - File ALHh080398.fits processed.
+
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:617 - Processing file: ALHh080399.fits
+2025-02-28 14:37:51 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:629 - Subtracted the bias.
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:637 - File ALHh080399.fits processed.
+
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:617 - Processing file: ALHh080400.fits
+2025-02-28 14:37:51 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:629 - Subtracted the bias.
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:637 - File ALHh080400.fits processed.
+
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:617 - Processing file: ALHh090206.fits
+2025-02-28 14:37:51 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:629 - Subtracted the bias.
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:637 - File ALHh090206.fits processed.
+
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:617 - Processing file: ALHh090214.fits
+2025-02-28 14:37:51 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:629 - Subtracted the bias.
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:637 - File ALHh090214.fits processed.
+
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:617 - Processing file: ALHh090222.fits
+2025-02-28 14:37:51 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:629 - Subtracted the bias.
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:637 - File ALHh090222.fits processed.
+
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:617 - Processing file: ALHh090234.fits
+2025-02-28 14:37:51 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:629 - Subtracted the bias.
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:637 - File ALHh090234.fits processed.
+
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:617 - Processing file: ALHh090245.fits
+2025-02-28 14:37:51 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:629 - Subtracted the bias.
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:637 - File ALHh090245.fits processed.
+
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:617 - Processing file: ALHh090403.fits
+2025-02-28 14:37:51 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:629 - Subtracted the bias.
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:637 - File ALHh090403.fits processed.
+
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:617 - Processing file: ALHh090404.fits
+2025-02-28 14:37:51 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:629 - Subtracted the bias.
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:637 - File ALHh090404.fits processed.
+
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:617 - Processing file: ALHh090405.fits
+2025-02-28 14:37:51 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:629 - Subtracted the bias.
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:637 - File ALHh090405.fits processed.
+
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:617 - Processing file: ALHh090406.fits
+2025-02-28 14:37:51 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:629 - Subtracted the bias.
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:637 - File ALHh090406.fits processed.
+
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:617 - Processing file: ALHh090407.fits
+2025-02-28 14:37:51 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:629 - Subtracted the bias.
+2025-02-28 14:37:51 - PyLongslit - INFO - mkspecflat.py:637 - File ALHh090407.fits processed.
+
+2025-02-28 14:37:51 - PyLongslit - WARNING - mkspecflat.py:646 - Number of flat frames (26) is less than 30. Error estimation might not be accurate.
+2025-02-28 14:37:51 - PyLongslit - WARNING - mkspecflat.py:649 - Please consider taking more flat frames or activating error bootstrapping in the config file.
+2025-02-28 14:37:52 - PyLongslit - INFO - mkspecflat.py:663 - Estimating the spectral response and normalizing...
+2025-02-28 14:37:52 - PyLongslit - INFO - wavecalib.py:1645 - Loading 1D wavelength solution from disc...
+2025-02-28 14:37:52 - PyLongslit - INFO - wavecalib.py:1654 - Wavelength solution loaded.
+2025-02-28 14:37:52 - PyLongslit - INFO - wavecalib.py:1674 - Loading 2D tilt solution from disc...
+2025-02-28 14:37:52 - PyLongslit - INFO - wavecalib.py:1683 - Tilt solution loaded.
+2025-02-28 14:37:59 - PyLongslit - INFO - mkspecflat.py:194 - Rotating spectral response model...
+2025-02-28 14:37:59 - PyLongslit - INFO - utils.py:595 - Rotating image to make x the spectral direction...
+2025-02-28 14:37:59 - PyLongslit - INFO - utils.py:599 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-28 14:37:59 - PyLongslit - INFO - mkspecflat.py:198 - Rotating the bad pixel mask...
+2025-02-28 14:37:59 - PyLongslit - INFO - utils.py:595 - Rotating image to make x the spectral direction...
+2025-02-28 14:37:59 - PyLongslit - INFO - utils.py:599 - Flipping the image to make wavelengths increase with x-pixels...
+2025-02-28 14:37:59 - PyLongslit - INFO - mkspecflat.py:683 - Spectral response normalization done.
+2025-02-28 14:37:59 - PyLongslit - INFO - mkspecflat.py:707 - Estimating the spacial response and normalizing...
+2025-02-28 14:38:27 - PyLongslit - INFO - mkspecflat.py:445 - Number of fits with R2 < 0.4: 81 out of total 2102 fits. A handfull is expected.
+2025-02-28 14:38:27 - PyLongslit - INFO - mkspecflat.py:447 - Bad spectral indices: [   4   11   19   35   42   43   50   51   66   74  119  159  160  161
+  180  181  182  315  356  505  556  734 1009 1439 1442 1444 1446 1449
+ 1451 1452 1454 1455 1456 1457 1471 1501 2057 2058 2059 2060 2061 2062
+ 2063 2064 2065 2066 2067 2068 2069 2070 2071 2072 2073 2074 2075 2076
+ 2077 2078 2079 2080 2081 2082 2083 2084 2085 2086 2087 2088 2089 2090
+ 2091 2092 2093 2094 2095 2096 2097 2098 2099 2100 2101]
+2025-02-28 14:38:27 - PyLongslit - INFO - mkspecflat.py:448 - These will be interpolated.
+2025-02-28 14:38:31 - PyLongslit - INFO - mkspecflat.py:720 - Spacial response normalization done.
+2025-02-28 14:38:31 - PyLongslit - INFO - mkspecflat.py:728 - Rejecting outliers and plotting the results...
+2025-02-28 14:38:43 - PyLongslit - INFO - mkspecflat.py:822 - Mean pixel value of the final master flat-field: 1.0002 +/- 0.0003390286471179042 (should be 1.0).
+2025-02-28 14:38:43 - PyLongslit - INFO - mkspecflat.py:835 - Attaching header and writing to disc...
+2025-02-28 14:38:47 - PyLongslit - INFO - utils.py:56 - File written to /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/output/master_flat.fits
+2025-02-28 14:40:23 - PyLongslit - INFO - logger.py:72 - Logger initialized. Log will be saved in /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/SDSS_J213510+2728.log.
+2025-02-28 14:40:23 - PyLongslit - INFO - parser.py:27 - Config file found. Loading user parameters...
+2025-02-28 14:40:23 - PyLongslit - INFO - parser.py:63 - User parameters loaded successfully.
+2025-02-28 14:40:23 - PyLongslit - INFO - parser.py:74 - Output directory /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/output found.
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:28 - Bias procedure running...
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:29 - Using the following parameters:
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:30 - xsize = 500
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:31 - ysize = 2102
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:36 - Found 32 bias frames.
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:37 - Files used for bias processing:
+2025-02-28 14:40:24 - PyLongslit - INFO - utils.py:397 - All files have the correct dimensions.
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:54 - Processing file: ALHh050356.fits
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:181 - Subtracting overscan bias from the frame.
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:67 - File ALHh050356.fits processed.
+
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:54 - Processing file: ALHh050357.fits
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:181 - Subtracting overscan bias from the frame.
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:67 - File ALHh050357.fits processed.
+
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:54 - Processing file: ALHh050358.fits
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:181 - Subtracting overscan bias from the frame.
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:67 - File ALHh050358.fits processed.
+
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:54 - Processing file: ALHh050359.fits
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:181 - Subtracting overscan bias from the frame.
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:67 - File ALHh050359.fits processed.
+
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:54 - Processing file: ALHh050360.fits
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:181 - Subtracting overscan bias from the frame.
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:67 - File ALHh050360.fits processed.
+
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:54 - Processing file: ALHh050361.fits
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:181 - Subtracting overscan bias from the frame.
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:67 - File ALHh050361.fits processed.
+
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:54 - Processing file: ALHh050362.fits
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:181 - Subtracting overscan bias from the frame.
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:67 - File ALHh050362.fits processed.
+
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:54 - Processing file: ALHh050363.fits
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:181 - Subtracting overscan bias from the frame.
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:67 - File ALHh050363.fits processed.
+
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:54 - Processing file: ALHh050364.fits
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:181 - Subtracting overscan bias from the frame.
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:67 - File ALHh050364.fits processed.
+
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:54 - Processing file: ALHh050365.fits
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:181 - Subtracting overscan bias from the frame.
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:67 - File ALHh050365.fits processed.
+
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:54 - Processing file: ALHh050366.fits
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:181 - Subtracting overscan bias from the frame.
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:67 - File ALHh050366.fits processed.
+
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:54 - Processing file: ALHh080478.fits
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:181 - Subtracting overscan bias from the frame.
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:67 - File ALHh080478.fits processed.
+
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:54 - Processing file: ALHh080479.fits
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:181 - Subtracting overscan bias from the frame.
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:67 - File ALHh080479.fits processed.
+
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:54 - Processing file: ALHh080480.fits
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:181 - Subtracting overscan bias from the frame.
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:67 - File ALHh080480.fits processed.
+
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:54 - Processing file: ALHh080481.fits
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:181 - Subtracting overscan bias from the frame.
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:67 - File ALHh080481.fits processed.
+
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:54 - Processing file: ALHh080482.fits
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:181 - Subtracting overscan bias from the frame.
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:67 - File ALHh080482.fits processed.
+
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:54 - Processing file: ALHh080483.fits
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:181 - Subtracting overscan bias from the frame.
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:67 - File ALHh080483.fits processed.
+
+2025-02-28 14:40:24 - PyLongslit - INFO - mkspecbias.py:54 - Processing file: ALHh080484.fits
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:40:24 - PyLongslit - INFO - overscan.py:181 - Subtracting overscan bias from the frame.
+2025-02-28 14:40:25 - PyLongslit - INFO - mkspecbias.py:67 - File ALHh080484.fits processed.
+
+2025-02-28 14:40:25 - PyLongslit - INFO - mkspecbias.py:54 - Processing file: ALHh080485.fits
+2025-02-28 14:40:25 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:40:25 - PyLongslit - INFO - overscan.py:181 - Subtracting overscan bias from the frame.
+2025-02-28 14:40:25 - PyLongslit - INFO - mkspecbias.py:67 - File ALHh080485.fits processed.
+
+2025-02-28 14:40:25 - PyLongslit - INFO - mkspecbias.py:54 - Processing file: ALHh080486.fits
+2025-02-28 14:40:25 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:40:25 - PyLongslit - INFO - overscan.py:181 - Subtracting overscan bias from the frame.
+2025-02-28 14:40:25 - PyLongslit - INFO - mkspecbias.py:67 - File ALHh080486.fits processed.
+
+2025-02-28 14:40:25 - PyLongslit - INFO - mkspecbias.py:54 - Processing file: ALHh080487.fits
+2025-02-28 14:40:25 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:40:25 - PyLongslit - INFO - overscan.py:181 - Subtracting overscan bias from the frame.
+2025-02-28 14:40:25 - PyLongslit - INFO - mkspecbias.py:67 - File ALHh080487.fits processed.
+
+2025-02-28 14:40:25 - PyLongslit - INFO - mkspecbias.py:54 - Processing file: ALHh080488.fits
+2025-02-28 14:40:25 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:40:25 - PyLongslit - INFO - overscan.py:181 - Subtracting overscan bias from the frame.
+2025-02-28 14:40:25 - PyLongslit - INFO - mkspecbias.py:67 - File ALHh080488.fits processed.
+
+2025-02-28 14:40:25 - PyLongslit - INFO - mkspecbias.py:54 - Processing file: ALHh090497.fits
+2025-02-28 14:40:25 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:40:25 - PyLongslit - INFO - overscan.py:181 - Subtracting overscan bias from the frame.
+2025-02-28 14:40:25 - PyLongslit - INFO - mkspecbias.py:67 - File ALHh090497.fits processed.
+
+2025-02-28 14:40:25 - PyLongslit - INFO - mkspecbias.py:54 - Processing file: ALHh090498.fits
+2025-02-28 14:40:25 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:40:25 - PyLongslit - INFO - overscan.py:181 - Subtracting overscan bias from the frame.
+2025-02-28 14:40:25 - PyLongslit - INFO - mkspecbias.py:67 - File ALHh090498.fits processed.
+
+2025-02-28 14:40:25 - PyLongslit - INFO - mkspecbias.py:54 - Processing file: ALHh090499.fits
+2025-02-28 14:40:25 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:40:25 - PyLongslit - INFO - overscan.py:181 - Subtracting overscan bias from the frame.
+2025-02-28 14:40:25 - PyLongslit - INFO - mkspecbias.py:67 - File ALHh090499.fits processed.
+
+2025-02-28 14:40:25 - PyLongslit - INFO - mkspecbias.py:54 - Processing file: ALHh090500.fits
+2025-02-28 14:40:25 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:40:25 - PyLongslit - INFO - overscan.py:181 - Subtracting overscan bias from the frame.
+2025-02-28 14:40:25 - PyLongslit - INFO - mkspecbias.py:67 - File ALHh090500.fits processed.
+
+2025-02-28 14:40:25 - PyLongslit - INFO - mkspecbias.py:54 - Processing file: ALHh090501.fits
+2025-02-28 14:40:25 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:40:25 - PyLongslit - INFO - overscan.py:181 - Subtracting overscan bias from the frame.
+2025-02-28 14:40:25 - PyLongslit - INFO - mkspecbias.py:67 - File ALHh090501.fits processed.
+
+2025-02-28 14:40:25 - PyLongslit - INFO - mkspecbias.py:54 - Processing file: ALHh090502.fits
+2025-02-28 14:40:25 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:40:25 - PyLongslit - INFO - overscan.py:181 - Subtracting overscan bias from the frame.
+2025-02-28 14:40:25 - PyLongslit - INFO - mkspecbias.py:67 - File ALHh090502.fits processed.
+
+2025-02-28 14:40:25 - PyLongslit - INFO - mkspecbias.py:54 - Processing file: ALHh090503.fits
+2025-02-28 14:40:25 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:40:25 - PyLongslit - INFO - overscan.py:181 - Subtracting overscan bias from the frame.
+2025-02-28 14:40:25 - PyLongslit - INFO - mkspecbias.py:67 - File ALHh090503.fits processed.
+
+2025-02-28 14:40:25 - PyLongslit - INFO - mkspecbias.py:54 - Processing file: ALHh090504.fits
+2025-02-28 14:40:25 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:40:25 - PyLongslit - INFO - overscan.py:181 - Subtracting overscan bias from the frame.
+2025-02-28 14:40:25 - PyLongslit - INFO - mkspecbias.py:67 - File ALHh090504.fits processed.
+
+2025-02-28 14:40:25 - PyLongslit - INFO - mkspecbias.py:54 - Processing file: ALHh090505.fits
+2025-02-28 14:40:25 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:40:25 - PyLongslit - INFO - overscan.py:181 - Subtracting overscan bias from the frame.
+2025-02-28 14:40:25 - PyLongslit - INFO - mkspecbias.py:67 - File ALHh090505.fits processed.
+
+2025-02-28 14:40:25 - PyLongslit - INFO - mkspecbias.py:54 - Processing file: ALHh090506.fits
+2025-02-28 14:40:25 - PyLongslit - INFO - overscan.py:152 - Estimating the overscan bias...
+2025-02-28 14:40:25 - PyLongslit - INFO - overscan.py:181 - Subtracting overscan bias from the frame.
+2025-02-28 14:40:25 - PyLongslit - INFO - mkspecbias.py:67 - File ALHh090506.fits processed.
+
+2025-02-28 14:40:26 - PyLongslit - INFO - mkspecbias.py:85 - Bias frames processed.
+2025-02-28 14:41:01 - PyLongslit - INFO - utils.py:56 - File written to /home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/output/master_bias.fits
+2025-02-28 14:41:01 - PyLongslit - INFO - mkspecbias.py:95 - Bias procedure completed.
