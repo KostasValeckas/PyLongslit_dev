@@ -102,7 +102,7 @@
         "arcline_start": 0,
         "arcline_end": 500,
         "jump_tolerance": 0.05,
-        "pixtable": "/home/kostas/Documents/PyLongslit_dev/output/idarc.dat",
+        "pixtable": "/home/kostas/Documents/PyLongslit/database/alfosc_grating4_hene_pixtable.dat",
         "FWHM": 6,
         "TOL_MEAN": 2,
         "TOL_FWHM": 1,

@@ -1,4 +1,3 @@
-combine_arcs.py
 combine.py
 crop.py
 crremoval.py
