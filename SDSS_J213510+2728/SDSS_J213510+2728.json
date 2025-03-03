@@ -102,17 +102,17 @@
         "arcline_start": 0,
         "arcline_end": 500,
         "jump_tolerance": 0.05,
-        "pixtable": "/home/kostas/Documents/PyLongslit/database/alfosc_grating4_hene_pixtable.dat",
+        "center_guess_pixtable": "/home/kostas/Documents/PyLongslit/database/alfosc_grating4_hene_pixtable.dat",
         "FWHM": 6,
         "TOL_MEAN": 2,
         "TOL_FWHM": 1,
-        "ORDER_WAVELEN": 5,
+        "REIDENTIFY_R2_TOL": 0.90,
+        "ORDER_WAVELEN_1D": 5,
         "ORDER_SPECTRAL_TILT": 1,  
         "ORDER_SPATIAL_TILT": 3,
-        "REIDENTIFY_R2_TOL": 0.90,
-        "SPACIAL_R2_TOL": 0.97,
+        "TILT_TRACE_R2_TOL": 0.99,
         "TILT_REJECT_LINE_FRACTION": 0.1,
-        "TILT_TRACE_R2_TOL": 0.99   
+        "SPACIAL_R2_TOL": 0.97        
     },
 
     "extract" : {

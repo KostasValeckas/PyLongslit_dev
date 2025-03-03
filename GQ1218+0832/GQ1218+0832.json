@@ -100,17 +100,17 @@
         "arcline_start": 100,
         "arcline_end": 1980,
         "jump_tolerance": 0.3,
-        "pixtable": "/home/kostas/Documents/PyLongslit/database/osiris_r1000b_hgar_ne_pixtable.dat",
+        "center_guess_pixtable": "/home/kostas/Documents/PyLongslit/database/osiris_r1000b_hgar_ne_pixtable.dat",
         "FWHM": 6,
         "TOL_MEAN": 35,
         "TOL_FWHM": 2,
-        "ORDER_WAVELEN": 6,
-        "ORDER_SPECTRAL_TILT": 3,  
-        "ORDER_SPATIAL_TILT": 4,
         "REIDENTIFY_R2_TOL": 0.96,
-        "SPACIAL_R2_TOL": 0.98,
-        "TILT_REJECT_LINE_FRACTION": 0.2,
-        "TILT_TRACE_R2_TOL": 0.96   
+        "ORDER_WAVELEN_1D": 6,
+        "ORDER_SPECTRAL_TILT": 3,  
+        "ORDER_SPATIAL_TILT": 6,
+        "TILT_TRACE_R2_TOL": 0.96,
+        "TILT_REJECT_LINE_FRACTION": 0.2,      
+        "SPACIAL_R2_TOL": 0.98
     },
 
     "extract" : {
