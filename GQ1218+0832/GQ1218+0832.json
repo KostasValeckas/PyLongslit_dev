@@ -106,11 +106,15 @@
         "TOL_FWHM": 2,
         "REIDENTIFY_R2_TOL": 0.96,
         "ORDER_WAVELEN_1D": 6,
-        "ORDER_SPECTRAL_TILT": 3,  
+        "ORDER_SPECTRAL_TILT": 4,  
         "ORDER_SPATIAL_TILT": 6,
         "TILT_TRACE_R2_TOL": 0.96,
         "TILT_REJECT_LINE_FRACTION": 0.2,      
-        "SPACIAL_R2_TOL": 0.98
+        "SPACIAL_R2_TOL": 0.98,
+        "reuse_reided_lines": false,
+        "reuse_1d_sol": false,
+        "reuse_line_traces": false,
+        "reuse_2d_tilt_fit": false
     },
 
     "extract" : {
