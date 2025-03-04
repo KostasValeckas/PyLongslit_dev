@@ -29,7 +29,7 @@
 
     "bias": {
         "bias_dir": "/home/kostas/Documents/PyLongslit_dev/GQ1218+0832/bias",
-        "bootstrap_errors": true
+        "bootstrap_errors": false
     },
 
     "flat": {
@@ -78,7 +78,7 @@
     },
 
     "science" : {
-        "skip_science": true,
+        "skip_science": false,
         "science_dir": "/home/kostas/Documents/PyLongslit_dev/GQ1218+0832/object",
         "exptime": 1000,
         "airmass": 1.8
@@ -125,14 +125,25 @@
         "reuse_2d_tilt_fit": false
     },
 
+    "sky" : {
+        "sigma_cut": 3,
+        "sigma_clip_iters": 5,
+        "fit_order": 2
+    },
+
     "extract" : {
-        "NSUM_AP": 10,
-        "FWHM_AP": 6,
-        "SIGMA_APSKY": 3.0,
-        "ITERS_APSKY": 5,
-        "ORDER_APSKY": 3,
-        "SNR": 5,
-        "OBJ_FIT_DEG": 3
+        "object": {
+            "spectral_pixel_extension": 0,
+            "fwhm_guess": 5,
+            "SNR": 5,
+            "fit_orders": 2
+        },
+        "standard": {
+            "spectral_pixel_extension": 0,
+            "fwhm_guess": 7,
+            "SNR": 5,
+            "fit_orders": 2
+        }
     },
 
     "extract_simple" : {

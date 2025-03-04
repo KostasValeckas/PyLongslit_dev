@@ -127,14 +127,25 @@
         "reuse_2d_tilt_fit": false      
     },
 
+    "sky" : {
+        "sigma_cut": 3,
+        "sigma_clip_iters": 5,
+        "fit_order": 2
+    },
+
     "extract" : {
-        "NSUM_AP": 10,
-        "FWHM_AP": 5,
-        "SIGMA_APSKY": 3.0,
-        "ITERS_APSKY": 5,
-        "ORDER_APSKY": 2,
-        "SNR": 5,
-        "OBJ_FIT_DEG": 2
+        "object": {
+            "spectral_pixel_extension": 0,
+            "fwhm_guess": 5,
+            "SNR": 5,
+            "fit_orders": 2
+        },
+        "standard": {
+            "spectral_pixel_extension": 0,
+            "fwhm_guess": 5,
+            "SNR": 5,
+            "fit_orders": 2
+        }
     },
     
     "obj_trace_clone" : {

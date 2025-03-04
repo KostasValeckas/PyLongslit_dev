@@ -1,3 +1,6 @@
+
+* IMPLEMENT A 2D SPEC
+
 * Fit initiation should be moved to utils - for now too much repeated code.
 * make object FWHM different for sky and object tracing, or for standard star and science parts
 * tool with adjustable sliders for viewing spectra
@@ -5,8 +8,6 @@
 * Go through full reduction and clean up plots and prints
 
 * Check all docstrings
-
-* make  a note about conda install qt
 
 NICE-TO-HAVE for the future:
 * dark frame support
@@ -16,5 +17,4 @@ NICE-TO-HAVE for the future:
 * Animated plots in the fitting processes
 * When utils get too inflated, chop up into several models (fitting, plotting, utils) or alike.
 * the filelist object in utils could use a refactor - specially in combinning with open_fits method
-* most data loading code assume that the raw data will be in hdul[1].data - make this more robust
 * it should be possible to implement automatic rotation curve detection with current tilt tracing

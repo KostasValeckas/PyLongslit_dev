@@ -1,6 +1,4 @@
 combine.py
-crop.py
-crremoval.py
 extract_1d.py
 extract_simple_1d.py
 flux_calibrate.py
@@ -9,8 +7,6 @@ obj_trace_manual.py
 obj_trace.py
 overscan.py
 sensitivity_function.py
-skysubtract.py
 stats.py
-subtract_background.py
 tools
 utils.py
