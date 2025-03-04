@@ -49,10 +49,18 @@
     },
 
     "crr_removal" : {
-        "frac": 0.01,
-        "objlim": 20,
-        "sigclip": 15.0,
-        "niter": 1
+        "science":{
+            "frac": 0.3,
+            "objlim": 5,
+            "sigclip": 16.0,
+            "niter": 2
+        },
+        "standard":{
+            "frac": 0.3,
+            "objlim": 1,
+            "sigclip": 27.0,
+            "niter": 5
+        }
     },
 
     "background_sub" : {
@@ -70,7 +78,7 @@
     },
 
     "science" : {
-        "skip_science": false,
+        "skip_science": true,
         "science_dir": "/home/kostas/Documents/PyLongslit_dev/GQ1218+0832/object",
         "exptime": 1000,
         "airmass": 1.8

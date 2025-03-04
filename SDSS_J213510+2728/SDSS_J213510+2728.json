@@ -51,10 +51,18 @@
     },
 
     "crr_removal" : {
-        "frac": 0.3,
-        "objlim": 6,
-        "sigclip": 10.0,
-        "niter": 1
+        "science":{
+            "frac": 0.3,
+            "objlim": 6,
+            "sigclip": 6.0,
+            "niter": 2
+        },
+        "standard":{
+            "frac": 0.3,
+            "objlim": 4,
+            "sigclip": 4.0,
+            "niter": 3
+        }
     },
 
     "background_sub" : {

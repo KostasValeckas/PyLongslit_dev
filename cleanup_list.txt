@@ -8,11 +8,9 @@ obj_trace_clone.py
 obj_trace_manual.py
 obj_trace.py
 overscan.py
-reduce.py
 sensitivity_function.py
 skysubtract.py
 stats.py
 subtract_background.py
 tools
 utils.py
-wavecalib.py
