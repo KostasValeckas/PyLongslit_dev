@@ -133,18 +133,26 @@
         "fit_order": 2
     },
 
-    "extract" : {
+    "trace" : {
         "object": {
-            "spectral_pixel_extension": 0,
-            "fwhm_guess": 5,
-            "SNR": 5,
-            "fit_orders": 2
+            "spectral_pixel_extension": 10,
+            "fwhm_guess": 3,
+            "fwhm_thresh": 2,
+            "center_thresh": 3,
+            "SNR": 12,
+            "fit_order_trace": 3,
+            "fit_order_fwhm": 3,
+            "fit_R2": 0.90
         },
         "standard": {
-            "spectral_pixel_extension": 0,
-            "fwhm_guess": 5,
-            "SNR": 5,
-            "fit_orders": 2
+            "spectral_pixel_extension": 10,
+            "fwhm_guess": 4,
+            "fwhm_thresh": 5,
+            "center_thresh": 3,
+            "SNR": 70,
+            "fit_order_trace": 14,
+            "fit_order_fwhm": 14,
+            "fit_R2": 0.99
         }
     },
     
@@ -168,7 +176,7 @@
 
     "developer": {
         "debug_plots": false,
-        "verbose_print": false  
+        "verbose_print": false
 
     }
 }

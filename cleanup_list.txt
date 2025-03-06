@@ -5,8 +5,6 @@ flux_calibrate.py
 obj_trace_clone.py
 obj_trace_manual.py
 obj_trace.py
-overscan.py
 sensitivity_function.py
-stats.py
 tools
 utils.py
