@@ -4,7 +4,6 @@ extract_simple_1d.py
 flux_calibrate.py
 obj_trace_clone.py
 obj_trace_manual.py
-obj_trace.py
 sensitivity_function.py
 tools
 utils.py

@@ -135,22 +135,30 @@
         "object": {
             "spectral_pixel_extension": 10,
             "fwhm_guess": 3,
-            "fwhm_thresh": 2,
+            "fwhm_thresh": 1,
             "center_thresh": 3,
             "SNR": 12,
             "fit_order_trace": 3,
-            "fit_order_fwhm": 3,
-            "fit_R2": 0.90
+            "fit_order_fwhm": 4,
+            "fit_R2": 0.97,
+            "use_bspline_obj": false,
+            "use_bspline_fwhm": false,
+            "knots_bspline": 4,
+            "model": "Cauchy"
         },
         "standard": {
-            "spectral_pixel_extension": 10,
+            "spectral_pixel_extension": 2,
             "fwhm_guess": 3,
-            "fwhm_thresh": 5,
+            "fwhm_thresh": 1,
             "center_thresh": 3,
             "SNR": 70,
-            "fit_order_trace": 10,
-            "fit_order_fwhm": 14,
-            "fit_R2": 0.90
+            "fit_order_trace": 6,
+            "fit_order_fwhm": 3,
+            "fit_R2": 0.99,
+            "use_bspline_obj": false,
+            "use_bspline_fwhm": true,
+            "knots_bspline": 5,
+            "model": "Gaussian"
         }
     },
     
