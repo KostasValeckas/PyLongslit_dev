@@ -146,7 +146,7 @@
             "use_bspline_obj": false,
             "use_bspline_fwhm": false,
             "knots_bspline": 4,
-            "model": "Cauchy"
+            "model": "Gaussian"
         },
         "standard": {
             "spectral_pixel_extension": 0,
@@ -182,7 +182,7 @@
     },
 
     "developer": {
-        "debug_plots": false,
+        "debug_plots": true,
         "verbose_print": false
 
     }
