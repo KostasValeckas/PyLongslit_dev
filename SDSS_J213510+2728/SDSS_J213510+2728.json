@@ -165,8 +165,8 @@
     },
     
     "obj_trace_clone" : {
-        "archived_spec_root": "/home/kostasvaleckas/Documents/DAWN/PyLongslit/output_alt/obj_science_ALHh050197.dat",
-        "frame_root": "/home/kostasvaleckas/Documents/DAWN/PyLongslit/output_alt/manual_obj_find/reduced_science_ALHh050196.fits"
+        "archived_spec_root": "/home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/output/obj_science_ALHh080251.dat",
+        "frame_root": "/home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/output/reduced_science_ALHh080252.fits"
     },
 
     "sensfunc": {
