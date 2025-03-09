@@ -182,7 +182,7 @@
     },
 
     "developer": {
-        "debug_plots": true,
+        "debug_plots": false,
         "verbose_print": false
 
     }
