@@ -173,7 +173,9 @@
     },
 
     "sensfunc": {
-        "fit_order": 9
+        "fit_order": 3,
+        "use_bspline": true,
+        "knots_bspline": 15
     },
 
     "flux_calib": {

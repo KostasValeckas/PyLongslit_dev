@@ -170,7 +170,9 @@
     },
 
     "sensfunc": {
-        "fit_order": 9
+        "fit_order": 3,
+        "use_bspline": true,
+        "knots_bspline": 15
     },
 
     "flux_calib": {
@@ -182,7 +184,7 @@
     },
 
     "developer": {
-        "debug_plots": false,
+        "debug_plots": true,
         "verbose_print": false
 
     }
