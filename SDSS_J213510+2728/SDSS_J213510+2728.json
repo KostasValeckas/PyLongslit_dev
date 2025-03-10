@@ -185,7 +185,7 @@
 
     "developer": {
         "debug_plots": true,
-        "verbose_print": false
+        "verbose_print": true
 
     }
 }
