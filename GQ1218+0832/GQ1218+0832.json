@@ -29,7 +29,7 @@
 
     "bias": {
         "bias_dir": "/home/kostas/Documents/PyLongslit_dev/GQ1218+0832/bias",
-        "bootstrap_errors": false
+        "bootstrap_errors": true
     },
 
     "flat": {
