@@ -1,16 +1,10 @@
+NEED-TO-HAVE before release
 
 * IMPLEMENT A 2D SPEC
 
-* Fit initiation should be moved to utils - for now too much repeated code.
-* make object FWHM different for sky and object tracing, or for standard star and science parts
-* tool with adjustable sliders for viewing spectra
-
-* Go through full reduction and clean up plots and prints
-
-* Check all docstrings
-
 NICE-TO-HAVE for the future:
 * dark frame support
+* Fit initiation should be moved to utils - for now too much repeated code.
 * for flats, make the fitted models 2d instead
 * sky estimation for now assumes no tilt - combine somehow with the fitted 2D tilt solution
 * Interpolation function used now is being depricated - look into swapping it out.
