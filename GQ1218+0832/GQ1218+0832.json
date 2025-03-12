@@ -90,7 +90,7 @@
         "exptime": 25,
         "airmass": 1.20609883319018,
         "starname": "SPSTD_Feige110",
-        "flux_file_path": "/home/kostas/Documents/PyLongslit/database/mfeige110.dat"
+        "flux_file_path": "/home/kostas/Documents/PyLongslit_dev/database/mfeige110.dat"
 
     },
 
@@ -108,7 +108,7 @@
         "arcline_start": 100,
         "arcline_end": 1980,
         "jump_tolerance": 0.3,
-        "center_guess_pixtable": "/home/kostas/Documents/PyLongslit/database/osiris_r1000b_hgar_ne_pixtable.dat",
+        "center_guess_pixtable": "/home/kostas/Documents/PyLongslit_dev/database/osiris_r1000b_hgar_ne_pixtable.dat",
         "FWHM": 6,
         "TOL_MEAN": 35,
         "TOL_FWHM": 2,
@@ -178,7 +178,7 @@
     },
 
     "flux_calib": {
-        "path_extinction_curve": "/home/kostas/Documents/PyLongslit/database/lapalma.dat"
+        "path_extinction_curve": "/home/kostas/Documents/PyLongslit_dev/database/lapalma.dat"
     },
 
     "combine": {
