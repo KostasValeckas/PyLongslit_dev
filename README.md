@@ -1,4 +1,4 @@
-** PyLongslit developer repository**
+**PyLongslit developer repository**
 
 This repository holds data that can be used both for going through the tutorial in the documentation
 and for running the test-suite, if you are developing the software. 
