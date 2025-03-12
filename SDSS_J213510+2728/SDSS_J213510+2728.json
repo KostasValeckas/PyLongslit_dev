@@ -182,8 +182,8 @@
     },
 
     "developer": {
-        "debug_plots": true,
-        "verbose_print": true
+        "debug_plots": false,
+        "verbose_print": false
 
     }
 }
