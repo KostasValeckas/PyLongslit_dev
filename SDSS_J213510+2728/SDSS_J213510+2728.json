@@ -13,7 +13,6 @@
         },
         "gain": 0.16,
         "read_out_noise": 4.3,
-        "dark_current": 0,
         "overscan" : {
             "use_overscan": true,
             "overscan_x_start": 0,
