@@ -65,7 +65,6 @@
     },
 
     "background_sub" : {
-        "subtract_background": true,
         "pairs": {
             "1": {
                 "A": "ALHh080251.fits",
@@ -135,8 +134,8 @@
     "trace" : {
         "object": {
             "spectral_pixel_extension": 10,
-            "fwhm_guess": 2.5,
-            "fwhm_thresh": 1,
+            "fwhm_guess": 3,
+            "fwhm_thresh": 2,
             "center_thresh": 3,
             "fit_order_trace": 3,
             "fit_order_fwhm": 3,

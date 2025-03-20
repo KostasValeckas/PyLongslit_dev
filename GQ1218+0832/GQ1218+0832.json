@@ -63,7 +63,6 @@
     },
 
     "background_sub" : {
-        "subtract_background": true,
         "pairs": {
             "1": {
                 "A": "0003881272-20230707-OSIRIS-OsirisLongSlitSpectroscopy.fits",
