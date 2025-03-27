@@ -58,9 +58,9 @@
         },
         "standard":{
             "frac": 0.3,
-            "objlim": 4,
-            "sigclip": 4.0,
-            "niter": 3
+            "objlim": 12,
+            "sigclip": 10.0,
+            "niter": 2
         }
     },
 
