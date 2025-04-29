@@ -1,9 +1,8 @@
-NEED-TO-HAVE before release
 
-* IMPLEMENT A 2D SPEC
 
 NICE-TO-HAVE for the future:
-* dark frame support
+
+* Histogram normalization option for crr and objtrace model QA's
 * Fit initiation should be moved to utils - for now too much repeated code.
 * for flats, make the fitted models 2d instead
 * sky estimation for now assumes no tilt - combine somehow with the fitted 2D tilt solution
