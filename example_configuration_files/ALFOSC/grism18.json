@@ -28,12 +28,12 @@
 
 
     "bias": {
-        "bias_dir": "/home/kostas/Documents/NOT/SNAQS/reductions/bias_2025_04_18",
+        "bias_dir": "path_here",
         "bootstrap_errors": false
     },
 
     "flat": {
-        "flat_dir": "/home/kostas/Documents/NOT/SNAQS/reductions/SDSS_J1240_2736_gr_18/flats_2025-01-05",
+        "flat_dir": "path_here",
         "bootstrap_errors": false,
         "skip_spacial": false,
         "knots_spectral_bspline": 70,
@@ -45,7 +45,7 @@
     },
 
     "output": {
-        "out_dir": "/home/kostas/Documents/NOT/SNAQS/reductions/SDSS_J1240_2736_gr_18/SDSS_J1240_2736/output"
+        "out_dir": "path_here"
 
     },
 
@@ -79,22 +79,22 @@
 
     "science" : {
         "skip_science": false,
-        "science_dir": "/home/kostas/Documents/NOT/SNAQS/reductions/SDSS_J1240_2736_gr_18/SDSS_J1240_2736/science",
+        "science_dir": "path_here",
         "exptime": 900,
         "airmass": 1.71535520361977
     },
 
     "standard" : {
         "skip_standard": false,
-        "standard_dir": "/home/kostas/Documents/NOT/SNAQS/reductions/SDSS_J1240_2736_gr_18/std",
+        "standard_dir": "path_here",
         "exptime": 2,
         "airmass": 1.07725766609046,
         "starname": "HD 93521",
-        "flux_file_path": "/home/kostas/Documents/PyLongslit_dev/database/hd935a.oke"
+        "flux_file_path": "path_here"
     },
 
     "arc" : {
-        "arc_dir": "/home/kostas/Documents/NOT/SNAQS/reductions/SDSS_J1240_2736_gr_18/SDSS_J1240_2736/arcs"
+        "arc_dir": "path_here"
     },
 
     "combine_arcs" : {
@@ -107,7 +107,7 @@
         "arcline_start": 0,
         "arcline_end": 500,
         "jump_tolerance": 0.1,
-        "center_guess_pixtable": "/home/kostas/Documents/PyLongslit_dev/database/alfosc_grating18_thar_pixtable.dat",
+        "center_guess_pixtable": "path_here",
         "FWHM": 6,
         "TOL_MEAN": 2,
         "TOL_FWHM": 2,
@@ -160,8 +160,8 @@
     },
     
     "obj_trace_clone" : {
-        "archived_spec_root": "/home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/output/obj_science_ALHh080251.dat",
-        "frame_root": "/home/kostas/Documents/PyLongslit_dev/SDSS_J213510+2728/output/reduced_science_ALHh080252.fits"
+        "archived_spec_root": "path_here",
+        "frame_root": "path_here"
     },
 
     "sensfunc": {
@@ -171,7 +171,7 @@
     },
 
     "flux_calib": {
-        "path_extinction_curve": "/home/kostas/Documents/PyLongslit_dev/database/lapalma.dat"
+        "path_extinction_curve": "path_here"
     },
 
     "combine": {

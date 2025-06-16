@@ -1,20 +1,20 @@
 {
     "instrument": {
-        "name": "ALFOSC",
-        "disperser": "Grating #19"
+        "name": "FORS2",
+        "disperser": "300I"
     },
 
     "detector": {
-        "xsize": 500,
-        "ysize": 2102,
+        "xsize": 2048,
+        "ysize": 1034,
         "dispersion": { 
-            "spectral_dir": "y",
-            "wavelength_grows_with_pixel": false
+            "spectral_dir": "x",
+            "wavelength_grows_with_pixel": true
         },
-        "gain": 0.16,
-        "read_out_noise": 4.3,
+        "gain": 1.43,
+        "read_out_noise": 2.9,
         "overscan" : {
-            "use_overscan": true,
+            "use_overscan": false,
             "overscan_x_start": 0,
             "overscan_x_end": 499,
             "overscan_y_start": 2064,
@@ -23,7 +23,7 @@
     },
     
     "data": {
-        "raw_data_hdu_index": 1
+        "raw_data_hdu_index": 0
     },
 
 
@@ -51,10 +51,10 @@
 
     "crr_removal" : {
         "science":{
-            "frac": 0.3,
-            "objlim": 6,
-            "sigclip": 8.0,
-            "niter": 6
+            "frac": 0.5,
+            "objlim": 12,
+            "sigclip": 12.0,
+            "niter": 2
         },
         "standard":{
             "frac": 0.3,
@@ -67,12 +67,16 @@
     "background_sub" : {
         "pairs": {
             "1": {
-                "A": "ALIa050073.fits",
-                "B": "ALIa050074.fits"
+                "A": "FORS2.2018-12-05T02_02_41.687.fits",
+                "B": "FORS2.2018-12-05T02_18_15.356.fits"
             },
             "2": {
-                "A": "ALIa050074.fits",
-                "B": "ALIa050073.fits"
+                "A": "FORS2.2018-12-05T02_18_15.356.fits",
+                "B": "FORS2.2018-12-05T02_33_49.816.fits"
+            },
+            "3": {
+                "A": "FORS2.2018-12-05T02_33_49.816.fits",
+                "B": "FORS2.2018-12-05T02_02_41.687.fits"
             }
         }
     },
@@ -80,17 +84,18 @@
     "science" : {
         "skip_science": false,
         "science_dir": "path_here",
-        "exptime": 900,
-        "airmass": 1.71535520361977
+        "exptime": 890,
+        "airmass": 1.929
     },
 
     "standard" : {
         "skip_standard": false,
         "standard_dir": "path_here",
-        "exptime": 2,
-        "airmass": 1.07725766609046,
-        "starname": "HD 93521",
+        "exptime": 55,
+        "airmass": 1.127,
+        "starname": "MBPM16274",
         "flux_file_path": "path_here"
+
     },
 
     "arc" : {
@@ -103,20 +108,20 @@
 
     "wavecalib" : {
         "offset_middle_cut": 0,
-        "pixel_cut_extension": 5,
+        "pixel_cut_extension": 1,
         "arcline_start": 0,
-        "arcline_end": 500,
-        "jump_tolerance": 0.1,
+        "arcline_end": 960,
+        "jump_tolerance": 0.2,
         "center_guess_pixtable": "path_here",
         "FWHM": 6,
         "TOL_MEAN": 2,
-        "TOL_FWHM": 2,
+        "TOL_FWHM": 3,
         "REIDENTIFY_R2_TOL": 0.90,
         "ORDER_WAVELEN_1D": 5,
         "ORDER_SPECTRAL_TILT": 1,  
-        "ORDER_SPATIAL_TILT": 3,
-        "TILT_TRACE_R2_TOL": 0.80,
-        "TILT_REJECT_LINE_FRACTION": 0.3,
+        "ORDER_SPATIAL_TILT": 4,
+        "TILT_TRACE_R2_TOL": 0.90,
+        "TILT_REJECT_LINE_FRACTION": 0.4,
         "SPACIAL_R2_TOL": 0.90,
         "reuse_reided_lines": false,
         "reuse_1d_sol": false,
@@ -133,7 +138,7 @@
     "trace" : {
         "object": {
             "spectral_pixel_extension": 10,
-            "fwhm_guess": 4,
+            "fwhm_guess": 6,
             "fwhm_thresh": 3,
             "center_thresh": 3,
             "fit_order_trace": 3,
@@ -146,12 +151,12 @@
         },
         "standard": {
             "spectral_pixel_extension": 0,
-            "fwhm_guess": 5,
+            "fwhm_guess": 8,
             "fwhm_thresh": 4,
             "center_thresh": 3,
             "fit_order_trace": 2,
             "fit_order_fwhm": 2,
-            "fit_R2": 0.70,
+            "fit_R2": 0.95,
             "use_bspline_obj": true,
             "use_bspline_fwhm": true,
             "knots_bspline": 10,
@@ -175,7 +180,7 @@
     },
 
     "combine": {
-        "SDSS_J1240_2736": ["ALIa050073.fits", "ALIa050074.fits"]
+        "Unknown FRB Host Y": ["FORS2.2018-12-05T02_02_41.687.fits", "FORS2.2018-12-05T02_18_15.356.fits", "FORS2.2018-12-05T02_33_49.816.fits"]
     },
 
     "developer": {
