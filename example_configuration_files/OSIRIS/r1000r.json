@@ -23,47 +23,56 @@
     },
 
     "data": {
-        "raw_data_hdu_index": 0
+        "raw_data_hdu_index": 0 
     },
 
     "bias": {
-        "bias_dir": "/home/kostas/Documents/DAWN_FULL_BACKUP/DAWN/linsed_quasars_data/bluewhale1737102147140/Kostas/GTCMULTIPLE2H-24B/OB0007/bias"
+        "bias_dir": "path_here",
+        "bootstrap_errors": false
     },
 
     "flat": {
-        "flat_dir": "/home/kostas/Documents/DAWN_FULL_BACKUP/DAWN/linsed_quasars_data/bluewhale1737102147140/Kostas/GTCMULTIPLE2H-24B/OB0007/flat",
-        "user_custom_norm_area": true,
+        "flat_dir": "path_here",
+        "bootstrap_errors": false,
         "skip_spacial": false,
-        "norm_area_start_x": 100,
-        "norm_area_end_x": 2000,
-        "norm_area_start_y": 100,
-        "norm_area_end_y": 2000
+        "knots_spectral_bspline": 70,
+        "degree_spectral_bspline": 3,
+        "knots_spacial_bspline": 20,
+        "degree_spacial_bspline": 3,
+        "R2_spacial_bspline": 0.5
     },
 
     "output": {
-        "out_dir": "/home/kostas/Documents/DAWN_FULL_BACKUP/DAWN/linsed_quasars_data/bluewhale1737102147140/Kostas/GTCMULTIPLE2H-24B/OB0007/out"
+        "out_dir": "path_here"
 
     },
 
     "crr_removal" : {
-        "frac": 0.01,
-        "objlim": 20,
-        "sigclip": 15.0,
-        "niter": 1
+        "science":{
+            "frac": 0.3,
+            "objlim": 5,
+            "sigclip": 16.0,
+            "niter": 2
+        },
+        "standard":{
+            "frac": 0.3,
+            "objlim": 1,
+            "sigclip": 27.0,
+            "niter": 5
+        }
     },
 
     "background_sub" : {
-        "subtract_background": true,
         "pairs": {
             "1": {
                 "A": "0004886611-20241110-OSIRIS-OsirisLongSlitSpectroscopy.fits",
-                "B": "0004886613-20241110-OSIRIS-OsirisLongSlitSpectroscopy.fits"
+                "B": "0004886612-20241110-OSIRIS-OsirisLongSlitSpectroscopy.fits"
             },
             "2": {
                 "A": "0004886612-20241110-OSIRIS-OsirisLongSlitSpectroscopy.fits",
                 "B": "0004886613-20241110-OSIRIS-OsirisLongSlitSpectroscopy.fits"
             },
-            "3" : {
+            "3": {
                 "A": "0004886613-20241110-OSIRIS-OsirisLongSlitSpectroscopy.fits",
                 "B": "0004886611-20241110-OSIRIS-OsirisLongSlitSpectroscopy.fits"
             }
@@ -72,23 +81,23 @@
 
     "science" : {
         "skip_science": false,
-        "science_dir": "/home/kostas/Documents/DAWN_FULL_BACKUP/DAWN/linsed_quasars_data/bluewhale1737102147140/Kostas/GTCMULTIPLE2H-24B/OB0007/object",
+        "science_dir": "path_here",
         "exptime": 500,
-        "airmass": 1.98981038787841
+        "airmass": 1.09898
     },
 
     "standard" : {
         "skip_standard": false,
-        "standard_dir": "/home/kostas/Documents/DAWN_FULL_BACKUP/DAWN/linsed_quasars_data/bluewhale1737102147140/Kostas/GTCMULTIPLE2H-24B/OB0007/stds",
+        "standard_dir": "path_here",
         "exptime": 50,
         "airmass": 1.21355061428629,
         "starname": "SPSTD_Feige110",
-        "flux_file_path": "/home/kostas/Documents/PyLongslit/database/mfeige110.dat"
+        "flux_file_path": "path_here"
 
     },
 
     "arc" : {
-        "arc_dir": "/home/kostas/Documents/DAWN_FULL_BACKUP/DAWN/linsed_quasars_data/bluewhale1737102147140/Kostas/GTCMULTIPLE2H-24B/OB0007/arc"
+        "arc_dir": "path_here"
     },
 
     "combine_arcs" : {
@@ -96,55 +105,100 @@
     },
 
     "wavecalib" : {
-        "pixtable": "/home/kostas/Documents/PyLongslit/output_OSIRIS/OSIRIS_R1000R_pixtable.dat",
-        "FWHM": 6.5,
-        "TOL_MEAN": 5,
+        "offset_middle_cut": 0,
+        "pixel_cut_extension": 3,
+        "arcline_start": 100,
+        "arcline_end": 1980,
+        "jump_tolerance": 0.3,
+        "center_guess_pixtable": "path_here",
+        "FWHM": 6,
+        "TOL_MEAN": 35,
         "TOL_FWHM": 2,
-        "ORDER_WAVELEN": 5,
-        "ORDER_SPECTRAL_TILT": 1,
-        "ORDER_SPATIAL_TILT": 3,
-        "SPACIAL_R2_TOL": 0.99,
-        "TILT_REJECT_LINE_FRACTION": 0.5,
-        "TILT_TRACE_R2_TOL": 0.95
+        "REIDENTIFY_R2_TOL": 0.995,
+        "ORDER_WAVELEN_1D": 5,
+        "ORDER_SPECTRAL_TILT": 4,  
+        "ORDER_SPATIAL_TILT": 6,
+        "TILT_TRACE_R2_TOL": 0.96,
+        "TILT_REJECT_LINE_FRACTION": 0.2,      
+        "SPACIAL_R2_TOL": 0.98,
+        "reuse_reided_lines": false,
+        "reuse_1d_sol": false,
+        "reuse_line_traces": false,
+        "reuse_2d_tilt_fit": false
     },
 
-    "extract" : {
-        "NSUM_AP": 10,
-        "FWHM_AP": 6,
-        "SIGMA_APSKY": 3.0,
-        "ITERS_APSKY": 5,
-        "ORDER_APSKY": 2,
-        "SNR": 5,
-        "OBJ_FIT_DEG": 3
+    "sky" : {
+        "sigma_cut": 3,
+        "sigma_clip_iters": 5,
+        "fit_order": 2
     },
 
+    "trace" : {
+        "object": {
+            "spectral_pixel_extension": 10,
+            "fwhm_guess": 10,
+            "fwhm_thresh": 4,
+            "center_thresh": 4,
+            "SNR": 12,
+            "fit_order_trace": 3,
+            "fit_order_fwhm": 4,
+            "fit_R2": 0.90,
+            "use_bspline_obj": false,
+            "use_bspline_fwhm": false,
+            "knots_bspline": 4,
+            "model": "Gaussian"
+        },
+        "standard": {
+            "spectral_pixel_extension": 2,
+            "fwhm_guess": 4,
+            "fwhm_thresh": 3,
+            "center_thresh": 3,
+            "SNR": 70,
+            "fit_order_trace": 2,
+            "fit_order_fwhm": 2,
+            "fit_R2": 0.95,
+            "use_bspline_obj": true,
+            "use_bspline_fwhm": true,
+            "knots_bspline": 50,
+            "model": "Gaussian"
+        }
+    },
+    
     "extract_simple" : {
         "FWHM": 2
     },
     
     "obj_trace_clone" : {
-        "archived_spec_root": "/home/kostas/Documents/DAWN_FULL_BACKUP/DAWN/linsed_quasars_data/bluewhale1737102147140/Kostas/GTCMULTIPLE2H-24B/OB0007/out/manual_traces/obj_manual_science_0004886613-20241110-OSIRIS-OsirisLongSlitSpectroscopy.dat",
-        "skysubbed_frame_root": "/home/kostas/Documents/DAWN_FULL_BACKUP/DAWN/linsed_quasars_data/bluewhale1737102147140/Kostas/GTCMULTIPLE2H-24B/OB0007/out/skysub_science_0004886613-20241110-OSIRIS-OsirisLongSlitSpectroscopy_B.fits",
-        "FWHM": 4
+        "archived_spec_root": "path_here",
+        "skysubbed_frame_root": "path_here"
     },
 
     "sensfunc": {
-        "fit_order": 9
+        "fit_order": 3,
+        "use_bspline": true,
+        "knots_bspline": 15
     },
 
     "flux_calib": {
-        "path_extinction_curve": "/home/kostas/Documents/PyLongslit/database/lapalma.dat"
+        "path_extinction_curve": "path_here"
     },
 
     "combine": {
         "DR3Gaia044652.260-310219.85_A": 
             ["0004886611-20241110-OSIRIS-OsirisLongSlitSpectroscopy_A.fits",
              "0004886612-20241110-OSIRIS-OsirisLongSlitSpectroscopy_A.fits",
-              "0004886613-20241110-OSIRIS-OsirisLongSlitSpectroscopy_A.fits"],
+             "0004886613-20241110-OSIRIS-OsirisLongSlitSpectroscopy_A.fits"
+            ],
         "DR3Gaia044652.260-310219.85_B": 
-        ["0004886611-20241110-OSIRIS-OsirisLongSlitSpectroscopy_B.fits",
+            ["0004886611-20241110-OSIRIS-OsirisLongSlitSpectroscopy_B.fits",
              "0004886612-20241110-OSIRIS-OsirisLongSlitSpectroscopy_B.fits",
-              "0004886613-20241110-OSIRIS-OsirisLongSlitSpectroscopy_B.fits"]
-        
+             "0004886613-20241110-OSIRIS-OsirisLongSlitSpectroscopy_B.fits"
+            ]
+    },
+
+    "developer": {
+        "debug_plots": false,
+        "verbose_print": false  
+
     }
 }
