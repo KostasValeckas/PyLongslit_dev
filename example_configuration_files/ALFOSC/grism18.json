@@ -1,0 +1,186 @@
+{
+    "instrument": {
+        "name": "ALFOSC",
+        "disperser": "Grating #18"
+    },
+
+    "detector": {
+        "xsize": 500,
+        "ysize": 2102,
+        "dispersion": { 
+            "spectral_dir": "y",
+            "wavelength_grows_with_pixel": false
+        },
+        "gain": 0.16,
+        "read_out_noise": 4.3,
+        "overscan" : {
+            "use_overscan": true,
+            "overscan_x_start": 0,
+            "overscan_x_end": 499,
+            "overscan_y_start": 2064,
+            "overscan_y_end": 2102
+        }
+    },
+    
+    "data": {
+        "raw_data_hdu_index": 1
+    },
+
+
+    "bias": {
+        "bias_dir": "path_here",
+        "bootstrap_errors": false
+    },
+
+    "flat": {
+        "flat_dir": "path_here",
+        "bootstrap_errors": false,
+        "skip_spacial": false,
+        "knots_spectral_bspline": 70,
+        "degree_spectral_bspline": 3,
+        "knots_spacial_bspline": 4,
+        "degree_spacial_bspline": 3,
+        "R2_spacial_bspline": 0.4
+
+    },
+
+    "output": {
+        "out_dir": "path_here"
+
+    },
+
+    "crr_removal" : {
+        "science":{
+            "frac": 0.3,
+            "objlim": 6,
+            "sigclip": 8.0,
+            "niter": 6
+        },
+        "standard":{
+            "frac": 0.3,
+            "objlim": 12,
+            "sigclip": 10.0,
+            "niter": 2
+        }
+    },
+
+    "background_sub" : {
+        "pairs": {
+            "1": {
+                "A": "ALIa050073.fits",
+                "B": "ALIa050074.fits"
+            },
+            "2": {
+                "A": "ALIa050074.fits",
+                "B": "ALIa050073.fits"
+            }
+        }
+    },
+
+    "science" : {
+        "skip_science": false,
+        "science_dir": "path_here",
+        "exptime": 900,
+        "airmass": 1.71535520361977
+    },
+
+    "standard" : {
+        "skip_standard": false,
+        "standard_dir": "path_here",
+        "exptime": 2,
+        "airmass": 1.07725766609046,
+        "starname": "HD 93521",
+        "flux_file_path": "path_here"
+    },
+
+    "arc" : {
+        "arc_dir": "path_here"
+    },
+
+    "combine_arcs" : {
+        "skip_bias": false
+    },
+
+    "wavecalib" : {
+        "offset_middle_cut": 0,
+        "pixel_cut_extension": 5,
+        "arcline_start": 0,
+        "arcline_end": 500,
+        "jump_tolerance": 0.1,
+        "center_guess_pixtable": "path_here",
+        "FWHM": 6,
+        "TOL_MEAN": 2,
+        "TOL_FWHM": 2,
+        "REIDENTIFY_R2_TOL": 0.90,
+        "ORDER_WAVELEN_1D": 5,
+        "ORDER_SPECTRAL_TILT": 1,  
+        "ORDER_SPATIAL_TILT": 3,
+        "TILT_TRACE_R2_TOL": 0.80,
+        "TILT_REJECT_LINE_FRACTION": 0.3,
+        "SPACIAL_R2_TOL": 0.90,
+        "reuse_reided_lines": false,
+        "reuse_1d_sol": false,
+        "reuse_line_traces": false,
+        "reuse_2d_tilt_fit": false      
+    },
+
+    "sky" : {
+        "sigma_cut": 3,
+        "sigma_clip_iters": 5,
+        "fit_order": 2
+    },
+
+    "trace" : {
+        "object": {
+            "spectral_pixel_extension": 10,
+            "fwhm_guess": 4,
+            "fwhm_thresh": 3,
+            "center_thresh": 3,
+            "fit_order_trace": 3,
+            "fit_order_fwhm": 3,
+            "fit_R2": 0.70,
+            "use_bspline_obj": false,
+            "use_bspline_fwhm": false,
+            "knots_bspline": 4,
+            "model": "Gaussian"
+        },
+        "standard": {
+            "spectral_pixel_extension": 0,
+            "fwhm_guess": 5,
+            "fwhm_thresh": 4,
+            "center_thresh": 3,
+            "fit_order_trace": 2,
+            "fit_order_fwhm": 2,
+            "fit_R2": 0.70,
+            "use_bspline_obj": true,
+            "use_bspline_fwhm": true,
+            "knots_bspline": 10,
+            "model": "Gaussian"
+        }
+    },
+    
+    "obj_trace_clone" : {
+        "archived_spec_root": "path_here",
+        "frame_root": "path_here"
+    },
+
+    "sensfunc": {
+        "fit_order": 3,
+        "use_bspline": true,
+        "knots_bspline": 15
+    },
+
+    "flux_calib": {
+        "path_extinction_curve": "path_here"
+    },
+
+    "combine": {
+        "SDSS_J1240_2736": ["ALIa050073.fits", "ALIa050074.fits"]
+    },
+
+    "developer": {
+        "debug_plots": false,
+        "verbose_print": false
+
+    }
+}

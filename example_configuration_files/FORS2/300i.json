@@ -1,0 +1,191 @@
+{
+    "instrument": {
+        "name": "FORS2",
+        "disperser": "300I"
+    },
+
+    "detector": {
+        "xsize": 2048,
+        "ysize": 1034,
+        "dispersion": { 
+            "spectral_dir": "x",
+            "wavelength_grows_with_pixel": true
+        },
+        "gain": 1.43,
+        "read_out_noise": 2.9,
+        "overscan" : {
+            "use_overscan": false,
+            "overscan_x_start": 0,
+            "overscan_x_end": 499,
+            "overscan_y_start": 2064,
+            "overscan_y_end": 2102
+        }
+    },
+    
+    "data": {
+        "raw_data_hdu_index": 0
+    },
+
+
+    "bias": {
+        "bias_dir": "path_here",
+        "bootstrap_errors": false
+    },
+
+    "flat": {
+        "flat_dir": "path_here",
+        "bootstrap_errors": false,
+        "skip_spacial": false,
+        "knots_spectral_bspline": 70,
+        "degree_spectral_bspline": 3,
+        "knots_spacial_bspline": 4,
+        "degree_spacial_bspline": 3,
+        "R2_spacial_bspline": 0.4
+
+    },
+
+    "output": {
+        "out_dir": "path_here"
+
+    },
+
+    "crr_removal" : {
+        "science":{
+            "frac": 0.5,
+            "objlim": 12,
+            "sigclip": 12.0,
+            "niter": 2
+        },
+        "standard":{
+            "frac": 0.3,
+            "objlim": 12,
+            "sigclip": 10.0,
+            "niter": 2
+        }
+    },
+
+    "background_sub" : {
+        "pairs": {
+            "1": {
+                "A": "FORS2.2018-12-05T02_02_41.687.fits",
+                "B": "FORS2.2018-12-05T02_18_15.356.fits"
+            },
+            "2": {
+                "A": "FORS2.2018-12-05T02_18_15.356.fits",
+                "B": "FORS2.2018-12-05T02_33_49.816.fits"
+            },
+            "3": {
+                "A": "FORS2.2018-12-05T02_33_49.816.fits",
+                "B": "FORS2.2018-12-05T02_02_41.687.fits"
+            }
+        }
+    },
+
+    "science" : {
+        "skip_science": false,
+        "science_dir": "path_here",
+        "exptime": 890,
+        "airmass": 1.929
+    },
+
+    "standard" : {
+        "skip_standard": false,
+        "standard_dir": "path_here",
+        "exptime": 55,
+        "airmass": 1.127,
+        "starname": "MBPM16274",
+        "flux_file_path": "path_here"
+
+    },
+
+    "arc" : {
+        "arc_dir": "path_here"
+    },
+
+    "combine_arcs" : {
+        "skip_bias": false
+    },
+
+    "wavecalib" : {
+        "offset_middle_cut": 0,
+        "pixel_cut_extension": 1,
+        "arcline_start": 0,
+        "arcline_end": 960,
+        "jump_tolerance": 0.2,
+        "center_guess_pixtable": "path_here",
+        "FWHM": 6,
+        "TOL_MEAN": 2,
+        "TOL_FWHM": 3,
+        "REIDENTIFY_R2_TOL": 0.90,
+        "ORDER_WAVELEN_1D": 5,
+        "ORDER_SPECTRAL_TILT": 1,  
+        "ORDER_SPATIAL_TILT": 4,
+        "TILT_TRACE_R2_TOL": 0.90,
+        "TILT_REJECT_LINE_FRACTION": 0.4,
+        "SPACIAL_R2_TOL": 0.90,
+        "reuse_reided_lines": false,
+        "reuse_1d_sol": false,
+        "reuse_line_traces": false,
+        "reuse_2d_tilt_fit": false      
+    },
+
+    "sky" : {
+        "sigma_cut": 3,
+        "sigma_clip_iters": 5,
+        "fit_order": 2
+    },
+
+    "trace" : {
+        "object": {
+            "spectral_pixel_extension": 10,
+            "fwhm_guess": 6,
+            "fwhm_thresh": 3,
+            "center_thresh": 3,
+            "fit_order_trace": 3,
+            "fit_order_fwhm": 3,
+            "fit_R2": 0.70,
+            "use_bspline_obj": false,
+            "use_bspline_fwhm": false,
+            "knots_bspline": 4,
+            "model": "Gaussian"
+        },
+        "standard": {
+            "spectral_pixel_extension": 0,
+            "fwhm_guess": 8,
+            "fwhm_thresh": 4,
+            "center_thresh": 3,
+            "fit_order_trace": 2,
+            "fit_order_fwhm": 2,
+            "fit_R2": 0.95,
+            "use_bspline_obj": true,
+            "use_bspline_fwhm": true,
+            "knots_bspline": 10,
+            "model": "Gaussian"
+        }
+    },
+    
+    "obj_trace_clone" : {
+        "archived_spec_root": "path_here",
+        "frame_root": "path_here"
+    },
+
+    "sensfunc": {
+        "fit_order": 3,
+        "use_bspline": true,
+        "knots_bspline": 15
+    },
+
+    "flux_calib": {
+        "path_extinction_curve": "path_here"
+    },
+
+    "combine": {
+        "Unknown FRB Host Y": ["FORS2.2018-12-05T02_02_41.687.fits", "FORS2.2018-12-05T02_18_15.356.fits", "FORS2.2018-12-05T02_33_49.816.fits"]
+    },
+
+    "developer": {
+        "debug_plots": false,
+        "verbose_print": false
+
+    }
+}
